@@ -2,7 +2,8 @@
 
 ## Initial Requirements
 
-- Should accept a collection of materials with quantities
+- Should accept a collection of materials with quantities (Omit weeds? Given how
+  easy they are to acquire?)
 - Should output a list of recipes that the player should craft in order to
   maximize profit.
 - Need a database of crafting recipes so that changes to recipes and prices can
