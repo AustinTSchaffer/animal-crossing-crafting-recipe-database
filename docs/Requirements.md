@@ -20,5 +20,5 @@
 - Labor is a resource and the calculator should seek to minimize "number of
   items crafted"
 - Which resource should I prioritize?
-- Include "null recipes" aka "1 iron = 1 iron (cost X)" aka "just sell the iron
+- Include "null recipes" aka "1 iron = 1 iron (labor 0) (cost == price of just selling the iron)" aka "just sell the iron
   you idiot"
