@@ -1,3 +1,4 @@
+import collections
 import os
 import json
 import re
@@ -15,9 +16,7 @@ soup = bs4.BeautifulSoup(page_contents, 'html.parser')
 
 table_tr_collection = soup.select('.article-table tbody tr')
 
-data = {}
-recipes = data.setdefault('recipes', [])
-
+recipes = []
 for recipe_tr in table_tr_collection:
     recipe = {}
     recipes.append(recipe)
@@ -94,10 +93,10 @@ for recipe_tr in table_tr_collection:
         try:
             material['quantity'] = int(current_node.strip().strip('x'))
         except:
-            print(f"WARNING: Issue occurred while scraping quantity of {material} for {recipe}")
+            print(f'WARNING: Issue occurred while scraping quantity of {material} for {recipe}')
             material['quantity'] = 1
 
-    recipe['recipe_source'] = recipe_source_cell.text.strip()
+    recipe['source'] = recipe_source_cell.text.strip()
 
     sell_price = recipe_sell_price_cell.text.strip()
     try:
@@ -111,15 +110,94 @@ for recipe_tr in table_tr_collection:
         None
     )
 
-# TODO: Derive "raw_materials" for each recipe
+    recipe['total_crafting_steps'] = 1
 
-# TODO: Derive "total_items_to_craft" or something like that, holding a
-#       calculation for the total number of things that need to be crafted for
-#       each recipe. Default is 1.
+recipe_name_map = {}
+for recipe in recipes:
+    duplicate_recipe = recipe_name_map.get(recipe['name'], None)
+    if duplicate_recipe:
+        def _reconcile_property(property_name):
+            p1 = recipe.get(property_name, None)
+            p2 = duplicate_recipe.get(property_name, None)
+            if p1 and p2 and p1 != p2:
+                print(f"WARNING: Duplicate recipe names with differing {property_name}: {recipe['name']}")
 
-# TODO: Derive "depends_on", listing the recipes required for each recipe
-#         - recipe names are recipe IDs (look for duplicate recipe names)
-#         - should include the name of the recipe itself
+            if (not p2) and p1:
+                duplicate_recipe[property_name] = p1
+
+        _reconcile_property('materials')
+        _reconcile_property('sell_price')
+        _reconcile_property('image_url')
+
+        s1 = recipe['source']
+        s2 = duplicate_recipe['source']
+
+        duplicate_recipe['source'] = (
+            '\n'.join((s1, s2)) if (s1 and s2) else
+            s1 or
+            s2 or
+            None
+        )
+
+        if not duplicate_recipe['has_page'] and recipe['has_page']:
+            duplicate_recipe['has_page'] = True
+            duplicate_recipe['url'] = recipe['url']
+        elif duplicate_recipe['has_page'] and recipe['has_page']:
+            _reconcile_property('url')
+
+    else:
+        recipe_name_map[recipe['name']] = recipe
+
+recipes = recipe_name_map
+del recipe_name_map
+
+adjusted_recipes = set()
+
+def adjust_recipe(recipe: dict):
+    if recipe['name'] in adjusted_recipes:
+        return
+
+    adjusted_recipes.add(recipe['name'])
+
+    depends_on = recipe.setdefault('depends_on', {recipe['name']})
+    raw_materials = recipe.setdefault('raw_materials', {})
+
+    def _add_raw_material(material: dict, quantity: int = 1):
+        raw_material = raw_materials.setdefault(
+            material['name'],
+            {
+                'name': material['name'],
+                'url': material['url'],
+                'quantity': 0,
+            }
+        )
+
+        raw_material['quantity'] += quantity * material['quantity']
+
+    for material in recipe['materials']:
+        depends_on_recipe = recipes.get(material['name'], None)
+        if depends_on_recipe:
+            adjust_recipe(depends_on_recipe)
+
+            depends_on += depends_on_recipe['depends_on']
+
+            recipe['total_crafting_steps'] += (
+                material['quantity'] *
+                depends_on_recipe['total_crafting_steps']
+            )
+
+            for _, raw_material in depends_on_recipe['raw_materials'].items():
+                _add_raw_material(raw_material, material['quantity'])
+
+        else:
+            _add_raw_material(material)
+ 
+    recipe['depends_on'] = list(recipe['depends_on'])
+
+for _, recipe in recipes.items():
+    adjust_recipe(recipe)
+
+# TODO: Fix issues with multiple capitalizations of recipe names
 
 # TODO: Create a global list of raw materials
 #         - Names
@@ -130,6 +208,10 @@ for recipe_tr in table_tr_collection:
 
 # TODO: Look for recipes whose sell prices are not derived from the materials
 #       that are put in (enumeration: normal, lower, higher)
+
+data = {
+    'recipes': recipes,
+}
 
 with open(os.path.join(FILE_LOCATION, 'diy_recipes.json'), 'w') as recipe_json:
     json.dump(data, recipe_json, indent=2)
