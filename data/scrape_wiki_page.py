@@ -247,13 +247,14 @@ for recipe in recipes.values():
             }
 
 # TODO: Calculate value contributed to sell_price when involved in a "typical
-#       crafted recipe"
+#       crafted recipe", or create a list of values, or link the price by
+#       making `used_in` a list of dicts instead of a list of strings.
 
 # TODO: Calculate estimated_sell_price for all recipes even if sell_price is
-#       None
+#       None. Base this of the lowest calculated sell price.
 
-# TODO: Look for recipes whose sell prices are not derived from the materials
-#       that are put in (enumeration: normal, lower, higher)
+# TODO: Look for recipes whose sell prices are greater than the
+#       estimated_sell_price.
 
 data = {
     'recipes': recipes,
