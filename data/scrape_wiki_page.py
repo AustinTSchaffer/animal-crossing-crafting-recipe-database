@@ -111,5 +111,25 @@ for recipe_tr in table_tr_collection:
         None
     )
 
+# TODO: Derive "raw_materials" for each recipe
+
+# TODO: Derive "total_items_to_craft" or something like that, holding a
+#       calculation for the total number of things that need to be crafted for
+#       each recipe. Default is 1.
+
+# TODO: Derive "depends_on", listing the recipes required for each recipe
+#         - recipe names are recipe IDs (look for duplicate recipe names)
+#         - should include the name of the recipe itself
+
+# TODO: Create a global list of raw materials
+#         - Names
+#         - URLs
+#         - Value contributed to sell_price when involved in a crafted recipe
+
+# TODO: Estimate sell_price if sell_price is None
+
+# TODO: Look for recipes whose sell prices are not derived from the materials
+#       that are put in (enumeration: normal, lower, higher)
+
 with open(os.path.join(FILE_LOCATION, 'diy_recipes.json'), 'w') as recipe_json:
     json.dump(data, recipe_json, indent=2)
