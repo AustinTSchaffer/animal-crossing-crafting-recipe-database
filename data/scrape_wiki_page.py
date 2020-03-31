@@ -317,22 +317,43 @@ def generate_raw_materials_table(recipes: dict) -> dict:
 
     return raw_materials
 
+
+def calculate_prices_per_units(recipes: dict, raw_materials: dict):
+    """
+    Performs in-place operations on the `raw_materials` table, calculating
+    the remaining `price_per_unit` based on available information.
+    """
+
+    # TODO: this.
+
+    pass
+
+
+def calculate_minimum_estimated_prices(recipes: dict, raw_materials: dict):
+    """
+    Performs in-place operations on the `recipes` table, calculating
+    the `minimum_estimated_sell_price` based on available information.
+    """
+
+    # TODO: this.
+
+    pass
+
+
 if __name__ == '__main__':
     page_contents = load_recipe_html_doc()
     recipes = scrape_recipes_from_html_doc(page_contents)
     recipes = generate_recipe_table_from_recipe_list(recipes)
-    recipes = calculate_generated_recipe_properties(recipes)
+
+    calculate_generated_recipe_properties(recipes)
+
     raw_materials = generate_raw_materials_table(recipes)
 
-    # TODO: Calculate value contributed to sell_price when involved in a "typical
-    #       crafted recipe", or create a list of values, or link the price by
-    #       making `used_in` a list of dicts instead of a list of strings.
-
-    # TODO: Calculate estimated_sell_price for all recipes even if sell_price is
-    #       None. Base this of the lowest calculated sell price.
+    calculate_prices_per_units(recipes, raw_materials)
+    calculate_minimum_estimated_prices(recipes, raw_materials)
 
     # TODO: Look for recipes whose sell prices are greater than the
-    #       estimated_sell_price.
+    #       estimated_sell_price, because that's where the $$$ is.
 
     data = {
         'recipes': recipes,
