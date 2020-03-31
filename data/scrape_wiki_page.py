@@ -1,7 +1,9 @@
-import bs4
 import os
 import json
 import re
+
+import bs4
+
 
 # WIKI_PAGE = 'https://animalcrossing.fandom.com/wiki/DIY_recipes'
 FILE_LOCATION = os.path.dirname(__file__)
@@ -38,15 +40,15 @@ for recipe_tr in table_tr_collection:
     recipe_name = cells[0].text.strip()
     recipe['name'] = recipe_name
 
-    mult_factor_regex = re.search(r'x(\d+)$', recipe_name, re.I)
+    multiplication_factor_regex = re.search(r'x(\d+)$', recipe_name, re.I)
 
     try:
-        if mult_factor_regex:
-            recipe_sell_price_mult_factor = int(mult_factor_regex.group(1))
+        if multiplication_factor_regex:
+            recipe_sell_price_multiplication_factor = int(multiplication_factor_regex.group(1))
         else:
-            recipe_sell_price_mult_factor = 1
+            recipe_sell_price_multiplication_factor = 1
     except:
-        recipe_sell_price_mult_factor = 1
+        recipe_sell_price_multiplication_factor = 1
 
     recipe_name_a = cells[0].find('a')
 
@@ -88,9 +90,11 @@ for recipe_tr in table_tr_collection:
         current_node = material_a
         while current_node and not isinstance(current_node, str):
             current_node = current_node.previous_sibling
+
         try:
             material['quantity'] = int(current_node.strip().strip('x'))
         except:
+            print(f"WARNING: Issue occurred while scraping quantity of {material} for {recipe}")
             material['quantity'] = 1
 
     recipe['recipe_source'] = recipe_source_cell.text.strip()
@@ -102,8 +106,8 @@ for recipe_tr in table_tr_collection:
         recipe_sell_price = None
     
     recipe['sell_price'] = (
-        recipe_sell_price * recipe_sell_price_mult_factor
-        if recipe_sell_price and recipe_sell_price_mult_factor else
+        recipe_sell_price * recipe_sell_price_multiplication_factor
+        if recipe_sell_price and recipe_sell_price_multiplication_factor else
         None
     )
 
