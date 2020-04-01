@@ -7,16 +7,18 @@ import flask_graphql
 
 __dir__ = os.path.dirname(__file__)
 
-RECIPE_DATA_FILENAME = os.path.join(__dir__, 'data', 'diy_recipes.json')
 
+RECIPE_DATA_FILENAME = os.path.join(__dir__, 'data', 'diy_recipes.json')
 with open(RECIPE_DATA_FILENAME) as rdfile:
     RECIPE_DATA = json.load(rdfile)
+
 
 class RawMaterial(graphene.ObjectType):
     id = graphene.ID()
     name = graphene.String()
     url = graphene.String()
     used_in = graphene.List(graphene.String)
+
 
 class Recipe(graphene.ObjectType):
     id = graphene.String()
@@ -38,9 +40,11 @@ class Recipe(graphene.ObjectType):
     materials = graphene.List(MaterialRef)
     raw_materials = graphene.List(MaterialRef)
 
+
 def get_raw_material(raw_material_id: str) -> RawMaterial:
     raw_material = RECIPE_DATA['raw_materials'].get(raw_material_id, None)
     return RawMaterial(**raw_material)
+
 
 def get_recipe(recipe_id: str) -> Recipe:
     recipe = RECIPE_DATA['recipes'].get(recipe_id, None)
@@ -64,6 +68,7 @@ def get_recipe(recipe_id: str) -> Recipe:
         for k,v in recipe.items()
     })
 
+
 class Query(graphene.ObjectType):
     raw_material = graphene.Field(RawMaterial, id=graphene.String())
     recipe = graphene.Field(Recipe, id=graphene.String())
@@ -74,18 +79,28 @@ class Query(graphene.ObjectType):
     def resolve_recipe(self, info, id):
         return get_recipe(id)
 
+
 schema = graphene.Schema(query=Query)
 
 app = flask.Flask(__name__)
-
 app.add_url_rule(
     '/',
     view_func=flask_graphql.GraphQLView.as_view(
-        'graphql',
+        '',
+        schema=schema,
+        graphiql=False
+    )
+)
+
+app.add_url_rule(
+    '/graphiql',
+    view_func=flask_graphql.GraphQLView.as_view(
+        'graphiql',
         schema=schema,
         graphiql=True
     )
 )
 
+
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(debug=True)
