@@ -119,8 +119,8 @@
       "sell_price": 625,
       "total_crafting_steps": 2,
       "depends_on": [
-        "axe",
-        "flimsy_axe"
+        "flimsy_axe",
+        "axe"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -173,9 +173,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "axe",
+        "flimsy_axe",
         "golden_axe",
-        "flimsy_axe"
+        "axe"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -263,8 +263,8 @@
       "sell_price": 600,
       "total_crafting_steps": 2,
       "depends_on": [
-        "flimsy_shovel",
-        "shovel"
+        "shovel",
+        "flimsy_shovel"
       ],
       "raw_materials": {
         "hardwood": {
@@ -305,9 +305,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
+        "golden_shovel",
         "flimsy_shovel",
-        "shovel",
-        "golden_shovel"
+        "shovel"
       ],
       "raw_materials": {
         "hardwood": {
@@ -383,8 +383,8 @@
       "sell_price": 600,
       "total_crafting_steps": 2,
       "depends_on": [
-        "flimsy_fishing_rod",
-        "fishing_rod"
+        "fishing_rod",
+        "flimsy_fishing_rod"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -425,9 +425,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "flimsy_fishing_rod",
         "golden_rod",
-        "fishing_rod"
+        "fishing_rod",
+        "flimsy_fishing_rod"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -546,8 +546,8 @@
       "total_crafting_steps": 3,
       "depends_on": [
         "flimsy_net",
-        "net",
-        "golden_net"
+        "golden_net",
+        "net"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -665,9 +665,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "watering_can",
         "golden_watering_can",
-        "flimsy_watering_can"
+        "flimsy_watering_can",
+        "watering_can"
       ],
       "raw_materials": {
         "softwood": {
@@ -1940,9 +1940,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "bonsai_shelf",
         "cherry_blossom_bonsai",
-        "pine_bonsai_tree"
+        "pine_bonsai_tree",
+        "bonsai_shelf"
       ],
       "raw_materials": {
         "wood": {
@@ -2036,8 +2036,8 @@
       "sell_price": 2800,
       "total_crafting_steps": 2,
       "depends_on": [
-        "flimsy_shovel",
-        "brick_well"
+        "brick_well",
+        "flimsy_shovel"
       ],
       "raw_materials": {
         "clay": {
@@ -2728,8 +2728,8 @@
       "sell_price": 11700,
       "total_crafting_steps": 2,
       "depends_on": [
-        "drinking_fountain",
-        "fountain"
+        "fountain",
+        "drinking_fountain"
       ],
       "raw_materials": {
         "stone": {
@@ -3912,8 +3912,8 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "cutting_board",
         "ironwood_dresser",
+        "cutting_board",
         "ironwood_kitchenette"
       ],
       "raw_materials": {
@@ -5118,9 +5118,9 @@
       "sell_price": 4350,
       "total_crafting_steps": 3,
       "depends_on": [
-        "flimsy_shovel",
         "shovel",
-        "outdoor_bath"
+        "outdoor_bath",
+        "flimsy_shovel"
       ],
       "raw_materials": {
         "stone": {
@@ -5635,9 +5635,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
+        "gold_armor",
         "rocket",
-        "robot_hero",
-        "gold_armor"
+        "robot_hero"
       ],
       "raw_materials": {
         "gold_nugget": {
@@ -5887,8 +5887,8 @@
       "sell_price": 400,
       "total_crafting_steps": 2,
       "depends_on": [
-        "document_stack",
-        "scattered_papers"
+        "scattered_papers",
+        "document_stack"
       ],
       "raw_materials": {}
     },
@@ -6257,8 +6257,8 @@
       "sell_price": 2850,
       "total_crafting_steps": 2,
       "depends_on": [
-        "flimsy_shovel",
-        "simple_well"
+        "simple_well",
+        "flimsy_shovel"
       ],
       "raw_materials": {
         "stone": {
@@ -7229,8 +7229,8 @@
       "sell_price": 720,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_toy",
-        "wooden_block_bookshelf"
+        "wooden_block_bookshelf",
+        "wooden_block_toy"
       ],
       "raw_materials": {
         "softwood": {
@@ -7301,8 +7301,8 @@
       "sell_price": 840,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_toy",
-        "wooden_block_bench"
+        "wooden_block_bench",
+        "wooden_block_toy"
       ],
       "raw_materials": {
         "softwood": {
@@ -7337,8 +7337,8 @@
       "sell_price": 720,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_toy",
-        "wooden_block_chair"
+        "wooden_block_chair",
+        "wooden_block_toy"
       ],
       "raw_materials": {
         "softwood": {
@@ -7415,8 +7415,8 @@
       "sell_price": 2460,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_toy",
-        "wooden_block_stereo"
+        "wooden_block_stereo",
+        "wooden_block_toy"
       ],
       "raw_materials": {
         "softwood": {
@@ -7457,8 +7457,8 @@
       "sell_price": 600,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_toy",
-        "wooden_block_stool"
+        "wooden_block_stool",
+        "wooden_block_toy"
       ],
       "raw_materials": {
         "softwood": {
@@ -7493,8 +7493,8 @@
       "sell_price": 1320,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_toy",
-        "wooden_block_table"
+        "wooden_block_table",
+        "wooden_block_toy"
       ],
       "raw_materials": {
         "softwood": {
@@ -10853,8 +10853,8 @@
       "sell_price": 1350,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_toy",
-        "wooden_block_wall_clock"
+        "wooden_block_wall_clock",
+        "wooden_block_toy"
       ],
       "raw_materials": {
         "softwood": {
@@ -14311,2801 +14311,1101 @@
       "name": "tree branch",
       "id": "tree_branch",
       "url": "https://animalcrossing.fandom.com/wiki/Tree_branch",
-      "min_value_per_unit": 10.0,
-      "used_in": {
-        "flimsy_axe": {
-          "recipe_id": "flimsy_axe",
-          "value_per_unit": null
-        },
-        "stone_axe": {
-          "recipe_id": "stone_axe",
-          "value_per_unit": null
-        },
-        "axe": {
-          "recipe_id": "axe",
-          "value_per_unit": null
-        },
-        "golden_axe": {
-          "recipe_id": "golden_axe",
-          "value_per_unit": null
-        },
-        "flimsy_fishing_rod": {
-          "recipe_id": "flimsy_fishing_rod",
-          "value_per_unit": 20.0
-        },
-        "fishing_rod": {
-          "recipe_id": "fishing_rod",
-          "value_per_unit": null
-        },
-        "golden_rod": {
-          "recipe_id": "golden_rod",
-          "value_per_unit": null
-        },
-        "flimsy_net": {
-          "recipe_id": "flimsy_net",
-          "value_per_unit": 20.0
-        },
-        "net": {
-          "recipe_id": "net",
-          "value_per_unit": null
-        },
-        "golden_net": {
-          "recipe_id": "golden_net",
-          "value_per_unit": null
-        },
-        "bonfire": {
-          "recipe_id": "bonfire",
-          "value_per_unit": null
-        },
-        "campfire": {
-          "recipe_id": "campfire",
-          "value_per_unit": 10.0
-        },
-        "clothesline": {
-          "recipe_id": "clothesline",
-          "value_per_unit": 10.0
-        },
-        "kettle_bathtub": {
-          "recipe_id": "kettle_bathtub",
-          "value_per_unit": null
-        },
-        "tiki_torch": {
-          "recipe_id": "tiki_torch",
-          "value_per_unit": null
-        },
-        "cherry_blossom_branches": {
-          "recipe_id": "cherry_blossom_branches",
-          "value_per_unit": null
-        },
-        "tree_branch_wreath": {
-          "recipe_id": "tree_branch_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "flimsy_axe",
+        "stone_axe",
+        "axe",
+        "golden_axe",
+        "flimsy_fishing_rod",
+        "fishing_rod",
+        "golden_rod",
+        "flimsy_net",
+        "net",
+        "golden_net",
+        "bonfire",
+        "campfire",
+        "clothesline",
+        "kettle_bathtub",
+        "tiki_torch",
+        "cherry_blossom_branches",
+        "tree_branch_wreath"
+      ]
     },
     "stone": {
       "name": "stone",
       "id": "stone",
       "url": "https://animalcrossing.fandom.com/wiki/Stone",
-      "min_value_per_unit": 66.66666666666667,
-      "used_in": {
-        "flimsy_axe": {
-          "recipe_id": "flimsy_axe",
-          "value_per_unit": null
-        },
-        "stone_axe": {
-          "recipe_id": "stone_axe",
-          "value_per_unit": null
-        },
-        "axe": {
-          "recipe_id": "axe",
-          "value_per_unit": null
-        },
-        "golden_axe": {
-          "recipe_id": "golden_axe",
-          "value_per_unit": null
-        },
-        "aries_rocking_chair": {
-          "recipe_id": "aries_rocking_chair",
-          "value_per_unit": null
-        },
-        "birdbath": {
-          "recipe_id": "birdbath",
-          "value_per_unit": 66.66666666666667
-        },
-        "deer_scare": {
-          "recipe_id": "deer_scare",
-          "value_per_unit": null
-        },
-        "drinking_fountain": {
-          "recipe_id": "drinking_fountain",
-          "value_per_unit": null
-        },
-        "fountain": {
-          "recipe_id": "fountain",
-          "value_per_unit": null
-        },
-        "garden_rock": {
-          "recipe_id": "garden_rock",
-          "value_per_unit": null
-        },
-        "mossy_garden_rock": {
-          "recipe_id": "mossy_garden_rock",
-          "value_per_unit": null
-        },
-        "outdoor_bath": {
-          "recipe_id": "outdoor_bath",
-          "value_per_unit": null
-        },
-        "pisces_lamp": {
-          "recipe_id": "pisces_lamp",
-          "value_per_unit": null
-        },
-        "pond_stone": {
-          "recipe_id": "pond_stone",
-          "value_per_unit": 150.0
-        },
-        "sauna_heater": {
-          "recipe_id": "sauna_heater",
-          "value_per_unit": null
-        },
-        "shell_bed": {
-          "recipe_id": "shell_bed",
-          "value_per_unit": null
-        },
-        "shell_fountain": {
-          "recipe_id": "shell_fountain",
-          "value_per_unit": null
-        },
-        "silo": {
-          "recipe_id": "silo",
-          "value_per_unit": null
-        },
-        "simple_well": {
-          "recipe_id": "simple_well",
-          "value_per_unit": null
-        },
-        "stone_arch": {
-          "recipe_id": "stone_arch",
-          "value_per_unit": 150.0
-        },
-        "stone_stool": {
-          "recipe_id": "stone_stool",
-          "value_per_unit": 150.0
-        },
-        "stone_table": {
-          "recipe_id": "stone_table",
-          "value_per_unit": 150.0
-        },
-        "stone_tablet": {
-          "recipe_id": "stone_tablet",
-          "value_per_unit": 150.0
-        },
-        "tall_garden_rock": {
-          "recipe_id": "tall_garden_rock",
-          "value_per_unit": 150.0
-        },
-        "taurus_bathtub": {
-          "recipe_id": "taurus_bathtub",
-          "value_per_unit": null
-        },
-        "wave_breaker": {
-          "recipe_id": "wave_breaker",
-          "value_per_unit": null
-        },
-        "fossil_doorplate": {
-          "recipe_id": "fossil_doorplate",
-          "value_per_unit": null
-        },
-        "basement_flooring": {
-          "recipe_id": "basement_flooring",
-          "value_per_unit": null
-        },
-        "stone_wall": {
-          "recipe_id": "stone_wall",
-          "value_per_unit": null
-        },
-        "iron_and_stone_fence_x10": {
-          "recipe_id": "iron_and_stone_fence_x10",
-          "value_per_unit": null
-        },
-        "stone_fence_x10": {
-          "recipe_id": "stone_fence_x10",
-          "value_per_unit": 150.0
-        },
-        "zen_fence_x10": {
-          "recipe_id": "zen_fence_x10",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "flimsy_axe",
+        "stone_axe",
+        "axe",
+        "golden_axe",
+        "aries_rocking_chair",
+        "birdbath",
+        "deer_scare",
+        "drinking_fountain",
+        "fountain",
+        "garden_rock",
+        "mossy_garden_rock",
+        "outdoor_bath",
+        "pisces_lamp",
+        "pond_stone",
+        "sauna_heater",
+        "shell_bed",
+        "shell_fountain",
+        "silo",
+        "simple_well",
+        "stone_arch",
+        "stone_stool",
+        "stone_table",
+        "stone_tablet",
+        "tall_garden_rock",
+        "taurus_bathtub",
+        "wave_breaker",
+        "fossil_doorplate",
+        "basement_flooring",
+        "stone_wall",
+        "iron_and_stone_fence_x10",
+        "stone_fence_x10",
+        "zen_fence_x10"
+      ]
     },
     "wood": {
       "name": "wood",
       "id": "wood",
       "url": "https://animalcrossing.fandom.com/wiki/Wood_(New_Horizons)",
-      "min_value_per_unit": 120.0,
-      "used_in": {
-        "stone_axe": {
-          "recipe_id": "stone_axe",
-          "value_per_unit": null
-        },
-        "axe": {
-          "recipe_id": "axe",
-          "value_per_unit": null
-        },
-        "golden_axe": {
-          "recipe_id": "golden_axe",
-          "value_per_unit": null
-        },
-        "ladder": {
-          "recipe_id": "ladder",
-          "value_per_unit": null
-        },
-        "apple_chair": {
-          "recipe_id": "apple_chair",
-          "value_per_unit": null
-        },
-        "bamboo_noodle_slide": {
-          "recipe_id": "bamboo_noodle_slide",
-          "value_per_unit": null
-        },
-        "barrel": {
-          "recipe_id": "barrel",
-          "value_per_unit": null
-        },
-        "beekeeper_s_hive": {
-          "recipe_id": "beekeeper_s_hive",
-          "value_per_unit": null
-        },
-        "birdcage": {
-          "recipe_id": "birdcage",
-          "value_per_unit": null
-        },
-        "birdhouse": {
-          "recipe_id": "birdhouse",
-          "value_per_unit": null
-        },
-        "bonfire": {
-          "recipe_id": "bonfire",
-          "value_per_unit": null
-        },
-        "bonsai_shelf": {
-          "recipe_id": "bonsai_shelf",
-          "value_per_unit": null
-        },
-        "brick_oven": {
-          "recipe_id": "brick_oven",
-          "value_per_unit": null
-        },
-        "brick_well": {
-          "recipe_id": "brick_well",
-          "value_per_unit": null
-        },
-        "butter_churn": {
-          "recipe_id": "butter_churn",
-          "value_per_unit": null
-        },
-        "doghouse": {
-          "recipe_id": "doghouse",
-          "value_per_unit": null
-        },
-        "garden_bench": {
-          "recipe_id": "garden_bench",
-          "value_per_unit": null
-        },
-        "garden_wagon": {
-          "recipe_id": "garden_wagon",
-          "value_per_unit": null
-        },
-        "gong": {
-          "recipe_id": "gong",
-          "value_per_unit": null
-        },
-        "grass_standee": {
-          "recipe_id": "grass_standee",
-          "value_per_unit": null
-        },
-        "ironwood_bed": {
-          "recipe_id": "ironwood_bed",
-          "value_per_unit": null
-        },
-        "ironwood_cart": {
-          "recipe_id": "ironwood_cart",
-          "value_per_unit": null
-        },
-        "ironwood_chair": {
-          "recipe_id": "ironwood_chair",
-          "value_per_unit": null
-        },
-        "ironwood_diy_workbench": {
-          "recipe_id": "ironwood_diy_workbench",
-          "value_per_unit": null
-        },
-        "ironwood_dresser": {
-          "recipe_id": "ironwood_dresser",
-          "value_per_unit": null
-        },
-        "ironwood_kitchenette": {
-          "recipe_id": "ironwood_kitchenette",
-          "value_per_unit": null
-        },
-        "ironwood_low_table": {
-          "recipe_id": "ironwood_low_table",
-          "value_per_unit": null
-        },
-        "kettle_bathtub": {
-          "recipe_id": "kettle_bathtub",
-          "value_per_unit": null
-        },
-        "lily_record_player": {
-          "recipe_id": "lily_record_player",
-          "value_per_unit": null
-        },
-        "mini_diy_workbench": {
-          "recipe_id": "mini_diy_workbench",
-          "value_per_unit": null
-        },
-        "mountain_standee": {
-          "recipe_id": "mountain_standee",
-          "value_per_unit": null
-        },
-        "orange_end_table": {
-          "recipe_id": "orange_end_table",
-          "value_per_unit": null
-        },
-        "palm_tree_lamp": {
-          "recipe_id": "palm_tree_lamp",
-          "value_per_unit": null
-        },
-        "peach_chair": {
-          "recipe_id": "peach_chair",
-          "value_per_unit": null
-        },
-        "pear_wardrobe": {
-          "recipe_id": "pear_wardrobe",
-          "value_per_unit": null
-        },
-        "plain_sink": {
-          "recipe_id": "plain_sink",
-          "value_per_unit": null
-        },
-        "rocking_chair": {
-          "recipe_id": "rocking_chair",
-          "value_per_unit": null
-        },
-        "rose_bed": {
-          "recipe_id": "rose_bed",
-          "value_per_unit": null
-        },
-        "sauna_heater": {
-          "recipe_id": "sauna_heater",
-          "value_per_unit": null
-        },
-        "sleigh": {
-          "recipe_id": "sleigh",
-          "value_per_unit": null
-        },
-        "stall": {
-          "recipe_id": "stall",
-          "value_per_unit": 120.0
-        },
-        "swinging_bench": {
-          "recipe_id": "swinging_bench",
-          "value_per_unit": null
-        },
-        "tiki_torch": {
-          "recipe_id": "tiki_torch",
-          "value_per_unit": null
-        },
-        "tiny_library": {
-          "recipe_id": "tiny_library",
-          "value_per_unit": null
-        },
-        "tree_standee": {
-          "recipe_id": "tree_standee",
-          "value_per_unit": null
-        },
-        "wooden_bucket": {
-          "recipe_id": "wooden_bucket",
-          "value_per_unit": null
-        },
-        "wooden_chair": {
-          "recipe_id": "wooden_chair",
-          "value_per_unit": 120.0
-        },
-        "wooden_double_bed": {
-          "recipe_id": "wooden_double_bed",
-          "value_per_unit": null
-        },
-        "wooden_end_table": {
-          "recipe_id": "wooden_end_table",
-          "value_per_unit": 120.0
-        },
-        "wooden_full_length_mirror": {
-          "recipe_id": "wooden_full_length_mirror",
-          "value_per_unit": null
-        },
-        "wooden_low_table": {
-          "recipe_id": "wooden_low_table",
-          "value_per_unit": 120.0
-        },
-        "wooden_mini_table": {
-          "recipe_id": "wooden_mini_table",
-          "value_per_unit": 120.0
-        },
-        "wooden_simple_bed": {
-          "recipe_id": "wooden_simple_bed",
-          "value_per_unit": 120.0
-        },
-        "wooden_stool": {
-          "recipe_id": "wooden_stool",
-          "value_per_unit": 120.0
-        },
-        "wooden_table": {
-          "recipe_id": "wooden_table",
-          "value_per_unit": null
-        },
-        "wooden_wardrobe": {
-          "recipe_id": "wooden_wardrobe",
-          "value_per_unit": 120.0
-        },
-        "wooden_waste_bin": {
-          "recipe_id": "wooden_waste_bin",
-          "value_per_unit": 120.0
-        },
-        "firewood": {
-          "recipe_id": "firewood",
-          "value_per_unit": null
-        },
-        "magazine_rack": {
-          "recipe_id": "magazine_rack",
-          "value_per_unit": null
-        },
-        "recycled_can_thumb_piano": {
-          "recipe_id": "recycled_can_thumb_piano",
-          "value_per_unit": null
-        },
-        "ringtoss": {
-          "recipe_id": "ringtoss",
-          "value_per_unit": null
-        },
-        "shell_speaker": {
-          "recipe_id": "shell_speaker",
-          "value_per_unit": null
-        },
-        "wooden_table_mirror": {
-          "recipe_id": "wooden_table_mirror",
-          "value_per_unit": null
-        },
-        "wooden_fish": {
-          "recipe_id": "wooden_fish",
-          "value_per_unit": 120.0
-        },
-        "ironwood_clock": {
-          "recipe_id": "ironwood_clock",
-          "value_per_unit": null
-        },
-        "key_holder": {
-          "recipe_id": "key_holder",
-          "value_per_unit": null
-        },
-        "orange_wall_mounted_clock": {
-          "recipe_id": "orange_wall_mounted_clock",
-          "value_per_unit": null
-        },
-        "paw_print_doorplate": {
-          "recipe_id": "paw_print_doorplate",
-          "value_per_unit": null
-        },
-        "timber_doorplate": {
-          "recipe_id": "timber_doorplate",
-          "value_per_unit": null
-        },
-        "jungle_wall": {
-          "recipe_id": "jungle_wall",
-          "value_per_unit": null
-        },
-        "modern_wood_wall": {
-          "recipe_id": "modern_wood_wall",
-          "value_per_unit": null
-        },
-        "wooden_mosiac_wall": {
-          "recipe_id": "wooden_mosiac_wall",
-          "value_per_unit": 120.0
-        },
-        "log_pack": {
-          "recipe_id": "log_pack",
-          "value_per_unit": null
-        },
-        "corral_fence_x10": {
-          "recipe_id": "corral_fence_x10",
-          "value_per_unit": 120.0
-        },
-        "imperial_fence_x10": {
-          "recipe_id": "imperial_fence_x10",
-          "value_per_unit": null
-        },
-        "straw_fence_x10": {
-          "recipe_id": "straw_fence_x10",
-          "value_per_unit": null
-        },
-        "vertical_board_fence_x10": {
-          "recipe_id": "vertical_board_fence_x10",
-          "value_per_unit": 120.0
-        }
-      }
+      "used_in": [
+        "stone_axe",
+        "axe",
+        "golden_axe",
+        "ladder",
+        "apple_chair",
+        "bamboo_noodle_slide",
+        "barrel",
+        "beekeeper_s_hive",
+        "birdcage",
+        "birdhouse",
+        "bonfire",
+        "bonsai_shelf",
+        "brick_oven",
+        "brick_well",
+        "butter_churn",
+        "doghouse",
+        "garden_bench",
+        "garden_wagon",
+        "gong",
+        "grass_standee",
+        "ironwood_bed",
+        "ironwood_cart",
+        "ironwood_chair",
+        "ironwood_diy_workbench",
+        "ironwood_dresser",
+        "ironwood_kitchenette",
+        "ironwood_low_table",
+        "kettle_bathtub",
+        "lily_record_player",
+        "mini_diy_workbench",
+        "mountain_standee",
+        "orange_end_table",
+        "palm_tree_lamp",
+        "peach_chair",
+        "pear_wardrobe",
+        "plain_sink",
+        "rocking_chair",
+        "rose_bed",
+        "sauna_heater",
+        "sleigh",
+        "stall",
+        "swinging_bench",
+        "tiki_torch",
+        "tiny_library",
+        "tree_standee",
+        "wooden_bucket",
+        "wooden_chair",
+        "wooden_double_bed",
+        "wooden_end_table",
+        "wooden_full_length_mirror",
+        "wooden_low_table",
+        "wooden_mini_table",
+        "wooden_simple_bed",
+        "wooden_stool",
+        "wooden_table",
+        "wooden_wardrobe",
+        "wooden_waste_bin",
+        "firewood",
+        "magazine_rack",
+        "recycled_can_thumb_piano",
+        "ringtoss",
+        "shell_speaker",
+        "wooden_table_mirror",
+        "wooden_fish",
+        "ironwood_clock",
+        "key_holder",
+        "orange_wall_mounted_clock",
+        "paw_print_doorplate",
+        "timber_doorplate",
+        "jungle_wall",
+        "modern_wood_wall",
+        "wooden_mosiac_wall",
+        "log_pack",
+        "corral_fence_x10",
+        "imperial_fence_x10",
+        "straw_fence_x10",
+        "vertical_board_fence_x10"
+      ]
     },
     "iron_nugget": {
       "name": "iron nugget",
       "id": "iron_nugget",
       "url": "https://animalcrossing.fandom.com/wiki/Iron_nugget",
-      "min_value_per_unit": 750.0,
-      "used_in": {
-        "axe": {
-          "recipe_id": "axe",
-          "value_per_unit": null
-        },
-        "golden_axe": {
-          "recipe_id": "golden_axe",
-          "value_per_unit": null
-        },
-        "shovel": {
-          "recipe_id": "shovel",
-          "value_per_unit": null
-        },
-        "golden_shovel": {
-          "recipe_id": "golden_shovel",
-          "value_per_unit": null
-        },
-        "fishing_rod": {
-          "recipe_id": "fishing_rod",
-          "value_per_unit": null
-        },
-        "golden_rod": {
-          "recipe_id": "golden_rod",
-          "value_per_unit": null
-        },
-        "net": {
-          "recipe_id": "net",
-          "value_per_unit": null
-        },
-        "golden_net": {
-          "recipe_id": "golden_net",
-          "value_per_unit": null
-        },
-        "watering_can": {
-          "recipe_id": "watering_can",
-          "value_per_unit": null
-        },
-        "golden_watering_can": {
-          "recipe_id": "golden_watering_can",
-          "value_per_unit": null
-        },
-        "acoustic_guitar": {
-          "recipe_id": "acoustic_guitar",
-          "value_per_unit": null
-        },
-        "barbell": {
-          "recipe_id": "barbell",
-          "value_per_unit": 750.0
-        },
-        "barrel": {
-          "recipe_id": "barrel",
-          "value_per_unit": null
-        },
-        "brick_oven": {
-          "recipe_id": "brick_oven",
-          "value_per_unit": null
-        },
-        "butter_churn": {
-          "recipe_id": "butter_churn",
-          "value_per_unit": null
-        },
-        "cherry_speakers": {
-          "recipe_id": "cherry_speakers",
-          "value_per_unit": null
-        },
-        "drinking_fountain": {
-          "recipe_id": "drinking_fountain",
-          "value_per_unit": null
-        },
-        "fountain": {
-          "recipe_id": "fountain",
-          "value_per_unit": null
-        },
-        "garden_bench": {
-          "recipe_id": "garden_bench",
-          "value_per_unit": null
-        },
-        "garden_wagon": {
-          "recipe_id": "garden_wagon",
-          "value_per_unit": null
-        },
-        "gong": {
-          "recipe_id": "gong",
-          "value_per_unit": null
-        },
-        "hearth": {
-          "recipe_id": "hearth",
-          "value_per_unit": null
-        },
-        "iron_closet": {
-          "recipe_id": "iron_closet",
-          "value_per_unit": null
-        },
-        "iron_garden_bench": {
-          "recipe_id": "iron_garden_bench",
-          "value_per_unit": 750.0
-        },
-        "iron_garden_chair": {
-          "recipe_id": "iron_garden_chair",
-          "value_per_unit": 750.0
-        },
-        "iron_garden_table": {
-          "recipe_id": "iron_garden_table",
-          "value_per_unit": 750.0
-        },
-        "iron_worktable": {
-          "recipe_id": "iron_worktable",
-          "value_per_unit": null
-        },
-        "iron_shelf": {
-          "recipe_id": "iron_shelf",
-          "value_per_unit": 750.0
-        },
-        "ironwood_bed": {
-          "recipe_id": "ironwood_bed",
-          "value_per_unit": null
-        },
-        "ironwood_cart": {
-          "recipe_id": "ironwood_cart",
-          "value_per_unit": null
-        },
-        "ironwood_chair": {
-          "recipe_id": "ironwood_chair",
-          "value_per_unit": null
-        },
-        "ironwood_diy_workbench": {
-          "recipe_id": "ironwood_diy_workbench",
-          "value_per_unit": null
-        },
-        "ironwood_dresser": {
-          "recipe_id": "ironwood_dresser",
-          "value_per_unit": null
-        },
-        "ironwood_kitchenette": {
-          "recipe_id": "ironwood_kitchenette",
-          "value_per_unit": null
-        },
-        "ironwood_low_table": {
-          "recipe_id": "ironwood_low_table",
-          "value_per_unit": null
-        },
-        "jail_bars": {
-          "recipe_id": "jail_bars",
-          "value_per_unit": 750.0
-        },
-        "juicy_apple_tv": {
-          "recipe_id": "juicy_apple_tv",
-          "value_per_unit": null
-        },
-        "kettle_bathtub": {
-          "recipe_id": "kettle_bathtub",
-          "value_per_unit": null
-        },
-        "lily_record_player": {
-          "recipe_id": "lily_record_player",
-          "value_per_unit": null
-        },
-        "manhole_cover": {
-          "recipe_id": "manhole_cover",
-          "value_per_unit": 750.0
-        },
-        "mini_diy_workbench": {
-          "recipe_id": "mini_diy_workbench",
-          "value_per_unit": null
-        },
-        "natural_garden_chair": {
-          "recipe_id": "natural_garden_chair",
-          "value_per_unit": null
-        },
-        "natural_garden_table": {
-          "recipe_id": "natural_garden_table",
-          "value_per_unit": null
-        },
-        "natural_square_table": {
-          "recipe_id": "natural_square_table",
-          "value_per_unit": null
-        },
-        "outdoor_bath": {
-          "recipe_id": "outdoor_bath",
-          "value_per_unit": null
-        },
-        "plain_sink": {
-          "recipe_id": "plain_sink",
-          "value_per_unit": null
-        },
-        "robot_hero": {
-          "recipe_id": "robot_hero",
-          "value_per_unit": null
-        },
-        "sauna_heater": {
-          "recipe_id": "sauna_heater",
-          "value_per_unit": null
-        },
-        "silo": {
-          "recipe_id": "silo",
-          "value_per_unit": null
-        },
-        "simple_diy_workbench": {
-          "recipe_id": "simple_diy_workbench",
-          "value_per_unit": null
-        },
-        "standard_umbrella_stand": {
-          "recipe_id": "standard_umbrella_stand",
-          "value_per_unit": 750.0
-        },
-        "terrarium": {
-          "recipe_id": "terrarium",
-          "value_per_unit": null
-        },
-        "water_pump": {
-          "recipe_id": "water_pump",
-          "value_per_unit": null
-        },
-        "wooden_block_stereo": {
-          "recipe_id": "wooden_block_stereo",
-          "value_per_unit": null
-        },
-        "wooden_bucket": {
-          "recipe_id": "wooden_bucket",
-          "value_per_unit": null
-        },
-        "wooden_full_length_mirror": {
-          "recipe_id": "wooden_full_length_mirror",
-          "value_per_unit": null
-        },
-        "cutting_board": {
-          "recipe_id": "cutting_board",
-          "value_per_unit": null
-        },
-        "frying_pan": {
-          "recipe_id": "frying_pan",
-          "value_per_unit": 750.0
-        },
-        "kettlebell": {
-          "recipe_id": "kettlebell",
-          "value_per_unit": 750.0
-        },
-        "recycled_can_thumb_piano": {
-          "recipe_id": "recycled_can_thumb_piano",
-          "value_per_unit": null
-        },
-        "shell_speaker": {
-          "recipe_id": "shell_speaker",
-          "value_per_unit": null
-        },
-        "wooden_table_mirror": {
-          "recipe_id": "wooden_table_mirror",
-          "value_per_unit": null
-        },
-        "wooden_toolbox": {
-          "recipe_id": "wooden_toolbox",
-          "value_per_unit": null
-        },
-        "cherry_blossom_clock": {
-          "recipe_id": "cherry_blossom_clock",
-          "value_per_unit": null
-        },
-        "crest_doorplate": {
-          "recipe_id": "crest_doorplate",
-          "value_per_unit": null
-        },
-        "golden_gears": {
-          "recipe_id": "golden_gears",
-          "value_per_unit": null
-        },
-        "hanging_terrarium": {
-          "recipe_id": "hanging_terrarium",
-          "value_per_unit": null
-        },
-        "iron_doorplate": {
-          "recipe_id": "iron_doorplate",
-          "value_per_unit": null
-        },
-        "iron_wall_lamp": {
-          "recipe_id": "iron_wall_lamp",
-          "value_per_unit": null
-        },
-        "ironwood_clock": {
-          "recipe_id": "ironwood_clock",
-          "value_per_unit": null
-        },
-        "key_holder": {
-          "recipe_id": "key_holder",
-          "value_per_unit": null
-        },
-        "log_wall_mounted_clock": {
-          "recipe_id": "log_wall_mounted_clock",
-          "value_per_unit": null
-        },
-        "wooden_block_wall_clock": {
-          "recipe_id": "wooden_block_wall_clock",
-          "value_per_unit": null
-        },
-        "steel_flooring": {
-          "recipe_id": "steel_flooring",
-          "value_per_unit": 750.0
-        },
-        "barbed_wire_fence_x10": {
-          "recipe_id": "barbed_wire_fence_x10",
-          "value_per_unit": null
-        },
-        "iron_fence_x10": {
-          "recipe_id": "iron_fence_x10",
-          "value_per_unit": 750.0
-        },
-        "iron_and_stone_fence_x10": {
-          "recipe_id": "iron_and_stone_fence_x10",
-          "value_per_unit": null
-        },
-        "rope_fence_x10": {
-          "recipe_id": "rope_fence_x10",
-          "value_per_unit": 750.0
-        },
-        "zen_fence_x10": {
-          "recipe_id": "zen_fence_x10",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "axe",
+        "golden_axe",
+        "shovel",
+        "golden_shovel",
+        "fishing_rod",
+        "golden_rod",
+        "net",
+        "golden_net",
+        "watering_can",
+        "golden_watering_can",
+        "acoustic_guitar",
+        "barbell",
+        "barrel",
+        "brick_oven",
+        "butter_churn",
+        "cherry_speakers",
+        "drinking_fountain",
+        "fountain",
+        "garden_bench",
+        "garden_wagon",
+        "gong",
+        "hearth",
+        "iron_closet",
+        "iron_garden_bench",
+        "iron_garden_chair",
+        "iron_garden_table",
+        "iron_worktable",
+        "iron_shelf",
+        "ironwood_bed",
+        "ironwood_cart",
+        "ironwood_chair",
+        "ironwood_diy_workbench",
+        "ironwood_dresser",
+        "ironwood_kitchenette",
+        "ironwood_low_table",
+        "jail_bars",
+        "juicy_apple_tv",
+        "kettle_bathtub",
+        "lily_record_player",
+        "manhole_cover",
+        "mini_diy_workbench",
+        "natural_garden_chair",
+        "natural_garden_table",
+        "natural_square_table",
+        "outdoor_bath",
+        "plain_sink",
+        "robot_hero",
+        "sauna_heater",
+        "silo",
+        "simple_diy_workbench",
+        "standard_umbrella_stand",
+        "terrarium",
+        "water_pump",
+        "wooden_block_stereo",
+        "wooden_bucket",
+        "wooden_full_length_mirror",
+        "cutting_board",
+        "frying_pan",
+        "kettlebell",
+        "recycled_can_thumb_piano",
+        "shell_speaker",
+        "wooden_table_mirror",
+        "wooden_toolbox",
+        "cherry_blossom_clock",
+        "crest_doorplate",
+        "golden_gears",
+        "hanging_terrarium",
+        "iron_doorplate",
+        "iron_wall_lamp",
+        "ironwood_clock",
+        "key_holder",
+        "log_wall_mounted_clock",
+        "wooden_block_wall_clock",
+        "steel_flooring",
+        "barbed_wire_fence_x10",
+        "iron_fence_x10",
+        "iron_and_stone_fence_x10",
+        "rope_fence_x10",
+        "zen_fence_x10"
+      ]
     },
     "gold_nugget": {
       "name": "gold nugget",
       "id": "gold_nugget",
       "url": "https://animalcrossing.fandom.com/wiki/Gold_nugget",
-      "min_value_per_unit": 10000.0,
-      "used_in": {
-        "golden_axe": {
-          "recipe_id": "golden_axe",
-          "value_per_unit": null
-        },
-        "golden_shovel": {
-          "recipe_id": "golden_shovel",
-          "value_per_unit": null
-        },
-        "golden_rod": {
-          "recipe_id": "golden_rod",
-          "value_per_unit": null
-        },
-        "golden_net": {
-          "recipe_id": "golden_net",
-          "value_per_unit": null
-        },
-        "golden_watering_can": {
-          "recipe_id": "golden_watering_can",
-          "value_per_unit": null
-        },
-        "golden_slingshot": {
-          "recipe_id": "golden_slingshot",
-          "value_per_unit": null
-        },
-        "aries_rocking_chair": {
-          "recipe_id": "aries_rocking_chair",
-          "value_per_unit": null
-        },
-        "pisces_lamp": {
-          "recipe_id": "pisces_lamp",
-          "value_per_unit": null
-        },
-        "robot_hero": {
-          "recipe_id": "robot_hero",
-          "value_per_unit": null
-        },
-        "taurus_bathtub": {
-          "recipe_id": "taurus_bathtub",
-          "value_per_unit": null
-        },
-        "golden_candlestick": {
-          "recipe_id": "golden_candlestick",
-          "value_per_unit": 10000.0
-        },
-        "golden_dung_beetle": {
-          "recipe_id": "golden_dung_beetle",
-          "value_per_unit": 10000.0
-        },
-        "lucky_gold_cat": {
-          "recipe_id": "lucky_gold_cat",
-          "value_per_unit": null
-        },
-        "golden_gears": {
-          "recipe_id": "golden_gears",
-          "value_per_unit": null
-        },
-        "gold_armor": {
-          "recipe_id": "gold_armor",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "golden_axe",
+        "golden_shovel",
+        "golden_rod",
+        "golden_net",
+        "golden_watering_can",
+        "golden_slingshot",
+        "aries_rocking_chair",
+        "pisces_lamp",
+        "robot_hero",
+        "taurus_bathtub",
+        "golden_candlestick",
+        "golden_dung_beetle",
+        "lucky_gold_cat",
+        "golden_gears",
+        "gold_armor"
+      ]
     },
     "hardwood": {
       "name": "hardwood",
       "id": "hardwood",
       "url": "https://animalcrossing.fandom.com/wiki/Wood_(New_Horizons)",
-      "min_value_per_unit": 40.0,
-      "used_in": {
-        "flimsy_shovel": {
-          "recipe_id": "flimsy_shovel",
-          "value_per_unit": 40.0
-        },
-        "shovel": {
-          "recipe_id": "shovel",
-          "value_per_unit": null
-        },
-        "golden_shovel": {
-          "recipe_id": "golden_shovel",
-          "value_per_unit": null
-        },
-        "slingshot": {
-          "recipe_id": "slingshot",
-          "value_per_unit": 45.0
-        },
-        "golden_slingshot": {
-          "recipe_id": "golden_slingshot",
-          "value_per_unit": null
-        },
-        "ladder": {
-          "recipe_id": "ladder",
-          "value_per_unit": null
-        },
-        "brick_well": {
-          "recipe_id": "brick_well",
-          "value_per_unit": null
-        },
-        "clackercart": {
-          "recipe_id": "clackercart",
-          "value_per_unit": null
-        },
-        "destinations_signpost": {
-          "recipe_id": "destinations_signpost",
-          "value_per_unit": null
-        },
-        "doghouse": {
-          "recipe_id": "doghouse",
-          "value_per_unit": null
-        },
-        "hearth": {
-          "recipe_id": "hearth",
-          "value_per_unit": null
-        },
-        "ironwood_diy_workbench": {
-          "recipe_id": "ironwood_diy_workbench",
-          "value_per_unit": null
-        },
-        "ironwood_kitchenette": {
-          "recipe_id": "ironwood_kitchenette",
-          "value_per_unit": null
-        },
-        "log_bed": {
-          "recipe_id": "log_bed",
-          "value_per_unit": 120.0
-        },
-        "log_bench": {
-          "recipe_id": "log_bench",
-          "value_per_unit": 120.0
-        },
-        "log_dining_table": {
-          "recipe_id": "log_dining_table",
-          "value_per_unit": 120.0
-        },
-        "log_garden_lounge": {
-          "recipe_id": "log_garden_lounge",
-          "value_per_unit": 120.0
-        },
-        "log_round_table": {
-          "recipe_id": "log_round_table",
-          "value_per_unit": 120.0
-        },
-        "log_sofa": {
-          "recipe_id": "log_sofa",
-          "value_per_unit": 120.0
-        },
-        "log_stakes": {
-          "recipe_id": "log_stakes",
-          "value_per_unit": 120.0
-        },
-        "log_stool": {
-          "recipe_id": "log_stool",
-          "value_per_unit": 120.0
-        },
-        "mini_diy_workbench": {
-          "recipe_id": "mini_diy_workbench",
-          "value_per_unit": null
-        },
-        "music_stand": {
-          "recipe_id": "music_stand",
-          "value_per_unit": 120.0
-        },
-        "natural_garden_chair": {
-          "recipe_id": "natural_garden_chair",
-          "value_per_unit": null
-        },
-        "natural_garden_table": {
-          "recipe_id": "natural_garden_table",
-          "value_per_unit": null
-        },
-        "natural_square_table": {
-          "recipe_id": "natural_square_table",
-          "value_per_unit": null
-        },
-        "outdoor_bath": {
-          "recipe_id": "outdoor_bath",
-          "value_per_unit": null
-        },
-        "pansy_table": {
-          "recipe_id": "pansy_table",
-          "value_per_unit": null
-        },
-        "signpost": {
-          "recipe_id": "signpost",
-          "value_per_unit": null
-        },
-        "silo": {
-          "recipe_id": "silo",
-          "value_per_unit": null
-        },
-        "simple_diy_workbench": {
-          "recipe_id": "simple_diy_workbench",
-          "value_per_unit": null
-        },
-        "simple_well": {
-          "recipe_id": "simple_well",
-          "value_per_unit": null
-        },
-        "tea_table": {
-          "recipe_id": "tea_table",
-          "value_per_unit": 120.0
-        },
-        "wild_log_bench": {
-          "recipe_id": "wild_log_bench",
-          "value_per_unit": null
-        },
-        "wooden_plank_sign": {
-          "recipe_id": "wooden_plank_sign",
-          "value_per_unit": 120.0
-        },
-        "cutting_board": {
-          "recipe_id": "cutting_board",
-          "value_per_unit": null
-        },
-        "boomerang": {
-          "recipe_id": "boomerang",
-          "value_per_unit": 120.0
-        },
-        "log_wall_mounted_clock": {
-          "recipe_id": "log_wall_mounted_clock",
-          "value_per_unit": null
-        },
-        "jungle_wall": {
-          "recipe_id": "jungle_wall",
-          "value_per_unit": null
-        },
-        "modern_wood_wall": {
-          "recipe_id": "modern_wood_wall",
-          "value_per_unit": null
-        },
-        "stacked_wood_wall": {
-          "recipe_id": "stacked_wood_wall",
-          "value_per_unit": null
-        },
-        "wooden_knot_wall": {
-          "recipe_id": "wooden_knot_wall",
-          "value_per_unit": null
-        },
-        "log_pack": {
-          "recipe_id": "log_pack",
-          "value_per_unit": null
-        },
-        "barbed_wire_fence_x10": {
-          "recipe_id": "barbed_wire_fence_x10",
-          "value_per_unit": null
-        },
-        "country_fence_x10": {
-          "recipe_id": "country_fence_x10",
-          "value_per_unit": 120.0
-        },
-        "spiky_fence_x10": {
-          "recipe_id": "spiky_fence_x10",
-          "value_per_unit": 120.0
-        }
-      }
+      "used_in": [
+        "flimsy_shovel",
+        "shovel",
+        "golden_shovel",
+        "slingshot",
+        "golden_slingshot",
+        "ladder",
+        "brick_well",
+        "clackercart",
+        "destinations_signpost",
+        "doghouse",
+        "hearth",
+        "ironwood_diy_workbench",
+        "ironwood_kitchenette",
+        "log_bed",
+        "log_bench",
+        "log_dining_table",
+        "log_garden_lounge",
+        "log_round_table",
+        "log_sofa",
+        "log_stakes",
+        "log_stool",
+        "mini_diy_workbench",
+        "music_stand",
+        "natural_garden_chair",
+        "natural_garden_table",
+        "natural_square_table",
+        "outdoor_bath",
+        "pansy_table",
+        "signpost",
+        "silo",
+        "simple_diy_workbench",
+        "simple_well",
+        "tea_table",
+        "wild_log_bench",
+        "wooden_plank_sign",
+        "cutting_board",
+        "boomerang",
+        "log_wall_mounted_clock",
+        "jungle_wall",
+        "modern_wood_wall",
+        "stacked_wood_wall",
+        "wooden_knot_wall",
+        "log_pack",
+        "barbed_wire_fence_x10",
+        "country_fence_x10",
+        "spiky_fence_x10"
+      ]
     },
     "softwood": {
       "name": "softwood",
       "id": "softwood",
       "url": "https://animalcrossing.fandom.com/wiki/Wood_(New_Horizons)",
-      "min_value_per_unit": 40.0,
-      "used_in": {
-        "flimsy_watering_can": {
-          "recipe_id": "flimsy_watering_can",
-          "value_per_unit": 40.0
-        },
-        "watering_can": {
-          "recipe_id": "watering_can",
-          "value_per_unit": null
-        },
-        "golden_watering_can": {
-          "recipe_id": "golden_watering_can",
-          "value_per_unit": null
-        },
-        "vaulting_pole": {
-          "recipe_id": "vaulting_pole",
-          "value_per_unit": 120.0
-        },
-        "ladder": {
-          "recipe_id": "ladder",
-          "value_per_unit": null
-        },
-        "acoustic_guitar": {
-          "recipe_id": "acoustic_guitar",
-          "value_per_unit": null
-        },
-        "birdhouse": {
-          "recipe_id": "birdhouse",
-          "value_per_unit": null
-        },
-        "clackercart": {
-          "recipe_id": "clackercart",
-          "value_per_unit": null
-        },
-        "destinations_signpost": {
-          "recipe_id": "destinations_signpost",
-          "value_per_unit": null
-        },
-        "grass_standee": {
-          "recipe_id": "grass_standee",
-          "value_per_unit": null
-        },
-        "ironwood_diy_workbench": {
-          "recipe_id": "ironwood_diy_workbench",
-          "value_per_unit": null
-        },
-        "matryoshka": {
-          "recipe_id": "matryoshka",
-          "value_per_unit": 120.0
-        },
-        "mini_diy_workbench": {
-          "recipe_id": "mini_diy_workbench",
-          "value_per_unit": null
-        },
-        "mountain_standee": {
-          "recipe_id": "mountain_standee",
-          "value_per_unit": null
-        },
-        "pear_bed": {
-          "recipe_id": "pear_bed",
-          "value_per_unit": null
-        },
-        "rocking_chair": {
-          "recipe_id": "rocking_chair",
-          "value_per_unit": null
-        },
-        "rocking_horse": {
-          "recipe_id": "rocking_horse",
-          "value_per_unit": 120.0
-        },
-        "signpost": {
-          "recipe_id": "signpost",
-          "value_per_unit": null
-        },
-        "swinging_bench": {
-          "recipe_id": "swinging_bench",
-          "value_per_unit": null
-        },
-        "tree_standee": {
-          "recipe_id": "tree_standee",
-          "value_per_unit": null
-        },
-        "tulip_surprise_box": {
-          "recipe_id": "tulip_surprise_box",
-          "value_per_unit": null
-        },
-        "wild_log_bench": {
-          "recipe_id": "wild_log_bench",
-          "value_per_unit": null
-        },
-        "wooden_block_bookshelf": {
-          "recipe_id": "wooden_block_bookshelf",
-          "value_per_unit": 120.0
-        },
-        "wooden_block_bed": {
-          "recipe_id": "wooden_block_bed",
-          "value_per_unit": 120.0
-        },
-        "wooden_block_bench": {
-          "recipe_id": "wooden_block_bench",
-          "value_per_unit": 120.0
-        },
-        "wooden_block_chair": {
-          "recipe_id": "wooden_block_chair",
-          "value_per_unit": 120.0
-        },
-        "wooden_block_chest": {
-          "recipe_id": "wooden_block_chest",
-          "value_per_unit": 120.0
-        },
-        "wooden_block_stereo": {
-          "recipe_id": "wooden_block_stereo",
-          "value_per_unit": null
-        },
-        "wooden_block_stool": {
-          "recipe_id": "wooden_block_stool",
-          "value_per_unit": 120.0
-        },
-        "wooden_block_table": {
-          "recipe_id": "wooden_block_table",
-          "value_per_unit": 120.0
-        },
-        "bamboo_drum": {
-          "recipe_id": "bamboo_drum",
-          "value_per_unit": null
-        },
-        "decoy_duck": {
-          "recipe_id": "decoy_duck",
-          "value_per_unit": 120.0
-        },
-        "old_fashioned_washtub": {
-          "recipe_id": "old_fashioned_washtub",
-          "value_per_unit": 120.0
-        },
-        "peach_surprise_box": {
-          "recipe_id": "peach_surprise_box",
-          "value_per_unit": null
-        },
-        "ringtoss": {
-          "recipe_id": "ringtoss",
-          "value_per_unit": null
-        },
-        "wooden_block_toy": {
-          "recipe_id": "wooden_block_toy",
-          "value_per_unit": 120.0
-        },
-        "wooden_toolbox": {
-          "recipe_id": "wooden_toolbox",
-          "value_per_unit": null
-        },
-        "bone_doorplate": {
-          "recipe_id": "bone_doorplate",
-          "value_per_unit": null
-        },
-        "deer_decoration": {
-          "recipe_id": "deer_decoration",
-          "value_per_unit": 120.0
-        },
-        "wooden_block_wall_clock": {
-          "recipe_id": "wooden_block_wall_clock",
-          "value_per_unit": null
-        },
-        "brown_herringbone_wall": {
-          "recipe_id": "brown_herringbone_wall",
-          "value_per_unit": null
-        },
-        "jungle_wall": {
-          "recipe_id": "jungle_wall",
-          "value_per_unit": null
-        },
-        "modern_wood_wall": {
-          "recipe_id": "modern_wood_wall",
-          "value_per_unit": null
-        },
-        "woodland_wall": {
-          "recipe_id": "woodland_wall",
-          "value_per_unit": null
-        },
-        "imperial_fence_x10": {
-          "recipe_id": "imperial_fence_x10",
-          "value_per_unit": null
-        },
-        "lattice_fence_x10": {
-          "recipe_id": "lattice_fence_x10",
-          "value_per_unit": 120.0
-        },
-        "simple_wooden_fence_x10": {
-          "recipe_id": "simple_wooden_fence_x10",
-          "value_per_unit": 120.0
-        }
-      }
+      "used_in": [
+        "flimsy_watering_can",
+        "watering_can",
+        "golden_watering_can",
+        "vaulting_pole",
+        "ladder",
+        "acoustic_guitar",
+        "birdhouse",
+        "clackercart",
+        "destinations_signpost",
+        "grass_standee",
+        "ironwood_diy_workbench",
+        "matryoshka",
+        "mini_diy_workbench",
+        "mountain_standee",
+        "pear_bed",
+        "rocking_chair",
+        "rocking_horse",
+        "signpost",
+        "swinging_bench",
+        "tree_standee",
+        "tulip_surprise_box",
+        "wild_log_bench",
+        "wooden_block_bookshelf",
+        "wooden_block_bed",
+        "wooden_block_bench",
+        "wooden_block_chair",
+        "wooden_block_chest",
+        "wooden_block_stereo",
+        "wooden_block_stool",
+        "wooden_block_table",
+        "bamboo_drum",
+        "decoy_duck",
+        "old_fashioned_washtub",
+        "peach_surprise_box",
+        "ringtoss",
+        "wooden_block_toy",
+        "wooden_toolbox",
+        "bone_doorplate",
+        "deer_decoration",
+        "wooden_block_wall_clock",
+        "brown_herringbone_wall",
+        "jungle_wall",
+        "modern_wood_wall",
+        "woodland_wall",
+        "imperial_fence_x10",
+        "lattice_fence_x10",
+        "simple_wooden_fence_x10"
+      ]
     },
     "large_star_fragment": {
       "name": "large star fragment",
       "id": "large_star_fragment",
       "url": "https://animalcrossing.fandom.com/wiki/Large_star_fragment",
-      "min_value_per_unit": null,
-      "used_in": {
-        "star_wand": {
-          "recipe_id": "star_wand",
-          "value_per_unit": null
-        },
-        "sci_fi_wall": {
-          "recipe_id": "sci_fi_wall",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "star_wand",
+        "sci_fi_wall"
+      ]
     },
     "star_fragment": {
       "name": "star fragment",
       "id": "star_fragment",
       "url": "https://animalcrossing.fandom.com/wiki/Star_fragment",
-      "min_value_per_unit": null,
-      "used_in": {
-        "star_wand": {
-          "recipe_id": "star_wand",
-          "value_per_unit": null
-        },
-        "bamboo_wand": {
-          "recipe_id": "bamboo_wand",
-          "value_per_unit": null
-        },
-        "cherry_blossom_wand": {
-          "recipe_id": "cherry_blossom_wand",
-          "value_per_unit": null
-        },
-        "aries_rocking_chair": {
-          "recipe_id": "aries_rocking_chair",
-          "value_per_unit": null
-        },
-        "pisces_lamp": {
-          "recipe_id": "pisces_lamp",
-          "value_per_unit": null
-        },
-        "taurus_bathtub": {
-          "recipe_id": "taurus_bathtub",
-          "value_per_unit": null
-        },
-        "sci_fi_wall": {
-          "recipe_id": "sci_fi_wall",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "star_wand",
+        "bamboo_wand",
+        "cherry_blossom_wand",
+        "aries_rocking_chair",
+        "pisces_lamp",
+        "taurus_bathtub",
+        "sci_fi_wall"
+      ]
     },
     "young_spring_bamboo": {
       "name": "young spring bamboo",
       "id": "young_spring_bamboo",
       "url": "https://animalcrossing.fandom.com/wiki/Young_spring_bamboo",
-      "min_value_per_unit": 400.0,
-      "used_in": {
-        "bamboo_wand": {
-          "recipe_id": "bamboo_wand",
-          "value_per_unit": null
-        },
-        "bamboo_doll": {
-          "recipe_id": "bamboo_doll",
-          "value_per_unit": 400.0
-        },
-        "bamboo_noodle_slide": {
-          "recipe_id": "bamboo_noodle_slide",
-          "value_per_unit": null
-        },
-        "green_leaf_pile": {
-          "recipe_id": "green_leaf_pile",
-          "value_per_unit": null
-        },
-        "bamboo_shoot_lamp": {
-          "recipe_id": "bamboo_shoot_lamp",
-          "value_per_unit": null
-        },
-        "steamer_basket_set": {
-          "recipe_id": "steamer_basket_set",
-          "value_per_unit": 400.0
-        },
-        "bamboo_grove_wall": {
-          "recipe_id": "bamboo_grove_wall",
-          "value_per_unit": null
-        },
-        "light_bamboo_rug": {
-          "recipe_id": "light_bamboo_rug",
-          "value_per_unit": 400.0
-        },
-        "basket_pack": {
-          "recipe_id": "basket_pack",
-          "value_per_unit": 400.0
-        },
-        "pan_flute": {
-          "recipe_id": "pan_flute",
-          "value_per_unit": 400.0
-        }
-      }
+      "used_in": [
+        "bamboo_wand",
+        "bamboo_doll",
+        "bamboo_noodle_slide",
+        "green_leaf_pile",
+        "bamboo_shoot_lamp",
+        "steamer_basket_set",
+        "bamboo_grove_wall",
+        "light_bamboo_rug",
+        "basket_pack",
+        "pan_flute"
+      ]
     },
     "cherry_blossom_petal": {
       "name": "cherry-blossom petal",
       "id": "cherry_blossom_petal",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "cherry_blossom_wand": {
-          "recipe_id": "cherry_blossom_wand",
-          "value_per_unit": null
-        },
-        "outdoor_picnic_set": {
-          "recipe_id": "outdoor_picnic_set",
-          "value_per_unit": null
-        },
-        "cherry_blossom_branches": {
-          "recipe_id": "cherry_blossom_branches",
-          "value_per_unit": null
-        },
-        "cherry_blossom_clock": {
-          "recipe_id": "cherry_blossom_clock",
-          "value_per_unit": null
-        },
-        "cherry_blossom_pochette": {
-          "recipe_id": "cherry_blossom_pochette",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "cherry_blossom_wand",
+        "outdoor_picnic_set",
+        "cherry_blossom_branches",
+        "cherry_blossom_clock",
+        "cherry_blossom_pochette"
+      ]
     },
     "apple": {
       "name": "apple",
       "id": "apple",
       "url": "https://animalcrossing.fandom.com/wiki/Fruit",
-      "min_value_per_unit": 200.0,
-      "used_in": {
-        "apple_chair": {
-          "recipe_id": "apple_chair",
-          "value_per_unit": null
-        },
-        "juicy_apple_tv": {
-          "recipe_id": "juicy_apple_tv",
-          "value_per_unit": null
-        },
-        "apple_wall": {
-          "recipe_id": "apple_wall",
-          "value_per_unit": 200.0
-        }
-      }
+      "used_in": [
+        "apple_chair",
+        "juicy_apple_tv",
+        "apple_wall"
+      ]
     },
     "aries_fragment": {
       "name": "Aries fragment",
       "id": "aries_fragment",
       "url": "https://animalcrossing.fandom.com/wiki/Zodiac_star_fragment",
-      "min_value_per_unit": null,
-      "used_in": {
-        "aries_rocking_chair": {
-          "recipe_id": "aries_rocking_chair",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "aries_rocking_chair"
+      ]
     },
     "bamboo_piece": {
       "name": "bamboo piece",
       "id": "bamboo_piece",
       "url": "https://animalcrossing.fandom.com/wiki/Bamboo_piece",
-      "min_value_per_unit": 160.0,
-      "used_in": {
-        "bamboo_basket": {
-          "recipe_id": "bamboo_basket",
-          "value_per_unit": 160.0
-        },
-        "bamboo_bench": {
-          "recipe_id": "bamboo_bench",
-          "value_per_unit": 160.0
-        },
-        "bamboo_shelf": {
-          "recipe_id": "bamboo_shelf",
-          "value_per_unit": 160.0
-        },
-        "bamboo_stool": {
-          "recipe_id": "bamboo_stool",
-          "value_per_unit": 160.0
-        },
-        "bamboo_stopblock": {
-          "recipe_id": "bamboo_stopblock",
-          "value_per_unit": null
-        },
-        "deer_scare": {
-          "recipe_id": "deer_scare",
-          "value_per_unit": null
-        },
-        "hearth": {
-          "recipe_id": "hearth",
-          "value_per_unit": null
-        },
-        "bamboo_drum": {
-          "recipe_id": "bamboo_drum",
-          "value_per_unit": null
-        },
-        "bamboo_candleholder": {
-          "recipe_id": "bamboo_candleholder",
-          "value_per_unit": null
-        },
-        "bamboo_lunch_box": {
-          "recipe_id": "bamboo_lunch_box",
-          "value_per_unit": 160.0
-        },
-        "bamboo_wall_decoration": {
-          "recipe_id": "bamboo_wall_decoration",
-          "value_per_unit": null
-        },
-        "bamboo_flooring": {
-          "recipe_id": "bamboo_flooring",
-          "value_per_unit": 160.0
-        },
-        "bamboo_wall": {
-          "recipe_id": "bamboo_wall",
-          "value_per_unit": null
-        },
-        "bamboo_lattice_fence_x10": {
-          "recipe_id": "bamboo_lattice_fence_x10",
-          "value_per_unit": 160.0
-        }
-      }
+      "used_in": [
+        "bamboo_basket",
+        "bamboo_bench",
+        "bamboo_shelf",
+        "bamboo_stool",
+        "bamboo_stopblock",
+        "deer_scare",
+        "hearth",
+        "bamboo_drum",
+        "bamboo_candleholder",
+        "bamboo_lunch_box",
+        "bamboo_wall_decoration",
+        "bamboo_flooring",
+        "bamboo_wall",
+        "bamboo_lattice_fence_x10"
+      ]
     },
     "wasp_nest": {
       "name": "wasp nest",
       "id": "wasp_nest",
       "url": "https://animalcrossing.fandom.com/wiki/Wasp",
-      "min_value_per_unit": null,
-      "used_in": {
-        "beekeeper_s_hive": {
-          "recipe_id": "beekeeper_s_hive",
-          "value_per_unit": null
-        },
-        "honeycomb_flooring": {
-          "recipe_id": "honeycomb_flooring",
-          "value_per_unit": null
-        },
-        "honeycomb_wall": {
-          "recipe_id": "honeycomb_wall",
-          "value_per_unit": null
-        },
-        "medicine": {
-          "recipe_id": "medicine",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "beekeeper_s_hive",
+        "honeycomb_flooring",
+        "honeycomb_wall",
+        "medicine"
+      ]
     },
     "clay": {
       "name": "clay",
       "id": "clay",
       "url": "https://animalcrossing.fandom.com/wiki/Clay",
-      "min_value_per_unit": 150.0,
-      "used_in": {
-        "brick_oven": {
-          "recipe_id": "brick_oven",
-          "value_per_unit": null
-        },
-        "brick_well": {
-          "recipe_id": "brick_well",
-          "value_per_unit": null
-        },
-        "hearth": {
-          "recipe_id": "hearth",
-          "value_per_unit": null
-        },
-        "palm_tree_lamp": {
-          "recipe_id": "palm_tree_lamp",
-          "value_per_unit": null
-        },
-        "plain_sink": {
-          "recipe_id": "plain_sink",
-          "value_per_unit": null
-        },
-        "shell_bed": {
-          "recipe_id": "shell_bed",
-          "value_per_unit": null
-        },
-        "silo": {
-          "recipe_id": "silo",
-          "value_per_unit": null
-        },
-        "water_pump": {
-          "recipe_id": "water_pump",
-          "value_per_unit": null
-        },
-        "wave_breaker": {
-          "recipe_id": "wave_breaker",
-          "value_per_unit": null
-        },
-        "aroma_holder": {
-          "recipe_id": "aroma_holder",
-          "value_per_unit": 150.0
-        },
-        "bamboo_candleholder": {
-          "recipe_id": "bamboo_candleholder",
-          "value_per_unit": null
-        },
-        "bamboo_shoot_lamp": {
-          "recipe_id": "bamboo_shoot_lamp",
-          "value_per_unit": null
-        },
-        "cherry_blossom_branches": {
-          "recipe_id": "cherry_blossom_branches",
-          "value_per_unit": null
-        },
-        "classic_pitcher": {
-          "recipe_id": "classic_pitcher",
-          "value_per_unit": 200.0
-        },
-        "hyacinth_lamp": {
-          "recipe_id": "hyacinth_lamp",
-          "value_per_unit": null
-        },
-        "modeling_clay": {
-          "recipe_id": "modeling_clay",
-          "value_per_unit": 200.0
-        },
-        "pot": {
-          "recipe_id": "pot",
-          "value_per_unit": 200.0
-        },
-        "shell_lamp": {
-          "recipe_id": "shell_lamp",
-          "value_per_unit": null
-        },
-        "unglazed_dish_set": {
-          "recipe_id": "unglazed_dish_set",
-          "value_per_unit": 200.0
-        },
-        "cherry_lamp": {
-          "recipe_id": "cherry_lamp",
-          "value_per_unit": null
-        },
-        "iron_wall_lamp": {
-          "recipe_id": "iron_wall_lamp",
-          "value_per_unit": null
-        },
-        "potted_ivy": {
-          "recipe_id": "potted_ivy",
-          "value_per_unit": null
-        },
-        "jungle_flooring": {
-          "recipe_id": "jungle_flooring",
-          "value_per_unit": null
-        },
-        "ocarina": {
-          "recipe_id": "ocarina",
-          "value_per_unit": 200.0
-        },
-        "brick_fence_x10": {
-          "recipe_id": "brick_fence_x10",
-          "value_per_unit": 200.0
-        },
-        "zen_fence_x10": {
-          "recipe_id": "zen_fence_x10",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "brick_oven",
+        "brick_well",
+        "hearth",
+        "palm_tree_lamp",
+        "plain_sink",
+        "shell_bed",
+        "silo",
+        "water_pump",
+        "wave_breaker",
+        "aroma_holder",
+        "bamboo_candleholder",
+        "bamboo_shoot_lamp",
+        "cherry_blossom_branches",
+        "classic_pitcher",
+        "hyacinth_lamp",
+        "modeling_clay",
+        "pot",
+        "shell_lamp",
+        "unglazed_dish_set",
+        "cherry_lamp",
+        "iron_wall_lamp",
+        "potted_ivy",
+        "jungle_flooring",
+        "ocarina",
+        "brick_fence_x10",
+        "zen_fence_x10"
+      ]
     },
     "cardboard_box": {
       "name": "cardboard box",
       "id": "cardboard_box",
       "url": null,
-      "min_value_per_unit": 60.0,
-      "used_in": {
-        "cardboard_bed": {
-          "recipe_id": "cardboard_bed",
-          "value_per_unit": null
-        },
-        "cardboard_chair": {
-          "recipe_id": "cardboard_chair",
-          "value_per_unit": null
-        },
-        "cardboard_sofa": {
-          "recipe_id": "cardboard_sofa",
-          "value_per_unit": null
-        },
-        "cardboard_table": {
-          "recipe_id": "cardboard_table",
-          "value_per_unit": 60.0
-        },
-        "large_cardboard_boxes": {
-          "recipe_id": "large_cardboard_boxes",
-          "value_per_unit": null
-        },
-        "medium_cardboard_boxes": {
-          "recipe_id": "medium_cardboard_boxes",
-          "value_per_unit": 60.0
-        }
-      }
+      "used_in": [
+        "cardboard_bed",
+        "cardboard_chair",
+        "cardboard_sofa",
+        "cardboard_table",
+        "large_cardboard_boxes",
+        "medium_cardboard_boxes"
+      ]
     },
     "cherry": {
       "name": "cherry",
       "id": "cherry",
       "url": "https://animalcrossing.fandom.com/wiki/Fruit",
-      "min_value_per_unit": null,
-      "used_in": {
-        "cherry_speakers": {
-          "recipe_id": "cherry_speakers",
-          "value_per_unit": null
-        },
-        "cherry_lamp": {
-          "recipe_id": "cherry_lamp",
-          "value_per_unit": null
-        },
-        "cherry_rug": {
-          "recipe_id": "cherry_rug",
-          "value_per_unit": null
-        },
-        "cherry_dress": {
-          "recipe_id": "cherry_dress",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "cherry_speakers",
+        "cherry_lamp",
+        "cherry_rug",
+        "cherry_dress"
+      ]
     },
     "clump_of_weeds": {
       "name": "clump of weeds",
       "id": "clump_of_weeds",
       "url": "https://animalcrossing.fandom.com/wiki/Clump_of_weeds",
-      "min_value_per_unit": 16.0,
-      "used_in": {
-        "deer_scare": {
-          "recipe_id": "deer_scare",
-          "value_per_unit": null
-        },
-        "green_leaf_pile": {
-          "recipe_id": "green_leaf_pile",
-          "value_per_unit": null
-        },
-        "hay_bed": {
-          "recipe_id": "hay_bed",
-          "value_per_unit": 40.0
-        },
-        "mossy_garden_rock": {
-          "recipe_id": "mossy_garden_rock",
-          "value_per_unit": null
-        },
-        "mum_cushion": {
-          "recipe_id": "mum_cushion",
-          "value_per_unit": null
-        },
-        "terrarium": {
-          "recipe_id": "terrarium",
-          "value_per_unit": null
-        },
-        "succulent_plant": {
-          "recipe_id": "succulent_plant",
-          "value_per_unit": null
-        },
-        "floral_swag": {
-          "recipe_id": "floral_swag",
-          "value_per_unit": null
-        },
-        "hanging_terrarium": {
-          "recipe_id": "hanging_terrarium",
-          "value_per_unit": null
-        },
-        "potted_ivy": {
-          "recipe_id": "potted_ivy",
-          "value_per_unit": null
-        },
-        "backyard_lawn": {
-          "recipe_id": "backyard_lawn",
-          "value_per_unit": 20.0
-        },
-        "jungle_flooring": {
-          "recipe_id": "jungle_flooring",
-          "value_per_unit": null
-        },
-        "jungle_wall": {
-          "recipe_id": "jungle_wall",
-          "value_per_unit": null
-        },
-        "woodland_wall": {
-          "recipe_id": "woodland_wall",
-          "value_per_unit": null
-        },
-        "bamboo_hat": {
-          "recipe_id": "bamboo_hat",
-          "value_per_unit": 20.0
-        },
-        "grass_skirt": {
-          "recipe_id": "grass_skirt",
-          "value_per_unit": null
-        },
-        "knitted_grass_backpack": {
-          "recipe_id": "knitted_grass_backpack",
-          "value_per_unit": null
-        },
-        "leaf": {
-          "recipe_id": "leaf",
-          "value_per_unit": 16.0
-        },
-        "leaf_umbrella": {
-          "recipe_id": "leaf_umbrella",
-          "value_per_unit": 20.0
-        },
-        "straw_umbrella_hat": {
-          "recipe_id": "straw_umbrella_hat",
-          "value_per_unit": 20.0
-        },
-        "traditional_straw_coat": {
-          "recipe_id": "traditional_straw_coat",
-          "value_per_unit": 20.0
-        },
-        "medicine": {
-          "recipe_id": "medicine",
-          "value_per_unit": null
-        },
-        "straw_fence_x10": {
-          "recipe_id": "straw_fence_x10",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "deer_scare",
+        "green_leaf_pile",
+        "hay_bed",
+        "mossy_garden_rock",
+        "mum_cushion",
+        "terrarium",
+        "succulent_plant",
+        "floral_swag",
+        "hanging_terrarium",
+        "potted_ivy",
+        "backyard_lawn",
+        "jungle_flooring",
+        "jungle_wall",
+        "woodland_wall",
+        "bamboo_hat",
+        "grass_skirt",
+        "knitted_grass_backpack",
+        "leaf",
+        "leaf_umbrella",
+        "straw_umbrella_hat",
+        "traditional_straw_coat",
+        "medicine",
+        "straw_fence_x10"
+      ]
     },
     "white_hyacinths": {
       "name": "white hyacinths",
       "id": "white_hyacinths",
       "url": "https://animalcrossing.fandom.com/wiki/Flowers#hyacinth",
-      "min_value_per_unit": null,
-      "used_in": {
-        "garden_wagon": {
-          "recipe_id": "garden_wagon",
-          "value_per_unit": null
-        },
-        "hyacinth_wreath": {
-          "recipe_id": "hyacinth_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "garden_wagon",
+        "hyacinth_wreath"
+      ]
     },
     "red_cosmos": {
       "name": "red cosmos",
       "id": "red_cosmos",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Cosmos",
-      "min_value_per_unit": null,
-      "used_in": {
-        "garden_wagon": {
-          "recipe_id": "garden_wagon",
-          "value_per_unit": null
-        },
-        "cosmos_wreath": {
-          "recipe_id": "cosmos_wreath",
-          "value_per_unit": null
-        },
-        "cosmos_crown": {
-          "recipe_id": "cosmos_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "garden_wagon",
+        "cosmos_wreath",
+        "cosmos_crown"
+      ]
     },
     "yellow_roses": {
       "name": "yellow roses",
       "id": "yellow_roses",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#rose",
-      "min_value_per_unit": null,
-      "used_in": {
-        "garden_wagon": {
-          "recipe_id": "garden_wagon",
-          "value_per_unit": null
-        },
-        "fancy_rose_wreath": {
-          "recipe_id": "fancy_rose_wreath",
-          "value_per_unit": null
-        },
-        "rose_wreath": {
-          "recipe_id": "rose_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "garden_wagon",
+        "fancy_rose_wreath",
+        "rose_wreath"
+      ]
     },
     "papa_bear": {
       "name": "Papa bear",
       "id": "papa_bear",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "giant_teddy_bear": {
-          "recipe_id": "giant_teddy_bear",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "giant_teddy_bear"
+      ]
     },
     "mama_bear": {
       "name": "Mama bear",
       "id": "mama_bear",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "giant_teddy_bear": {
-          "recipe_id": "giant_teddy_bear",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "giant_teddy_bear"
+      ]
     },
     "baby_bear": {
       "name": "Baby bear",
       "id": "baby_bear",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "giant_teddy_bear": {
-          "recipe_id": "giant_teddy_bear",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "giant_teddy_bear"
+      ]
     },
     "white_lilies": {
       "name": "white lilies",
       "id": "white_lilies",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#lily",
-      "min_value_per_unit": null,
-      "used_in": {
-        "lily_record_player": {
-          "recipe_id": "lily_record_player",
-          "value_per_unit": null
-        },
-        "lily_wreath": {
-          "recipe_id": "lily_wreath",
-          "value_per_unit": null
-        },
-        "cute_lily_crown": {
-          "recipe_id": "cute_lily_crown",
-          "value_per_unit": null
-        },
-        "lily_crown": {
-          "recipe_id": "lily_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "lily_record_player",
+        "lily_wreath",
+        "cute_lily_crown",
+        "lily_crown"
+      ]
     },
     "yellow_mums": {
       "name": "yellow mums",
       "id": "yellow_mums",
       "url": "https://animalcrossing.fandom.com/wiki/Flowers",
-      "min_value_per_unit": null,
-      "used_in": {
-        "mum_cushion": {
-          "recipe_id": "mum_cushion",
-          "value_per_unit": null
-        },
-        "mum_wreath": {
-          "recipe_id": "mum_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "mum_cushion",
+        "mum_wreath"
+      ]
     },
     "orange": {
       "name": "orange",
       "id": "orange",
       "url": "https://animalcrossing.fandom.com/wiki/Fruit",
-      "min_value_per_unit": null,
-      "used_in": {
-        "orange_end_table": {
-          "recipe_id": "orange_end_table",
-          "value_per_unit": null
-        },
-        "orange_wall_mounted_clock": {
-          "recipe_id": "orange_wall_mounted_clock",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "orange_end_table",
+        "orange_wall_mounted_clock"
+      ]
     },
     "coconut": {
       "name": "coconut",
       "id": "coconut",
       "url": "https://animalcrossing.fandom.com/wiki/Fruit",
-      "min_value_per_unit": 500.0,
-      "used_in": {
-        "palm_tree_lamp": {
-          "recipe_id": "palm_tree_lamp",
-          "value_per_unit": null
-        },
-        "coconut_juice": {
-          "recipe_id": "coconut_juice",
-          "value_per_unit": 500.0
-        }
-      }
+      "used_in": [
+        "palm_tree_lamp",
+        "coconut_juice"
+      ]
     },
     "yellow_pansies": {
       "name": "yellow pansies",
       "id": "yellow_pansies",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Pansies",
-      "min_value_per_unit": null,
-      "used_in": {
-        "pansy_table": {
-          "recipe_id": "pansy_table",
-          "value_per_unit": null
-        },
-        "pansy_wreath": {
-          "recipe_id": "pansy_wreath",
-          "value_per_unit": null
-        },
-        "pansy_crown": {
-          "recipe_id": "pansy_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "pansy_table",
+        "pansy_wreath",
+        "pansy_crown"
+      ]
     },
     "peach": {
       "name": "peach",
       "id": "peach",
       "url": "https://animalcrossing.fandom.com/wiki/Fruit",
-      "min_value_per_unit": 200.0,
-      "used_in": {
-        "peach_chair": {
-          "recipe_id": "peach_chair",
-          "value_per_unit": null
-        },
-        "peach_surprise_box": {
-          "recipe_id": "peach_surprise_box",
-          "value_per_unit": null
-        },
-        "peach_rug": {
-          "recipe_id": "peach_rug",
-          "value_per_unit": null
-        },
-        "peach_dress": {
-          "recipe_id": "peach_dress",
-          "value_per_unit": 200.0
-        }
-      }
+      "used_in": [
+        "peach_chair",
+        "peach_surprise_box",
+        "peach_rug",
+        "peach_dress"
+      ]
     },
     "pear": {
       "name": "pear",
       "id": "pear",
       "url": "https://animalcrossing.fandom.com/wiki/Fruit",
-      "min_value_per_unit": null,
-      "used_in": {
-        "pear_bed": {
-          "recipe_id": "pear_bed",
-          "value_per_unit": null
-        },
-        "pear_wardrobe": {
-          "recipe_id": "pear_wardrobe",
-          "value_per_unit": null
-        },
-        "pear_wall": {
-          "recipe_id": "pear_wall",
-          "value_per_unit": null
-        },
-        "pear_dress": {
-          "recipe_id": "pear_dress",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "pear_bed",
+        "pear_wardrobe",
+        "pear_wall",
+        "pear_dress"
+      ]
     },
     "18px": {
       "name": "18px",
       "id": "18px",
       "url": "https://animalcrossing.fandom.com/wiki/Special:Upload?wpDestFile=NH-Pisces_star_fragment-icon.png",
-      "min_value_per_unit": null,
-      "used_in": {
-        "pisces_lamp": {
-          "recipe_id": "pisces_lamp",
-          "value_per_unit": null
-        },
-        "taurus_bathtub": {
-          "recipe_id": "taurus_bathtub",
-          "value_per_unit": null
-        },
-        "pansy_wreath": {
-          "recipe_id": "pansy_wreath",
-          "value_per_unit": null
-        },
-        "pansy_crown": {
-          "recipe_id": "pansy_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "pisces_lamp",
+        "taurus_bathtub",
+        "pansy_wreath",
+        "pansy_crown"
+      ]
     },
     "pisces_fragment": {
       "name": "Pisces fragment",
       "id": "pisces_fragment",
       "url": "https://animalcrossing.fandom.com/wiki/Zodiac_star_fragment",
-      "min_value_per_unit": null,
-      "used_in": {
-        "pisces_lamp": {
-          "recipe_id": "pisces_lamp",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "pisces_lamp"
+      ]
     },
     "rusted_part": {
       "name": "rusted part",
       "id": "rusted_part",
       "url": "https://animalcrossing.fandom.com/wiki/Rusted_part",
-      "min_value_per_unit": null,
-      "used_in": {
-        "robot_hero": {
-          "recipe_id": "robot_hero",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "robot_hero"
+      ]
     },
     "red_roses": {
       "name": "red roses",
       "id": "red_roses",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#rose",
-      "min_value_per_unit": null,
-      "used_in": {
-        "rose_bed": {
-          "recipe_id": "rose_bed",
-          "value_per_unit": null
-        },
-        "rose_wreath": {
-          "recipe_id": "rose_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "rose_bed",
+        "rose_wreath"
+      ]
     },
     "giant_clam": {
       "name": "giant clam",
       "id": "giant_clam",
       "url": "https://animalcrossing.fandom.com/wiki/Shell",
-      "min_value_per_unit": 1800.0,
-      "used_in": {
-        "shell_bed": {
-          "recipe_id": "shell_bed",
-          "value_per_unit": null
-        },
-        "shell_fountain": {
-          "recipe_id": "shell_fountain",
-          "value_per_unit": null
-        },
-        "shell_lamp": {
-          "recipe_id": "shell_lamp",
-          "value_per_unit": null
-        },
-        "sandy_beach_flooring": {
-          "recipe_id": "sandy_beach_flooring",
-          "value_per_unit": null
-        },
-        "shell_rug": {
-          "recipe_id": "shell_rug",
-          "value_per_unit": 1800.0
-        }
-      }
+      "used_in": [
+        "shell_bed",
+        "shell_fountain",
+        "shell_lamp",
+        "sandy_beach_flooring",
+        "shell_rug"
+      ]
     },
     "venus_comb": {
       "name": "venus comb",
       "id": "venus_comb",
       "url": "https://animalcrossing.fandom.com/wiki/Shell",
-      "min_value_per_unit": null,
-      "used_in": {
-        "shell_partition": {
-          "recipe_id": "shell_partition",
-          "value_per_unit": null
-        },
-        "sandy_beach_flooring": {
-          "recipe_id": "sandy_beach_flooring",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "shell_partition",
+        "sandy_beach_flooring"
+      ]
     },
     "conch": {
       "name": "conch",
       "id": "conch",
       "url": "https://animalcrossing.fandom.com/wiki/Shell",
-      "min_value_per_unit": null,
-      "used_in": {
-        "shell_partition": {
-          "recipe_id": "shell_partition",
-          "value_per_unit": null
-        },
-        "shell_speaker": {
-          "recipe_id": "shell_speaker",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "shell_partition",
+        "shell_speaker"
+      ]
     },
     "cowries": {
       "name": "cowries",
       "id": "cowries",
       "url": "https://animalcrossing.fandom.com/wiki/Shell",
-      "min_value_per_unit": null,
-      "used_in": {
-        "shell_stool": {
-          "recipe_id": "shell_stool",
-          "value_per_unit": null
-        },
-        "sandy_beach_flooring": {
-          "recipe_id": "sandy_beach_flooring",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "shell_stool",
+        "sandy_beach_flooring"
+      ]
     },
     "taurus_fragment": {
       "name": "Taurus fragment",
       "id": "taurus_fragment",
       "url": "https://animalcrossing.fandom.com/wiki/Zodiac_star_fragment",
-      "min_value_per_unit": null,
-      "used_in": {
-        "taurus_bathtub": {
-          "recipe_id": "taurus_bathtub",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "taurus_bathtub"
+      ]
     },
     "book": {
       "name": "book",
       "id": "book",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "tiny_library": {
-          "recipe_id": "tiny_library",
-          "value_per_unit": null
-        },
-        "stack_of_books": {
-          "recipe_id": "stack_of_books",
-          "value_per_unit": null
-        },
-        "library_wall": {
-          "recipe_id": "library_wall",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "tiny_library",
+        "stack_of_books",
+        "library_wall"
+      ]
     },
     "old_tire": {
       "name": "old tire",
       "id": "old_tire",
       "url": "https://animalcrossing.fandom.com/wiki/Trash",
-      "min_value_per_unit": 20.0,
-      "used_in": {
-        "tire_stack": {
-          "recipe_id": "tire_stack",
-          "value_per_unit": 20.0
-        },
-        "tire_toy": {
-          "recipe_id": "tire_toy",
-          "value_per_unit": 20.0
-        },
-        "trash_bags": {
-          "recipe_id": "trash_bags",
-          "value_per_unit": null
-        },
-        "garbage_heap_flooring": {
-          "recipe_id": "garbage_heap_flooring",
-          "value_per_unit": null
-        },
-        "garbage_heap_wall": {
-          "recipe_id": "garbage_heap_wall",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "tire_stack",
+        "tire_toy",
+        "trash_bags",
+        "garbage_heap_flooring",
+        "garbage_heap_wall"
+      ]
     },
     "red_tulips": {
       "name": "red tulips",
       "id": "red_tulips",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Tulips",
-      "min_value_per_unit": null,
-      "used_in": {
-        "tulip_surprise_box": {
-          "recipe_id": "tulip_surprise_box",
-          "value_per_unit": null
-        },
-        "tulip_wreath": {
-          "recipe_id": "tulip_wreath",
-          "value_per_unit": null
-        },
-        "tulip_crown": {
-          "recipe_id": "tulip_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "tulip_surprise_box",
+        "tulip_wreath",
+        "tulip_crown"
+      ]
     },
     "bamboo_shoot": {
       "name": "bamboo shoot",
       "id": "bamboo_shoot",
       "url": "https://animalcrossing.fandom.com/wiki/Crafting_materials_(New_Horizons)",
-      "min_value_per_unit": null,
-      "used_in": {
-        "bamboo_shoot_lamp": {
-          "recipe_id": "bamboo_shoot_lamp",
-          "value_per_unit": null
-        },
-        "bamboo_grove_wall": {
-          "recipe_id": "bamboo_grove_wall",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "bamboo_shoot_lamp",
+        "bamboo_grove_wall"
+      ]
     },
     "purple_hyacinths": {
       "name": "purple hyacinths",
       "id": "purple_hyacinths",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Hyacinths",
-      "min_value_per_unit": null,
-      "used_in": {
-        "hyacinth_lamp": {
-          "recipe_id": "hyacinth_lamp",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "hyacinth_lamp"
+      ]
     },
     "lucky_cat": {
       "name": "Lucky cat",
       "id": "lucky_cat",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "lucky_gold_cat": {
-          "recipe_id": "lucky_gold_cat",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "lucky_gold_cat"
+      ]
     },
     "magazine": {
       "name": "magazine",
       "id": "magazine",
       "url": "https://animalcrossing.fandom.com/wiki/Magazine",
-      "min_value_per_unit": null,
-      "used_in": {
-        "magazine_rack": {
-          "recipe_id": "magazine_rack",
-          "value_per_unit": null
-        },
-        "manga_library_wall": {
-          "recipe_id": "manga_library_wall",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "magazine_rack",
+        "manga_library_wall"
+      ]
     },
     "empty_can": {
       "name": "empty can",
       "id": "empty_can",
       "url": "https://animalcrossing.fandom.com/wiki/Trash",
-      "min_value_per_unit": null,
-      "used_in": {
-        "recycled_can_thumb_piano": {
-          "recipe_id": "recycled_can_thumb_piano",
-          "value_per_unit": null
-        },
-        "succulent_plant": {
-          "recipe_id": "succulent_plant",
-          "value_per_unit": null
-        },
-        "trash_bags": {
-          "recipe_id": "trash_bags",
-          "value_per_unit": null
-        },
-        "garbage_heap_flooring": {
-          "recipe_id": "garbage_heap_flooring",
-          "value_per_unit": null
-        },
-        "garbage_heap_wall": {
-          "recipe_id": "garbage_heap_wall",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "recycled_can_thumb_piano",
+        "succulent_plant",
+        "trash_bags",
+        "garbage_heap_flooring",
+        "garbage_heap_wall"
+      ]
     },
     "boot": {
       "name": "boot",
       "id": "boot",
       "url": "https://animalcrossing.fandom.com/wiki/Trash",
-      "min_value_per_unit": 20.0,
-      "used_in": {
-        "trash_bags": {
-          "recipe_id": "trash_bags",
-          "value_per_unit": null
-        },
-        "garbage_heap_flooring": {
-          "recipe_id": "garbage_heap_flooring",
-          "value_per_unit": null
-        },
-        "garbage_heap_wall": {
-          "recipe_id": "garbage_heap_wall",
-          "value_per_unit": null
-        },
-        "recycled_boots": {
-          "recipe_id": "recycled_boots",
-          "value_per_unit": 20.0
-        }
-      }
+      "used_in": [
+        "trash_bags",
+        "garbage_heap_flooring",
+        "garbage_heap_wall",
+        "recycled_boots"
+      ]
     },
     "yellow_cosmos": {
       "name": "yellow cosmos",
       "id": "yellow_cosmos",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Cosmos",
-      "min_value_per_unit": null,
-      "used_in": {
-        "cosmos_wreath": {
-          "recipe_id": "cosmos_wreath",
-          "value_per_unit": null
-        },
-        "cosmos_crown": {
-          "recipe_id": "cosmos_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "cosmos_wreath",
+        "cosmos_crown"
+      ]
     },
     "white_cosmos": {
       "name": "white cosmos",
       "id": "white_cosmos",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Cosmos",
-      "min_value_per_unit": null,
-      "used_in": {
-        "cosmos_wreath": {
-          "recipe_id": "cosmos_wreath",
-          "value_per_unit": null
-        },
-        "cosmos_crown": {
-          "recipe_id": "cosmos_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "cosmos_wreath",
+        "cosmos_crown"
+      ]
     },
     "orange_rose": {
       "name": "orange rose",
       "id": "orange_rose",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "fancy_rose_wreath": {
-          "recipe_id": "fancy_rose_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "fancy_rose_wreath"
+      ]
     },
     "pink_roses": {
       "name": "pink roses",
       "id": "pink_roses",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "fancy_rose_wreath": {
-          "recipe_id": "fancy_rose_wreath",
-          "value_per_unit": null
-        },
-        "timber_doorplate": {
-          "recipe_id": "timber_doorplate",
-          "value_per_unit": null
-        },
-        "cute_rose_crown": {
-          "recipe_id": "cute_rose_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "fancy_rose_wreath",
+        "timber_doorplate",
+        "cute_rose_crown"
+      ]
     },
     "fossil": {
       "name": "fossil",
       "id": "fossil",
       "url": "https://animalcrossing.fandom.com/wiki/Fossil",
-      "min_value_per_unit": null,
-      "used_in": {
-        "fossil_doorplate": {
-          "recipe_id": "fossil_doorplate",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "fossil_doorplate"
+      ]
     },
     "red_hyacinths": {
       "name": "red hyacinths",
       "id": "red_hyacinths",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "hyacinth_wreath": {
-          "recipe_id": "hyacinth_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "hyacinth_wreath"
+      ]
     },
     "yellow_hyacinths": {
       "name": "yellow hyacinths",
       "id": "yellow_hyacinths",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "hyacinth_wreath": {
-          "recipe_id": "hyacinth_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "hyacinth_wreath"
+      ]
     },
     "red_lilies": {
       "name": "red lilies",
       "id": "red_lilies",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#lily",
-      "min_value_per_unit": null,
-      "used_in": {
-        "lily_wreath": {
-          "recipe_id": "lily_wreath",
-          "value_per_unit": null
-        },
-        "cute_lily_crown": {
-          "recipe_id": "cute_lily_crown",
-          "value_per_unit": null
-        },
-        "lily_crown": {
-          "recipe_id": "lily_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "lily_wreath",
+        "cute_lily_crown",
+        "lily_crown"
+      ]
     },
     "yellow_lilies": {
       "name": "yellow lilies",
       "id": "yellow_lilies",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#lily",
-      "min_value_per_unit": null,
-      "used_in": {
-        "lily_wreath": {
-          "recipe_id": "lily_wreath",
-          "value_per_unit": null
-        },
-        "lily_crown": {
-          "recipe_id": "lily_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "lily_wreath",
+        "lily_crown"
+      ]
     },
     "white_mums": {
       "name": "white mums",
       "id": "white_mums",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#mums",
-      "min_value_per_unit": null,
-      "used_in": {
-        "mum_wreath": {
-          "recipe_id": "mum_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "mum_wreath"
+      ]
     },
     "red_mums": {
       "name": "red mums",
       "id": "red_mums",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#mums",
-      "min_value_per_unit": null,
-      "used_in": {
-        "mum_wreath": {
-          "recipe_id": "mum_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "mum_wreath"
+      ]
     },
     "white_pansies": {
       "name": "white pansies",
       "id": "white_pansies",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Pansies",
-      "min_value_per_unit": null,
-      "used_in": {
-        "pansy_wreath": {
-          "recipe_id": "pansy_wreath",
-          "value_per_unit": null
-        },
-        "pansy_crown": {
-          "recipe_id": "pansy_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "pansy_wreath",
+        "pansy_crown"
+      ]
     },
     "red_pansies": {
       "name": "red pansies",
       "id": "red_pansies",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Pansies",
-      "min_value_per_unit": null,
-      "used_in": {
-        "pansy_wreath": {
-          "recipe_id": "pansy_wreath",
-          "value_per_unit": null
-        },
-        "pansy_crown": {
-          "recipe_id": "pansy_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "pansy_wreath",
+        "pansy_crown"
+      ]
     },
     "white_roses": {
       "name": "white roses",
       "id": "white_roses",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "rose_wreath": {
-          "recipe_id": "rose_wreath",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "rose_wreath"
+      ]
     },
     "yellow_tulips": {
       "name": "yellow tulips",
       "id": "yellow_tulips",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Tulips",
-      "min_value_per_unit": null,
-      "used_in": {
-        "tulip_wreath": {
-          "recipe_id": "tulip_wreath",
-          "value_per_unit": null
-        },
-        "tulip_crown": {
-          "recipe_id": "tulip_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "tulip_wreath",
+        "tulip_crown"
+      ]
     },
     "white_tulips": {
       "name": "white tulips",
       "id": "white_tulips",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Tulips",
-      "min_value_per_unit": null,
-      "used_in": {
-        "tulip_wreath": {
-          "recipe_id": "tulip_wreath",
-          "value_per_unit": null
-        },
-        "tulip_crown": {
-          "recipe_id": "tulip_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "tulip_wreath",
+        "tulip_crown"
+      ]
     },
     "red_windflowers": {
       "name": "red windflowers",
       "id": "red_windflowers",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Windflowers",
-      "min_value_per_unit": null,
-      "used_in": {
-        "windflower_wreath": {
-          "recipe_id": "windflower_wreath",
-          "value_per_unit": null
-        },
-        "windflower_crown": {
-          "recipe_id": "windflower_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "windflower_wreath",
+        "windflower_crown"
+      ]
     },
     "white_windflowers": {
       "name": "white windflowers",
       "id": "white_windflowers",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Windflowers",
-      "min_value_per_unit": null,
-      "used_in": {
-        "windflower_wreath": {
-          "recipe_id": "windflower_wreath",
-          "value_per_unit": null
-        },
-        "windflower_crown": {
-          "recipe_id": "windflower_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "windflower_wreath",
+        "windflower_crown"
+      ]
     },
     "orange_windflowers": {
       "name": "orange windflowers",
       "id": "orange_windflowers",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#Windflowers",
-      "min_value_per_unit": null,
-      "used_in": {
-        "windflower_wreath": {
-          "recipe_id": "windflower_wreath",
-          "value_per_unit": null
-        },
-        "windflower_crown": {
-          "recipe_id": "windflower_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "windflower_wreath",
+        "windflower_crown"
+      ]
     },
     "sea_snail": {
       "name": "sea snail",
       "id": "sea_snail",
       "url": "https://animalcrossing.fandom.com/wiki/Shell",
-      "min_value_per_unit": null,
-      "used_in": {
-        "sandy_beach_flooring": {
-          "recipe_id": "sandy_beach_flooring",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "sandy_beach_flooring"
+      ]
     },
     "sand_dollar": {
       "name": "sand dollar",
       "id": "sand_dollar",
       "url": "https://animalcrossing.fandom.com/wiki/Shell",
-      "min_value_per_unit": null,
-      "used_in": {
-        "sandy_beach_flooring": {
-          "recipe_id": "sandy_beach_flooring",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "sandy_beach_flooring"
+      ]
     },
     "coral": {
       "name": "coral",
       "id": "coral",
       "url": "https://animalcrossing.fandom.com/wiki/Shell",
-      "min_value_per_unit": null,
-      "used_in": {
-        "sandy_beach_flooring": {
-          "recipe_id": "sandy_beach_flooring",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "sandy_beach_flooring"
+      ]
     },
     "orange_pansies": {
       "name": "orange pansies",
       "id": "orange_pansies",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "cool_pansy_crown": {
-          "recipe_id": "cool_pansy_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "cool_pansy_crown"
+      ]
     },
     "blue_pansies": {
       "name": "blue pansies",
       "id": "blue_pansies",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "cool_pansy_crown": {
-          "recipe_id": "cool_pansy_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "cool_pansy_crown"
+      ]
     },
     "orange_lilies": {
       "name": "orange lilies",
       "id": "orange_lilies",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "cute_lily_crown": {
-          "recipe_id": "cute_lily_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "cute_lily_crown"
+      ]
     },
     "orange_roses": {
       "name": "orange roses",
       "id": "orange_roses",
       "url": null,
-      "min_value_per_unit": null,
-      "used_in": {
-        "cute_rose_crown": {
-          "recipe_id": "cute_rose_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "cute_rose_crown"
+      ]
     },
     "red_rose": {
       "name": "red rose",
       "id": "red_rose",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#roses",
-      "min_value_per_unit": null,
-      "used_in": {
-        "rose_crown": {
-          "recipe_id": "rose_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "rose_crown"
+      ]
     },
     "yellow_rose": {
       "name": "yellow rose",
       "id": "yellow_rose",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#roses",
-      "min_value_per_unit": null,
-      "used_in": {
-        "rose_crown": {
-          "recipe_id": "rose_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "rose_crown"
+      ]
     },
     "white_rose": {
       "name": "white rose",
       "id": "white_rose",
       "url": "https://animalcrossing.fandom.com/wiki/Flower#roses",
-      "min_value_per_unit": null,
-      "used_in": {
-        "rose_crown": {
-          "recipe_id": "rose_crown",
-          "value_per_unit": null
-        }
-      }
+      "used_in": [
+        "rose_crown"
+      ]
     },
     "manila_clam": {
       "name": "manila clam",
       "id": "manila_clam",
       "url": "https://animalcrossing.fandom.com/wiki/Manila_clam",
-      "min_value_per_unit": 200.0,
-      "used_in": {
-        "fish_bait": {
-          "recipe_id": "fish_bait",
-          "value_per_unit": 200.0
-        }
-      }
+      "used_in": [
+        "fish_bait"
+      ]
     }
   }
 }

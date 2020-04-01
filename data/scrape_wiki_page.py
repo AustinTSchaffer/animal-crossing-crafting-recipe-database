@@ -4,6 +4,7 @@ import json
 import re
 
 import bs4
+import numpy as np
 
 
 # WIKI_PAGE = 'https://animalcrossing.fandom.com/wiki/DIY_recipes'
@@ -281,63 +282,19 @@ def generate_raw_materials_table(recipes: dict) -> dict:
                 if (not p2) and p1:
                     duplicate_raw_material[property_name] = p1
 
-            value_per_unit = (
-                recipe['sell_price'] / recipe['raw_materials'][raw_material_id]['quantity']
-                if len(recipe['raw_materials']) == 1 and recipe['sell_price'] else
-                None
-            )
-
-            used_in_record = {
-                'recipe_id': recipe['id'],
-                'value_per_unit': value_per_unit,
-            }
-
             if duplicate_raw_material:
-                min_v_p_u = duplicate_raw_material['min_value_per_unit']
-                min_v_p_u = (
-                    value_per_unit
-                    if not min_v_p_u else
-                    min(min_v_p_u, value_per_unit)
-                    if value_per_unit else
-                    min_v_p_u
-                )
-
                 _reconcile_property('url')
-                duplicate_raw_material['used_in'][recipe['id']] = used_in_record
-                duplicate_raw_material['min_value_per_unit'] = min_v_p_u
+                duplicate_raw_material['used_in'].append(recipe['id'])
 
             else:
                 raw_materials[raw_material_id] = {
                     'name': raw_material['name'],
                     'id': raw_material['id'],
                     'url': raw_material['url'],
-                    'min_value_per_unit': value_per_unit,
-                    'used_in': {recipe['id']: used_in_record},
+                    'used_in': [recipe['id']],
                 }
 
     return raw_materials
-
-
-def calculate_prices_per_units(recipes: dict, raw_materials: dict):
-    """
-    Performs in-place operations on the `raw_materials` table, calculating
-    the remaining `price_per_unit` based on available information.
-    """
-
-    # TODO: this.
-
-    pass
-
-
-def calculate_minimum_estimated_prices(recipes: dict, raw_materials: dict):
-    """
-    Performs in-place operations on the `recipes` table, calculating
-    the `minimum_estimated_sell_price` based on available information.
-    """
-
-    # TODO: this.
-
-    pass
 
 
 if __name__ == '__main__':
@@ -348,12 +305,6 @@ if __name__ == '__main__':
     calculate_generated_recipe_properties(recipes)
 
     raw_materials = generate_raw_materials_table(recipes)
-
-    calculate_prices_per_units(recipes, raw_materials)
-    calculate_minimum_estimated_prices(recipes, raw_materials)
-
-    # TODO: Look for recipes whose sell prices are greater than the
-    #       estimated_sell_price, because that's where the $$$ is.
 
     data = {
         'recipes': recipes,
