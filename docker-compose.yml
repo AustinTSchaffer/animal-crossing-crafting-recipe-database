@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  graphql:
+    image: austintschaffer/acno-recipes-graphql
+    build:
+      context: ./graphql-backend/
+    ports:
+      - 8000:8000
