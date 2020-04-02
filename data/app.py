@@ -39,15 +39,19 @@ def load_html_page(page: str) -> str:
     Loads a string containing the HTML representation of the requested page.
     """
 
+    print("Downloading:", page)
+
     options = selenium.webdriver.firefox.options.Options()
     options.headless = True
     driver = selenium.webdriver.Firefox(options=options)
     driver.get(page)
     page_contents = None
     while not page_contents:
+        print("Checking on download status...")
         driver.implicitly_wait(1)
         page_contents = driver.page_source
 
+    print("Waiting an additional 5 seconds...")
     driver.implicitly_wait(5)
     page_contents = driver.page_source
 
