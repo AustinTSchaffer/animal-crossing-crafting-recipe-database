@@ -323,8 +323,8 @@ def calculate_generated_recipe_properties(recipes: dict) -> dict:
 
             else:
                 _add_raw_material(material)
-    
-        recipe['depends_on'] = list(recipe['depends_on'])
+
+        recipe['depends_on'] = sorted(list(recipe['depends_on']))
 
     for _, recipe in recipes.items():
         adjust_recipe(recipe)
@@ -384,6 +384,9 @@ def generate_raw_materials_table(recipes: dict, raw_materials: list) -> dict:
                         None
                     ),
                 }
+
+    for raw_material in raw_materials.values():
+        raw_material['used_in'] = sorted(raw_material['used_in'])
 
     return raw_materials
 
