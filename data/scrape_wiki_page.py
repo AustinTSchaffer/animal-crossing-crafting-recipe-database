@@ -142,7 +142,7 @@ def scrape_recipes_from_html_doc(page_contents: str) -> list:
                 current_node = current_node.previous_sibling
 
             try:
-                material['quantity'] = int(current_node.strip().strip('x'))
+                material['quantity'] = int(re.sub(r'[^\d]', '', current_node))
             except:
                 print(f'WARNING: Issue occurred while scraping quantity of {material} for {recipe}')
                 material['quantity'] = 1
@@ -387,7 +387,10 @@ def generate_raw_materials_table(recipes: dict, raw_materials: list) -> dict:
                     'url': raw_material['url'],
                     'image_url': None,
                     'used_in': [recipe['id']],
-                    'sell_price': None
+                    'sell_price': (
+                        1 if raw_material['id'] == 'bells' else
+                        None
+                    ),
                 }
 
     return raw_materials

@@ -119,8 +119,8 @@
       "sell_price": 625,
       "total_crafting_steps": 2,
       "depends_on": [
-        "axe",
-        "flimsy_axe"
+        "flimsy_axe",
+        "axe"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -173,9 +173,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "axe",
         "flimsy_axe",
-        "golden_axe"
+        "golden_axe",
+        "axe"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -263,8 +263,8 @@
       "sell_price": 600,
       "total_crafting_steps": 2,
       "depends_on": [
-        "shovel",
-        "flimsy_shovel"
+        "flimsy_shovel",
+        "shovel"
       ],
       "raw_materials": {
         "hardwood": {
@@ -305,9 +305,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "golden_shovel",
+        "flimsy_shovel",
         "shovel",
-        "flimsy_shovel"
+        "golden_shovel"
       ],
       "raw_materials": {
         "hardwood": {
@@ -425,9 +425,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
+        "golden_rod",
         "fishing_rod",
-        "flimsy_fishing_rod",
-        "golden_rod"
+        "flimsy_fishing_rod"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -545,9 +545,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "golden_net",
         "net",
-        "flimsy_net"
+        "flimsy_net",
+        "golden_net"
       ],
       "raw_materials": {
         "tree_branch": {
@@ -665,8 +665,8 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "flimsy_watering_can",
         "golden_watering_can",
+        "flimsy_watering_can",
         "watering_can"
       ],
       "raw_materials": {
@@ -743,8 +743,8 @@
       "sell_price": null,
       "total_crafting_steps": 2,
       "depends_on": [
-        "golden_slingshot",
-        "slingshot"
+        "slingshot",
+        "golden_slingshot"
       ],
       "raw_materials": {
         "hardwood": {
@@ -2022,8 +2022,8 @@
       "total_crafting_steps": 3,
       "depends_on": [
         "bonsai_shelf",
-        "cherry_blossom_bonsai",
-        "pine_bonsai_tree"
+        "pine_bonsai_tree",
+        "cherry_blossom_bonsai"
       ],
       "raw_materials": {
         "cherry_blossom_petal": {
@@ -4403,9 +4403,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "ironwood_dresser",
+        "cutting_board",
         "ironwood_kitchenette",
-        "cutting_board"
+        "ironwood_dresser"
       ],
       "raw_materials": {
         "wood": {
@@ -4569,8 +4569,8 @@
       "sell_price": 6270,
       "total_crafting_steps": 2,
       "depends_on": [
-        "kettle_bathtub",
-        "campfire"
+        "campfire",
+        "kettle_bathtub"
       ],
       "raw_materials": {
         "iron_nugget": {
@@ -4825,8 +4825,8 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
-        "log_decorative_shelves",
-        "log_bench"
+        "log_bench",
+        "log_decorative_shelves"
       ],
       "raw_materials": {
         "hardwood": {
@@ -5665,9 +5665,9 @@
       "sell_price": 4350,
       "total_crafting_steps": 3,
       "depends_on": [
-        "shovel",
         "flimsy_shovel",
-        "outdoor_bath"
+        "outdoor_bath",
+        "shovel"
       ],
       "raw_materials": {
         "stone": {
@@ -6225,9 +6225,9 @@
       "sell_price": null,
       "total_crafting_steps": 3,
       "depends_on": [
+        "rocket",
         "robot_hero",
-        "gold_armor",
-        "rocket"
+        "gold_armor"
       ],
       "raw_materials": {
         "gold_nugget": {
@@ -6503,8 +6503,8 @@
       "sell_price": 400,
       "total_crafting_steps": 3,
       "depends_on": [
-        "scattered_papers",
-        "document_stack"
+        "document_stack",
+        "scattered_papers"
       ],
       "raw_materials": {}
     },
@@ -8064,8 +8064,8 @@
       "sell_price": 2400,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_bed",
-        "wooden_block_toy"
+        "wooden_block_toy",
+        "wooden_block_bed"
       ],
       "raw_materials": {
         "softwood": {
@@ -8172,8 +8172,8 @@
       "sell_price": 1800,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_chest",
-        "wooden_block_toy"
+        "wooden_block_toy",
+        "wooden_block_chest"
       ],
       "raw_materials": {
         "softwood": {
@@ -12098,8 +12098,8 @@
       "sell_price": 1350,
       "total_crafting_steps": 2,
       "depends_on": [
-        "wooden_block_wall_clock",
-        "wooden_block_toy"
+        "wooden_block_toy",
+        "wooden_block_wall_clock"
       ],
       "raw_materials": {
         "softwood": {
@@ -13220,7 +13220,7 @@
           "name": "Bells",
           "id": "bells",
           "url": "https://animalcrossing.fandom.com/wiki/Bells",
-          "quantity": 1
+          "quantity": 50000
         }
       ],
       "source": "",
@@ -13234,7 +13234,7 @@
           "name": "Bells",
           "id": "bells",
           "url": "https://animalcrossing.fandom.com/wiki/Bells",
-          "quantity": 1
+          "quantity": 50000
         }
       }
     },
@@ -18788,7 +18788,7 @@
       "used_in": [
         "money_flooring"
       ],
-      "sell_price": null
+      "sell_price": 1
     },
     "purple_mums": {
       "name": "purple mums",
