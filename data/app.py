@@ -5,8 +5,9 @@ import re
 
 import bs4
 import selenium.webdriver
+import selenium.webdriver.support.expected_conditions
 
-
+WIKI_BASE_URL = 'https://animalcrossing.fandom.com'
 WIKI_PAGE_DIY_RECIPES = 'https://animalcrossing.fandom.com/wiki/DIY_recipes'
 WIKI_PAGE_CRAFTING_MATERIALS = 'https://animalcrossing.fandom.com/wiki/Crafting_materials_(New_Horizons)'
 
@@ -43,20 +44,12 @@ def load_html_page(page: str) -> str:
 
     options = selenium.webdriver.firefox.options.Options()
     options.headless = True
-    driver = selenium.webdriver.Firefox(options=options)
-    driver.get(page)
-    page_contents = None
-    while not page_contents:
-        print("Checking on download status...")
-        driver.implicitly_wait(1)
-        page_contents = driver.page_source
+    browser = selenium.webdriver.Firefox(options=options)
+    browser.get(page)
 
-    print("Waiting an additional 5 seconds...")
-    driver.implicitly_wait(5)
-    page_contents = driver.page_source
-
-    print('Page:', page, 'Source Length:', len(driver.page_source))
-    return driver.page_source
+    page_contents = browser.page_source
+    print('Page:', page, 'Source Length:', len(page_contents))
+    return page_contents
 
 
 def scrape_recipes_from_html_doc(page_contents: str) -> list:
@@ -111,13 +104,13 @@ def scrape_recipes_from_html_doc(page_contents: str) -> list:
             []
         )
 
-        recipe['url'] = (
+        recipe['uri'] = (
             recipe_name_a.attrs.get('href', None)
             if recipe_name_a else
             None
         )
 
-        recipe['has_page'] = bool(recipe['url']) and ('new' not in recipe_url_class)
+        recipe['has_page'] = bool(recipe['uri']) and ('new' not in recipe_url_class)
 
         recipe_image_a = recipe_image_cell.find('a')
         recipe['image_url'] = (
@@ -134,7 +127,7 @@ def scrape_recipes_from_html_doc(page_contents: str) -> list:
             materials.append(material)
             material['name'] = material_a.text.strip()
             material['id'] = convert_name_to_id(material['name'])
-            material['url'] = material_a.attrs.get('href', None)
+            material['uri'] = material_a.attrs.get('href', None)
 
             current_node = material_a
             while current_node and not isinstance(current_node, str):
@@ -201,13 +194,13 @@ def scrape_raw_materials_from_html_doc(page_contents: str) -> list:
             []
         )
 
-        raw_material['url'] = (
+        raw_material['uri'] = (
             name_a.attrs.get('href', None)
             if name_a else
             None
         )
 
-        raw_material['has_page'] = bool(raw_material['url']) and ('new' not in url_class)
+        raw_material['has_page'] = bool(raw_material['uri']) and ('new' not in url_class)
 
         image_a = image_cell.find('a')
 
@@ -263,9 +256,9 @@ def generate_recipe_table_from_recipe_list(recipes: list) -> dict:
 
             if not duplicate_recipe['has_page'] and recipe['has_page']:
                 duplicate_recipe['has_page'] = True
-                duplicate_recipe['url'] = recipe['url']
+                duplicate_recipe['uri'] = recipe['uri']
             elif duplicate_recipe['has_page'] and recipe['has_page']:
-                _reconcile_property('url')
+                _reconcile_property('uri')
 
         else:
             recipe_id_map[recipe['id']] = recipe
@@ -305,7 +298,7 @@ def calculate_generated_recipe_properties(recipes: dict) -> dict:
                 {
                     'name': material['name'],
                     'id': material['id'],
-                    'url': material['url'],
+                    'uri': material['uri'],
                     'quantity': 0,
                 }
             )
@@ -349,7 +342,7 @@ def generate_raw_materials_table(recipes: dict, raw_materials: list) -> dict:
         raw_material['id']: {
             'name': raw_material['name'],
             'id': raw_material['id'],
-            'url': raw_material['url'],
+            'uri': raw_material['uri'],
             'image_url': raw_material['image_url'],
             'used_in': [],
             'sell_price': raw_material['sell_price']
@@ -376,14 +369,14 @@ def generate_raw_materials_table(recipes: dict, raw_materials: list) -> dict:
                     raw_material[property_name] = p2
 
             if duplicate_raw_material:
-                _reconcile_property('url')
+                _reconcile_property('uri')
                 duplicate_raw_material['used_in'].append(recipe['id'])
 
             else:
                 raw_materials[raw_material_id] = {
                     'name': raw_material['name'],
                     'id': raw_material['id'],
-                    'url': raw_material['url'],
+                    'uri': raw_material['uri'],
                     'image_url': None,
                     'used_in': [recipe['id']],
                     'sell_price': (
@@ -407,6 +400,7 @@ if __name__ == '__main__':
     raw_materials = generate_raw_materials_table(recipes, raw_materials)
 
     data = {
+        'wiki_base_url': WIKI_BASE_URL,
         'recipes': recipes,
         'raw_materials': raw_materials,
     }
