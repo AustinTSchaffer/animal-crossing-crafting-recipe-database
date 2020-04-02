@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  webscraper:
+    image: austintschaffer/acno-recipes-webscraper
+    build:
+      context: .
+    volumes:
+      - ./diy_recipes.json:/diy_recipes.json
+    shm_size: '2gb'
