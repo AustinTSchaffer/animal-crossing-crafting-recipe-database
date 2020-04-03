@@ -1247,8 +1247,8 @@
     "angled_signpost": {
       "name": "Angled signpost",
       "id": "angled_signpost",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Angled_signpost",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f6/NH-Angled_signpost.png/revision/latest?cb=20200331055619",
       "materials": [],
       "source": "",
@@ -1573,14 +1573,40 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f2/NH-Bamboo_partition.png/revision/latest?cb=20200327115702",
-      "materials": [],
-      "source": "",
-      "sell_price": null,
+      "materials": [
+        {
+          "name": "bamboo piece",
+          "id": "bamboo_piece",
+          "uri": "/wiki/Bamboo_piece",
+          "quantity": 7
+        },
+        {
+          "name": "stone",
+          "id": "stone",
+          "uri": "/wiki/Stone",
+          "quantity": 6
+        }
+      ],
+      "source": "Balloon",
+      "sell_price": 2020,
       "total_crafting_steps": 1,
       "depends_on": [
         "bamboo_partition"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "bamboo_piece": {
+          "name": "bamboo piece",
+          "id": "bamboo_piece",
+          "uri": "/wiki/Bamboo_piece",
+          "quantity": 7
+        },
+        "stone": {
+          "name": "stone",
+          "id": "stone",
+          "uri": "/wiki/Stone",
+          "quantity": 6
+        }
+      }
     },
     "bamboo_shelf": {
       "name": "Bamboo shelf",
@@ -1696,7 +1722,7 @@
         }
       ],
       "source": "Island resident",
-      "sell_price": null,
+      "sell_price": 480,
       "total_crafting_steps": 1,
       "depends_on": [
         "bamboo_stopblock"
@@ -1713,8 +1739,8 @@
     "barbell": {
       "name": "Barbell",
       "id": "barbell",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Barbell",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/71/NH-Barbell.png/revision/latest?cb=20200326033047",
       "materials": [
         {
@@ -1742,8 +1768,8 @@
     "barrel": {
       "name": "Barrel",
       "id": "barrel",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Barrel",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Barrel.png/revision/latest?cb=20200325181515",
       "materials": [
         {
@@ -2172,6 +2198,21 @@
         }
       }
     },
+    "bunny_day_arch": {
+      "name": "Bunny Day arch",
+      "id": "bunny_day_arch",
+      "uri": null,
+      "has_page": false,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Bunny_Day_arch.png/revision/latest?cb=20200403095251",
+      "materials": [],
+      "source": "Bunny Day",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "bunny_day_arch"
+      ],
+      "raw_materials": {}
+    },
     "bunny_day_bed": {
       "name": "Bunny Day bed",
       "id": "bunny_day_bed",
@@ -2314,35 +2355,6 @@
         }
       }
     },
-    "bunny_day_lamp": {
-      "name": "Bunny Day lamp",
-      "id": "bunny_day_lamp",
-      "uri": null,
-      "has_page": false,
-      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Bunny_Day_lamp.png/revision/latest?cb=20200402000212",
-      "materials": [
-        {
-          "name": "wood egg",
-          "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
-          "quantity": 4
-        }
-      ],
-      "source": "Bunny Day",
-      "sell_price": 1600,
-      "total_crafting_steps": 1,
-      "depends_on": [
-        "bunny_day_lamp"
-      ],
-      "raw_materials": {
-        "wood_egg": {
-          "name": "wood egg",
-          "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
-          "quantity": 4
-        }
-      }
-    },
     "bunny_day_merry_balloons": {
       "name": "Bunny Day merry balloons",
       "id": "bunny_day_merry_balloons",
@@ -2430,7 +2442,7 @@
       "id": "bunny_day_table",
       "uri": null,
       "has_page": false,
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Bunny_Day_table.png/revision/latest?cb=20200403093651",
       "materials": [
         {
           "name": "earth egg",
@@ -2440,7 +2452,7 @@
         }
       ],
       "source": "Bunny Day",
-      "sell_price": null,
+      "sell_price": 1600,
       "total_crafting_steps": 1,
       "depends_on": [
         "bunny_day_table"
@@ -2489,14 +2501,28 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Bunny_Day_wardrobe.png/revision/latest?cb=20200402124712",
-      "materials": [],
+      "materials": [
+        {
+          "name": "stone egg",
+          "id": "stone_egg",
+          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "quantity": 4
+        }
+      ],
       "source": "Bunny Day",
-      "sell_price": null,
+      "sell_price": 1600,
       "total_crafting_steps": 1,
       "depends_on": [
         "bunny_day_wardrobe"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "stone_egg": {
+          "name": "stone egg",
+          "id": "stone_egg",
+          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "quantity": 4
+        }
+      }
     },
     "butter_churn": {
       "name": "Butter churn",
@@ -2775,7 +2801,7 @@
       "id": "cherry_blossom_petal_pile",
       "uri": null,
       "has_page": false,
-      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Cherry-blossom_petal_pile.png/revision/latest?cb=20200329082246",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Cherry-blossom-petal_pile.png/revision/latest?cb=20200403040315",
       "materials": [
         {
           "name": "cherry-blossom petal",
@@ -3727,7 +3753,7 @@
           "name": "clump of weeds",
           "id": "clump_of_weeds",
           "uri": "/wiki/Clump_of_weeds",
-          "quantity": 10
+          "quantity": 20
         }
       ],
       "source": "Unlocked when Tom Nook gives you your first recipes?",
@@ -3741,7 +3767,7 @@
           "name": "clump of weeds",
           "id": "clump_of_weeds",
           "uri": "/wiki/Clump_of_weeds",
-          "quantity": 10
+          "quantity": 20
         }
       }
     },
@@ -5694,8 +5720,8 @@
     "outdoor_picnic_set": {
       "name": "Outdoor picnic set",
       "id": "outdoor_picnic_set",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Outdoor_picnic_set",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Outdoor_picnic_set.png/revision/latest?cb=20200326102847",
       "materials": [
         {
@@ -6286,7 +6312,7 @@
           "quantity": 5
         }
       ],
-      "source": "Tom Nook",
+      "source": "Test Your DIY Skills",
       "sell_price": 960,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -8025,7 +8051,7 @@
           "quantity": 3
         }
       ],
-      "source": "Tom Nook",
+      "source": "Test Your DIY Skills",
       "sell_price": 720,
       "total_crafting_steps": 2,
       "depends_on": [
@@ -8133,7 +8159,7 @@
           "quantity": 3
         }
       ],
-      "source": "Tom Nook after receiving first three housing kits",
+      "source": "Tom Nook after receiving first three housing kits\nTest Your DIY Skills",
       "sell_price": 720,
       "total_crafting_steps": 2,
       "depends_on": [
@@ -8980,6 +9006,35 @@
           "name": "clay",
           "id": "clay",
           "uri": "/wiki/Clay_(crafting_material)",
+          "quantity": 4
+        }
+      }
+    },
+    "bunny_day_lamp": {
+      "name": "Bunny Day lamp",
+      "id": "bunny_day_lamp",
+      "uri": null,
+      "has_page": false,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Bunny_Day_lamp.png/revision/latest?cb=20200402000212",
+      "materials": [
+        {
+          "name": "wood egg",
+          "id": "wood_egg",
+          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "quantity": 4
+        }
+      ],
+      "source": "Bunny Day",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "bunny_day_lamp"
+      ],
+      "raw_materials": {
+        "wood_egg": {
+          "name": "wood egg",
+          "id": "wood_egg",
+          "uri": "/wiki/Bunny_Day#In_New_Horizons",
           "quantity": 4
         }
       }
@@ -10493,7 +10548,7 @@
         }
       ],
       "source": "Island resident",
-      "sell_price": null,
+      "sell_price": 360,
       "total_crafting_steps": 1,
       "depends_on": [
         "bone_doorplate"
@@ -12404,7 +12459,7 @@
         }
       ],
       "source": "Message in a bottle",
-      "sell_price": null,
+      "sell_price": 1800,
       "total_crafting_steps": 1,
       "depends_on": [
         "brown_herringbone_wall"
@@ -17480,6 +17535,7 @@
       "used_in": [
         "aries_rocking_chair",
         "axe",
+        "bamboo_partition",
         "basement_flooring",
         "birdbath",
         "deer_scare",
@@ -17716,6 +17772,7 @@
         "bamboo_flooring",
         "bamboo_lattice_fence_x10",
         "bamboo_lunch_box",
+        "bamboo_partition",
         "bamboo_shelf",
         "bamboo_speaker",
         "bamboo_sphere",
@@ -17820,7 +17877,7 @@
     "flowers": {
       "name": "Flowers",
       "id": "flowers",
-      "uri": null,
+      "uri": "/wiki/Flowers",
       "image_url": null,
       "used_in": [],
       "sell_price": null
@@ -17908,7 +17965,7 @@
     "misc_clothing": {
       "name": "Misc. Clothing",
       "id": "misc_clothing",
-      "uri": null,
+      "uri": "/wiki/Clothes",
       "image_url": null,
       "used_in": [],
       "sell_price": null
@@ -17916,7 +17973,7 @@
     "misc_furniture": {
       "name": "Misc. Furniture",
       "id": "misc_furniture",
-      "uri": null,
+      "uri": "/wiki/Furniture",
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Furniture-icon.png/revision/latest?cb=20200324081831",
       "used_in": [],
       "sell_price": null
@@ -17924,7 +17981,7 @@
     "misc_tools": {
       "name": "Misc. Tools",
       "id": "misc_tools",
-      "uri": null,
+      "uri": "/wiki/Tools_(New_Horizons)",
       "image_url": null,
       "used_in": [],
       "sell_price": null
@@ -18109,6 +18166,7 @@
         "bunny_day_glowy_garland",
         "bunny_day_rug",
         "bunny_day_wall",
+        "bunny_day_wardrobe",
         "bunny_day_wreath",
         "stone_egg_outfit",
         "stone_egg_shell",
