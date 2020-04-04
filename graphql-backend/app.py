@@ -63,12 +63,19 @@ class Recipe(graphene.ObjectType):
 
 def get_raw_material(raw_material_id: str) -> RawMaterial:
     raw_material = RAW_MATERIALS[raw_material_id]
+    return convert_raw_material(raw_material)
+
+
+def convert_raw_material(raw_material: dict) -> RawMaterial:
     return RawMaterial(**raw_material)
 
 
 def get_recipe(recipe_id: str) -> Recipe:
     recipe = RECIPES[recipe_id]
+    return convert_recipe(recipe)
 
+
+def convert_recipe(recipe: dict) -> Recipe:
     materials = [
         Recipe.MaterialRef(**material)
         for material in recipe['materials']
@@ -107,13 +114,13 @@ class Query(graphene.ObjectType):
         return get_raw_material(id)
 
     def resolve_raw_materials(self, info):
-        return list(map(get_raw_material, RAW_MATERIALS))
+        return list(map(convert_raw_material, RAW_MATERIALS.values()))
 
     def resolve_recipe(self, info, id):
         return get_recipe(id)
 
     def resolve_recipes(self, info):
-        return list(map(get_recipe, RECIPES))
+        return list(map(convert_recipe, RECIPES.values()))
 
 schema = graphene.Schema(query=Query)
 
