@@ -18,7 +18,6 @@ RAW_MATERIALS = RECIPE_DATA['raw_materials']
 WIKI_BASE_URL = RECIPE_DATA['wiki_base_url']
 
 
-def convert_raw_material()
 class RawMaterial(graphene.ObjectType):
     id = graphene.ID()
     name = graphene.String()
