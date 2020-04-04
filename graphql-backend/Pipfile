@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+graphene = "<3,>=2.0"
+Flask-GraphQL = "<3,>=2"
+Flask = ">=0.7,<1"
+
+[requires]
+python_version = "3.7"

@@ -5,8 +5,9 @@ LABEL maintainer="Austin Schaffer <schaffer.austin.t@gmail.com>"
 EXPOSE 8000
 RUN pip install 'gunicorn>=20,<21'
 
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+RUN pip install pipenv
+COPY Pipfile* ./
+RUN pipenv install --deploy --system
 
 COPY app.py app.py
 COPY data data
