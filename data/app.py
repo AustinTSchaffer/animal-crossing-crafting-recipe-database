@@ -8,7 +8,17 @@ import selenium.webdriver
 import selenium.webdriver.support.expected_conditions
 
 WIKI_BASE_URL = 'https://animalcrossing.fandom.com'
-WIKI_PAGE_DIY_RECIPES = 'https://animalcrossing.fandom.com/wiki/DIY_recipes'
+WIKI_PAGES_DIY_RECIPES = [
+    'https://animalcrossing.fandom.com/wiki/DIY_recipes',
+    'https://animalcrossing.fandom.com/wiki/DIY_recipes/Tools',
+    'https://animalcrossing.fandom.com/wiki/DIY_recipes/Housewares',
+    'https://animalcrossing.fandom.com/wiki/DIY_recipes/Miscellaneous',
+    'https://animalcrossing.fandom.com/wiki/DIY_recipes/Wall-mounted',
+    'https://animalcrossing.fandom.com/wiki/DIY_recipes/Wallpaper,_rugs_and_flooring',
+    'https://animalcrossing.fandom.com/wiki/DIY_recipes/Equipment',
+    'https://animalcrossing.fandom.com/wiki/DIY_recipes/Other',
+]
+
 WIKI_PAGE_CRAFTING_MATERIALS = 'https://animalcrossing.fandom.com/wiki/Crafting_materials_(New_Horizons)'
 
 FILE_LOCATION = os.path.dirname(__file__)
@@ -392,8 +402,12 @@ def generate_raw_materials_table(recipes: dict, raw_materials: list) -> dict:
 
 
 if __name__ == '__main__':
-    recipes_html_contents = load_html_page(WIKI_PAGE_DIY_RECIPES)
-    recipes = scrape_recipes_from_html_doc(recipes_html_contents)
+    recipes = []
+
+    for URL in WIKI_PAGES_DIY_RECIPES:
+        recipes_html_contents = load_html_page(URL)
+        recipes += scrape_recipes_from_html_doc(recipes_html_contents)
+
     recipes = generate_recipe_table_from_recipe_list(recipes)
 
     calculate_generated_recipe_properties(recipes)
