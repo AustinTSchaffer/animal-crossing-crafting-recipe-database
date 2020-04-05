@@ -740,8 +740,8 @@
           "quantity": 1
         }
       ],
-      "source": "Shoot balloons 300 times",
-      "sell_price": null,
+      "source": "Shoot down 300 balloons; Recipe will be in a golden balloon the following day",
+      "sell_price": 10300,
       "total_crafting_steps": 2,
       "depends_on": [
         "golden_slingshot",
@@ -942,7 +942,7 @@
       "raw_materials": {}
     },
     "cherry_blossom_wand": {
-      "name": "Cherry blossom wand",
+      "name": "Cherry-blossom wand",
       "id": "cherry_blossom_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
@@ -983,7 +983,7 @@
       }
     },
     "cosmos_wand": {
-      "name": "Cosmos wand(?)",
+      "name": "Cosmos wand",
       "id": "cosmos_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
@@ -998,7 +998,7 @@
       "raw_materials": {}
     },
     "hyacinth_wand": {
-      "name": "Hyacinth wand(?)",
+      "name": "Hyacinth wand",
       "id": "hyacinth_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
@@ -1013,7 +1013,7 @@
       "raw_materials": {}
     },
     "lily_wand": {
-      "name": "Lily wand(?)",
+      "name": "Lily wand",
       "id": "lily_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
@@ -1027,9 +1027,9 @@
       ],
       "raw_materials": {}
     },
-    "mum_wand": {
-      "name": "Mum wand(?)",
-      "id": "mum_wand",
+    "mums_wand": {
+      "name": "Mums wand",
+      "id": "mums_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/81/NH-Mum_wand.png/revision/latest?cb=20200330011129",
@@ -1038,12 +1038,12 @@
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
-        "mum_wand"
+        "mums_wand"
       ],
       "raw_materials": {}
     },
     "rose_wand": {
-      "name": "Rose wand(?)",
+      "name": "Rose wand",
       "id": "rose_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
@@ -1058,22 +1058,48 @@
       "raw_materials": {}
     },
     "tulip_wand": {
-      "name": "Tulip wand(?)",
+      "name": "Tulip wand",
       "id": "tulip_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3d/NH-Tulip_wand.png/revision/latest?cb=20200330011142",
-      "materials": [],
-      "source": "",
+      "materials": [
+        {
+          "name": "red tulips",
+          "id": "red_tulips",
+          "uri": "/wiki/Flower#Tulips",
+          "quantity": 1
+        },
+        {
+          "name": "star fragment",
+          "id": "star_fragment",
+          "uri": "/wiki/Star_fragment",
+          "quantity": 3
+        }
+      ],
+      "source": "Balloon",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "tulip_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "red_tulips": {
+          "name": "red tulips",
+          "id": "red_tulips",
+          "uri": "/wiki/Flower#Tulips",
+          "quantity": 1
+        },
+        "star_fragment": {
+          "name": "star fragment",
+          "id": "star_fragment",
+          "uri": "/wiki/Star_fragment",
+          "quantity": 3
+        }
+      }
     },
     "windflower_wand": {
-      "name": "Windflower wand(?)",
+      "name": "Windflower wand",
       "id": "windflower_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
@@ -1114,7 +1140,7 @@
       }
     },
     "shell_wand": {
-      "name": "Shell wand(?)",
+      "name": "Shell wand",
       "id": "shell_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
@@ -1128,9 +1154,9 @@
       ],
       "raw_materials": {}
     },
-    "snowflake_wand": {
-      "name": "Snowflake wand(?)",
-      "id": "snowflake_wand",
+    "ice_wand": {
+      "name": "Ice wand",
+      "id": "ice_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Snowflake_wand.png/revision/latest?cb=20200330011218",
@@ -1139,12 +1165,12 @@
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
-        "snowflake_wand"
+        "ice_wand"
       ],
       "raw_materials": {}
     },
     "golden_wand": {
-      "name": "Golden wand(?)",
+      "name": "Golden wand",
       "id": "golden_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
@@ -1158,9 +1184,9 @@
       ],
       "raw_materials": {}
     },
-    "conductor_wand": {
-      "name": "Conductor wand(?)",
-      "id": "conductor_wand",
+    "wand": {
+      "name": "Wand",
+      "id": "wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/ff/NH-Conductor_wand.png/revision/latest?cb=20200330011258",
@@ -1169,13 +1195,13 @@
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
-        "conductor_wand"
+        "wand"
       ],
       "raw_materials": {}
     },
-    "wooden_wand": {
-      "name": "Wooden wand(?)",
-      "id": "wooden_wand",
+    "tree_branch_wand": {
+      "name": "Tree-branch wand",
+      "id": "tree_branch_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6c/NH-Wooden_wand.png/revision/latest?cb=20200330011309",
@@ -1184,13 +1210,13 @@
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
-        "wooden_wand"
+        "tree_branch_wand"
       ],
       "raw_materials": {}
     },
-    "pipe_wand": {
-      "name": "Pipe wand(?)",
-      "id": "pipe_wand",
+    "iron_wand": {
+      "name": "Iron wand",
+      "id": "iron_wand",
       "uri": "/wiki/Tools_(New_Horizons)",
       "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2b/NH-Pipe_wand.png/revision/latest?cb=20200330011318",
@@ -1199,7 +1225,7 @@
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
-        "pipe_wand"
+        "iron_wand"
       ],
       "raw_materials": {}
     },
@@ -1279,7 +1305,7 @@
           "quantity": 4
         }
       ],
-      "source": "Tom Nook after receiving first three housing kits, if the native fruit is apples",
+      "source": "Island resident\nTom Nook after receiving first three housing kits, if the native fruit is apples",
       "sell_price": 2480,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -1511,8 +1537,8 @@
           "quantity": 8
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Island resident",
+      "sell_price": 1280,
       "total_crafting_steps": 1,
       "depends_on": [
         "bamboo_floor_lamp"
@@ -1865,8 +1891,8 @@
     "birdbath": {
       "name": "Birdbath",
       "id": "birdbath",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Birdbath",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8c/NH-Birdbath.png/revision/latest?cb=20200325181535",
       "materials": [
         {
@@ -1894,8 +1920,8 @@
     "birdcage": {
       "name": "Birdcage",
       "id": "birdcage",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Birdcage",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fe/NH-Bird_cage.png/revision/latest?cb=20200328211656",
       "materials": [
         {
@@ -1906,7 +1932,7 @@
         }
       ],
       "source": "Island resident",
-      "sell_price": null,
+      "sell_price": 960,
       "total_crafting_steps": 1,
       "depends_on": [
         "birdcage"
@@ -1923,8 +1949,8 @@
     "birdhouse": {
       "name": "Birdhouse",
       "id": "birdhouse",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Birdhouse",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/NH-Birdhouse.png/revision/latest?cb=20200325181541",
       "materials": [
         {
@@ -1967,26 +1993,52 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/36/NH-Blossom-viewing_lantern.png/revision/latest?cb=20200331234028",
-      "materials": [],
-      "source": "",
-      "sell_price": null,
+      "materials": [
+        {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 6
+        },
+        {
+          "name": "hardwood",
+          "id": "hardwood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 4
+        }
+      ],
+      "source": "Balloon",
+      "sell_price": 2880,
       "total_crafting_steps": 1,
       "depends_on": [
         "blossom_viewing_lantern"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "cherry_blossom_petal": {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 6
+        },
+        "hardwood": {
+          "name": "hardwood",
+          "id": "hardwood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 4
+        }
+      }
     },
     "bonfire": {
       "name": "Bonfire",
       "id": "bonfire",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Bonfire",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/51/NH-Bonfire.png/revision/latest?cb=20200325181547",
       "materials": [
         {
           "name": "campfire",
           "id": "campfire",
-          "uri": null,
+          "uri": "/wiki/Campfire",
           "quantity": 1
         },
         {
@@ -2021,8 +2073,8 @@
     "bonsai_shelf": {
       "name": "Bonsai shelf",
       "id": "bonsai_shelf",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Bonsai_shelf",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Bonsai_shelf.png/revision/latest?cb=20200329121645",
       "materials": [
         {
@@ -2094,8 +2146,8 @@
     "brick_oven": {
       "name": "Brick oven",
       "id": "brick_oven",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Brick_oven",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3a/NH-Brick_oven.png/revision/latest?cb=20200325181553",
       "materials": [
         {
@@ -2147,8 +2199,8 @@
     "brick_well": {
       "name": "Brick well",
       "id": "brick_well",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Brick_well",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b8/NH-Brick_well.png/revision/latest?cb=20200327080223",
       "materials": [
         {
@@ -2204,14 +2256,88 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Bunny_Day_arch.png/revision/latest?cb=20200403095251",
-      "materials": [],
+      "materials": [
+        {
+          "name": "earth egg",
+          "id": "earth_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "stone egg",
+          "id": "stone_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "leaf egg",
+          "id": "leaf_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "wood egg",
+          "id": "wood_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "sky egg",
+          "id": "sky_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "water egg",
+          "id": "water_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        }
+      ],
       "source": "Bunny Day",
-      "sell_price": null,
+      "sell_price": 4800,
       "total_crafting_steps": 1,
       "depends_on": [
         "bunny_day_arch"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "earth_egg": {
+          "name": "earth egg",
+          "id": "earth_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "stone_egg": {
+          "name": "stone egg",
+          "id": "stone_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "leaf_egg": {
+          "name": "leaf egg",
+          "id": "leaf_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "wood_egg": {
+          "name": "wood egg",
+          "id": "wood_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "sky_egg": {
+          "name": "sky egg",
+          "id": "sky_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "water_egg": {
+          "name": "water egg",
+          "id": "water_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        }
+      }
     },
     "bunny_day_bed": {
       "name": "Bunny Day bed",
@@ -2223,37 +2349,37 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
@@ -2267,37 +2393,37 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -2312,19 +2438,19 @@
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
@@ -2338,19 +2464,19 @@
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -2365,19 +2491,19 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
@@ -2391,19 +2517,19 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -2418,7 +2544,7 @@
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       ],
@@ -2432,7 +2558,7 @@
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       }
@@ -2447,7 +2573,7 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 4
         }
       ],
@@ -2461,7 +2587,7 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 4
         }
       }
@@ -2476,7 +2602,7 @@
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 4
         }
       ],
@@ -2490,7 +2616,7 @@
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 4
         }
       }
@@ -2505,7 +2631,7 @@
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 4
         }
       ],
@@ -2519,7 +2645,7 @@
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 4
         }
       }
@@ -2527,8 +2653,8 @@
     "butter_churn": {
       "name": "Butter churn",
       "id": "butter_churn",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Butter_churn",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3f/NH-Butter_churn.png/revision/latest?cb=20200329060854",
       "materials": [
         {
@@ -2568,8 +2694,8 @@
     "campfire": {
       "name": "Campfire",
       "id": "campfire",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Campfire",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c1/NH-Campfire.png/revision/latest?cb=20200325181604",
       "materials": [
         {
@@ -2810,8 +2936,8 @@
           "quantity": 5
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Balloon",
+      "sell_price": 2000,
       "total_crafting_steps": 1,
       "depends_on": [
         "cherry_blossom_petal_pile"
@@ -2845,7 +2971,7 @@
           "quantity": 6
         }
       ],
-      "source": "Villager",
+      "source": "Island resident",
       "sell_price": 960,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -3415,7 +3541,7 @@
         }
       ],
       "source": "Balloon",
-      "sell_price": null,
+      "sell_price": 2250,
       "total_crafting_steps": 1,
       "depends_on": [
         "garden_rock"
@@ -3680,7 +3806,7 @@
           "quantity": 2
         }
       ],
-      "source": "Message in a bottle",
+      "source": "Island resident\nMessage in a bottle",
       "sell_price": 480,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -3952,7 +4078,7 @@
         }
       ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 9000,
       "total_crafting_steps": 1,
       "depends_on": [
         "iron_closet"
@@ -4088,14 +4214,28 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/74/NH-Iron_hanger_stand.png/revision/latest?cb=20200329121752",
-      "materials": [],
+      "materials": [
+        {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 3
+        }
+      ],
       "source": "",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "iron_hanger_stand"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "iron_nugget": {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 3
+        }
+      }
     },
     "iron_worktable": {
       "name": "Iron worktable",
@@ -4284,14 +4424,40 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0b/NH-Ironwood_cupboard.png/revision/latest?cb=20200327140905",
-      "materials": [],
+      "materials": [
+        {
+          "name": "wood",
+          "id": "wood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 12
+        },
+        {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 6
+        }
+      ],
       "source": "",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "ironwood_cupboard"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "wood": {
+          "name": "wood",
+          "id": "wood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 12
+        },
+        "iron_nugget": {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 6
+        }
+      }
     },
     "ironwood_diy_workbench": {
       "name": "Ironwood DIY workbench",
@@ -4496,6 +4662,47 @@
         }
       }
     },
+    "ironwood_table": {
+      "name": "Ironwood table",
+      "id": "ironwood_table",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "wood",
+          "id": "wood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 12
+        },
+        {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 6
+        }
+      ],
+      "source": "Message in a bottle",
+      "sell_price": 5940,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "ironwood_table"
+      ],
+      "raw_materials": {
+        "wood": {
+          "name": "wood",
+          "id": "wood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 12
+        },
+        "iron_nugget": {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 6
+        }
+      }
+    },
     "jail_bars": {
       "name": "Jail bars",
       "id": "jail_bars",
@@ -4546,7 +4753,7 @@
         }
       ],
       "source": "Tom Nook after receiving first three housing kits, if the native fruit is apples",
-      "sell_price": null,
+      "sell_price": 3500,
       "total_crafting_steps": 1,
       "depends_on": [
         "juicy_apple_tv"
@@ -4588,7 +4795,7 @@
         {
           "name": "campfire",
           "id": "campfire",
-          "uri": null,
+          "uri": "/wiki/Campfire",
           "quantity": 1
         }
       ],
@@ -5731,7 +5938,7 @@
           "quantity": 10
         }
       ],
-      "source": "Isabelle during morning announcement while talking about cherry blossom season",
+      "source": "Isabelle during morning announcement while talking about cherry blossom season;\nBalloon",
       "sell_price": 4000,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -5782,7 +5989,7 @@
         "coconut": {
           "name": "coconut",
           "id": "coconut",
-          "uri": "/wiki/Fruit",
+          "uri": "/wiki/Fruit#Tropical_Fruit_Types",
           "quantity": 4
         },
         "wood": {
@@ -6186,14 +6393,28 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/NH-Racoon_figurine.png/revision/latest?cb=20200329100118",
-      "materials": [],
-      "source": "",
+      "materials": [
+        {
+          "name": "clay",
+          "id": "clay",
+          "uri": "/wiki/Clay",
+          "quantity": 3
+        }
+      ],
+      "source": "Message in a bottle",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "racoon_figurine"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "clay": {
+          "name": "clay",
+          "id": "clay",
+          "uri": "/wiki/Clay_(crafting_material)",
+          "quantity": 3
+        }
+      }
     },
     "red_leaf_pile": {
       "name": "Red-leaf pile",
@@ -7155,14 +7376,40 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ad/NH-Street_piano.png/revision/latest?cb=20200329070636",
-      "materials": [],
-      "source": "",
+      "materials": [
+        {
+          "name": "upright piano",
+          "id": "upright_piano",
+          "uri": null,
+          "quantity": 1
+        },
+        {
+          "name": "painting set",
+          "id": "painting_set",
+          "uri": null,
+          "quantity": 1
+        }
+      ],
+      "source": "Island resident",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "street_piano"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "upright_piano": {
+          "name": "upright piano",
+          "id": "upright_piano",
+          "uri": null,
+          "quantity": 1
+        },
+        "painting_set": {
+          "name": "painting set",
+          "id": "painting_set",
+          "uri": null,
+          "quantity": 1
+        }
+      }
     },
     "stone_arch": {
       "name": "Stone arch",
@@ -7591,7 +7838,7 @@
         }
       ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 1035,
       "total_crafting_steps": 1,
       "depends_on": [
         "tiny_library"
@@ -7689,7 +7936,7 @@
           "quantity": 8
         }
       ],
-      "source": "Balloon",
+      "source": "Balloon\nIsland resident",
       "sell_price": 1560,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -7760,7 +8007,7 @@
           "quantity": 4
         }
       ],
-      "source": "",
+      "source": null,
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -7842,7 +8089,7 @@
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bd/NH-Trophy_case.png/revision/latest?cb=20200329100302",
       "materials": [],
       "source": "",
-      "sell_price": null,
+      "sell_price": 33690,
       "total_crafting_steps": 1,
       "depends_on": [
         "trophy_case"
@@ -7889,6 +8136,21 @@
           "quantity": 3
         }
       }
+    },
+    "utility_pole": {
+      "name": "Utility Pole",
+      "id": "utility_pole",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [],
+      "source": "Nook Stop (1000 Nook Miles)",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "utility_pole"
+      ],
+      "raw_materials": {}
     },
     "virgo_harp": {
       "name": "Virgo harp",
@@ -8401,7 +8663,7 @@
           "quantity": 6
         }
       ],
-      "source": "",
+      "source": "Message in a bottle",
       "sell_price": 720,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -8431,7 +8693,7 @@
         }
       ],
       "source": "Message in a bottle",
-      "sell_price": null,
+      "sell_price": 1920,
       "total_crafting_steps": 1,
       "depends_on": [
         "wooden_chest"
@@ -8459,7 +8721,7 @@
           "quantity": 30
         }
       ],
-      "source": "",
+      "source": "Letter from harvey",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -8488,7 +8750,7 @@
           "quantity": 8
         }
       ],
-      "source": "Letter from mom",
+      "source": "Island resident\nLetter from mom",
       "sell_price": 960,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -8999,7 +9261,7 @@
         "bamboo_shoot": {
           "name": "bamboo shoot",
           "id": "bamboo_shoot",
-          "uri": "/wiki/Crafting_materials_(New_Horizons)",
+          "uri": "/wiki/Bamboo",
           "quantity": 5
         },
         "clay": {
@@ -9020,12 +9282,12 @@
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 4
         }
       ],
       "source": "Bunny Day",
-      "sell_price": null,
+      "sell_price": 1600,
       "total_crafting_steps": 1,
       "depends_on": [
         "bunny_day_lamp"
@@ -9034,7 +9296,7 @@
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 4
         }
       }
@@ -9210,7 +9472,7 @@
         "coconut": {
           "name": "coconut",
           "id": "coconut",
-          "uri": "/wiki/Fruit",
+          "uri": "/wiki/Fruit#Tropical_Fruit_Types",
           "quantity": 1
         }
       }
@@ -9236,7 +9498,7 @@
         }
       ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 990,
       "total_crafting_steps": 1,
       "depends_on": [
         "cutting_board"
@@ -9323,7 +9585,7 @@
         }
       ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 960,
       "total_crafting_steps": 1,
       "depends_on": [
         "firewood"
@@ -9410,8 +9672,8 @@
           "quantity": 3
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Message in a bottle",
+      "sell_price": 30000,
       "total_crafting_steps": 1,
       "depends_on": [
         "golden_arowana_model"
@@ -9795,7 +10057,7 @@
           "quantity": 3
         }
       ],
-      "source": "",
+      "source": "DIY for Beginners",
       "sell_price": 360,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -10092,7 +10354,7 @@
         }
       ],
       "source": "Island Resident",
-      "sell_price": null,
+      "sell_price": 5700,
       "total_crafting_steps": 1,
       "depends_on": [
         "shell_speaker"
@@ -10601,37 +10863,37 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
@@ -10645,37 +10907,37 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -10690,12 +10952,12 @@
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       ],
-      "source": "Bunny Day; Island resident",
-      "sell_price": null,
+      "source": "Bunny Day\nIsland resident",
+      "sell_price": 1200,
       "total_crafting_steps": 1,
       "depends_on": [
         "bunny_day_wall_clock"
@@ -10704,7 +10966,7 @@
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       }
@@ -10714,42 +10976,42 @@
       "id": "bunny_day_wreath",
       "uri": null,
       "has_page": false,
-      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Bunny_day_wreath.png/revision/latest?cb=20200402000253",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/05/NH-Bunny_Day_wreath.png/revision/latest?cb=20200403142914",
       "materials": [
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
@@ -10763,37 +11025,37 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -10860,7 +11122,7 @@
         }
       ],
       "source": "Balloon",
-      "sell_price": null,
+      "sell_price": 2750,
       "total_crafting_steps": 1,
       "depends_on": [
         "cherry_blossom_clock"
@@ -10877,6 +11139,47 @@
           "id": "iron_nugget",
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
+        }
+      }
+    },
+    "coconut_wall_planter": {
+      "name": "Coconut wall planter",
+      "id": "coconut_wall_planter",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "coconut",
+          "id": "coconut",
+          "uri": "/wiki/Fruit",
+          "quantity": 1
+        },
+        {
+          "name": "clump of weeds",
+          "id": "clump_of_weeds",
+          "uri": "/wiki/Clump_of_weeds",
+          "quantity": 5
+        }
+      ],
+      "source": "Island resident",
+      "sell_price": 600,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "coconut_wall_planter"
+      ],
+      "raw_materials": {
+        "coconut": {
+          "name": "coconut",
+          "id": "coconut",
+          "uri": "/wiki/Fruit#Tropical_Fruit_Types",
+          "quantity": 1
+        },
+        "clump_of_weeds": {
+          "name": "clump of weeds",
+          "id": "clump_of_weeds",
+          "uri": "/wiki/Clump_of_weeds",
+          "quantity": 5
         }
       }
     },
@@ -11059,7 +11362,7 @@
         }
       ],
       "source": "Message in a bottle",
-      "sell_price": null,
+      "sell_price": 200,
       "total_crafting_steps": 1,
       "depends_on": [
         "floral_swag"
@@ -11134,7 +11437,7 @@
           "quantity": 3
         }
       ],
-      "source": "Island resident",
+      "source": "Island resident\nMessage in a bottle",
       "sell_price": 11125,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -11218,7 +11521,7 @@
         {
           "name": "yellow hyacinths",
           "id": "yellow_hyacinths",
-          "uri": "/wiki/Flowers#hyacinth",
+          "uri": "/wiki/Flower#Hyacinths",
           "quantity": 3
         }
       ],
@@ -11244,7 +11547,7 @@
         "yellow_hyacinths": {
           "name": "yellow hyacinths",
           "id": "yellow_hyacinths",
-          "uri": "/wiki/Flowers#hyacinth",
+          "uri": "/wiki/Flower#Hyacinths",
           "quantity": 3
         }
       }
@@ -11423,7 +11726,7 @@
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/da/NH-Leo_sculpture.png/revision/latest?cb=20200328083419",
       "materials": [],
-      "source": "",
+      "source": "Celeste",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -11505,7 +11808,7 @@
         }
       ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 990,
       "total_crafting_steps": 1,
       "depends_on": [
         "log_wall_mounted_clock"
@@ -11885,7 +12188,7 @@
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/97/NH-Star_clock.png/revision/latest?cb=20200329093541",
       "materials": [],
-      "source": "",
+      "source": "Celeste",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -11899,14 +12202,28 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-Starry_garland.png/revision/latest?cb=20200329093557",
-      "materials": [],
-      "source": "",
+      "materials": [
+        {
+          "name": "star fragment",
+          "id": "star_fragment",
+          "uri": "/wiki/Star_fragment",
+          "quantity": 10
+        }
+      ],
+      "source": "Celeste",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "starry_garland"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "star_fragment": {
+          "name": "star fragment",
+          "id": "star_fragment",
+          "uri": "/wiki/Star_fragment",
+          "quantity": 10
+        }
+      }
     },
     "timber_doorplate": {
       "name": "Timber doorplate",
@@ -11928,7 +12245,7 @@
           "quantity": 1
         }
       ],
-      "source": "Balloon",
+      "source": "Balloon\nIsland resident",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -12410,7 +12727,7 @@
         "bamboo_shoot": {
           "name": "bamboo shoot",
           "id": "bamboo_shoot",
-          "uri": "/wiki/Crafting_materials_(New_Horizons)",
+          "uri": "/wiki/Bamboo",
           "quantity": 3
         }
       }
@@ -12483,42 +12800,42 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
       "source": "Bunny Day",
-      "sell_price": null,
+      "sell_price": 4800,
       "total_crafting_steps": 1,
       "depends_on": [
         "bunny_day_flooring"
@@ -12527,37 +12844,37 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -12572,37 +12889,37 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
@@ -12616,37 +12933,37 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -12661,37 +12978,37 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
@@ -12705,38 +13022,67 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
+        }
+      }
+    },
+    "cabin_wall": {
+      "name": "Cabin wall",
+      "id": "cabin_wall",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "hardwood",
+          "id": "hardwood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 15
+        }
+      ],
+      "source": "",
+      "sell_price": 1800,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "cabin_wall"
+      ],
+      "raw_materials": {
+        "hardwood": {
+          "name": "hardwood",
+          "id": "hardwood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 15
         }
       }
     },
@@ -12819,7 +13165,7 @@
         }
       ],
       "source": "Balloon",
-      "sell_price": null,
+      "sell_price": 4400,
       "total_crafting_steps": 1,
       "depends_on": [
         "cherry_blossom_flooring"
@@ -12836,6 +13182,76 @@
           "id": "clump_of_weeds",
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 20
+        }
+      }
+    },
+    "cherry_blossom_trees_wall": {
+      "name": "Cherry-blossom-trees wall",
+      "id": "cherry_blossom_trees_wall",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 10
+        },
+        {
+          "name": "hardwood",
+          "id": "hardwood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 5
+        }
+      ],
+      "source": "Balloon",
+      "sell_price": 4600,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "cherry_blossom_trees_wall"
+      ],
+      "raw_materials": {
+        "cherry_blossom_petal": {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 10
+        },
+        "hardwood": {
+          "name": "hardwood",
+          "id": "hardwood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 5
+        }
+      }
+    },
+    "classic_library_wall": {
+      "name": "Classic-library wall",
+      "id": "classic_library_wall",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "book",
+          "id": "book",
+          "uri": null,
+          "quantity": 10
+        }
+      ],
+      "source": "Message in a bottle",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "classic_library_wall"
+      ],
+      "raw_materials": {
+        "book": {
+          "name": "book",
+          "id": "book",
+          "uri": null,
+          "quantity": 10
         }
       }
     },
@@ -13004,7 +13420,7 @@
         }
       ],
       "source": "Island resident",
-      "sell_price": null,
+      "sell_price": 3000,
       "total_crafting_steps": 1,
       "depends_on": [
         "honeycomb_flooring"
@@ -13511,6 +13927,47 @@
       ],
       "raw_materials": {}
     },
+    "sakura_wood_flooring": {
+      "name": "Sakura-wood flooring",
+      "id": "sakura_wood_flooring",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 5
+        },
+        {
+          "name": "wood",
+          "id": "wood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 10
+        }
+      ],
+      "source": "Balloon",
+      "sell_price": 3200,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "sakura_wood_flooring"
+      ],
+      "raw_materials": {
+        "cherry_blossom_petal": {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 5
+        },
+        "wood": {
+          "name": "wood",
+          "id": "wood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 10
+        }
+      }
+    },
     "sakura_wood_wall": {
       "name": "Sakura-wood wall",
       "id": "sakura_wood_wall",
@@ -13532,7 +13989,7 @@
         }
       ],
       "source": "Balloon",
-      "sell_price": null,
+      "sell_price": 3200,
       "total_crafting_steps": 1,
       "depends_on": [
         "sakura_wood_wall"
@@ -13766,6 +14223,35 @@
           "id": "iron_nugget",
           "uri": "/wiki/Iron_nugget",
           "quantity": 7
+        }
+      }
+    },
+    "steel_frame_wall": {
+      "name": "Steel-frame wall",
+      "id": "steel_frame_wall",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 8
+        }
+      ],
+      "source": "",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "steel_frame_wall"
+      ],
+      "raw_materials": {
+        "iron_nugget": {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 8
         }
       }
     },
@@ -14013,6 +14499,35 @@
         }
       }
     },
+    "armor_shoes": {
+      "name": "Armor shoes",
+      "id": "armor_shoes",
+      "uri": null,
+      "has_page": false,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Iron_boots.png/revision/latest?cb=20200329223231",
+      "materials": [
+        {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 5
+        }
+      ],
+      "source": "",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "armor_shoes"
+      ],
+      "raw_materials": {
+        "iron_nugget": {
+          "name": "iron nugget",
+          "id": "iron_nugget",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 5
+        }
+      }
+    },
     "bamboo_hat": {
       "name": "Bamboo hat",
       "id": "bamboo_hat",
@@ -14081,41 +14596,41 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
-      "source": "",
+      "source": "Bunny Day",
       "sell_price": 2400,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -14125,37 +14640,37 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -14170,42 +14685,42 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Bunny Day",
+      "sell_price": 2400,
       "total_crafting_steps": 1,
       "depends_on": [
         "bunny_day_crown"
@@ -14214,37 +14729,37 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -14263,8 +14778,8 @@
           "quantity": 6
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Balloon",
+      "sell_price": 2400,
       "total_crafting_steps": 1,
       "depends_on": [
         "cherry_blossom_pochette"
@@ -14284,14 +14799,28 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/NH-CHerry-blossom_umbrella.png/revision/latest?cb=20200329103215",
-      "materials": [],
-      "source": "",
+      "materials": [
+        {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 7
+        }
+      ],
+      "source": "Balloon",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "cherry_blossom_umbrella"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "cherry_blossom_petal": {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 7
+        }
+      }
     },
     "cherry_dress": {
       "name": "Cherry dress",
@@ -14515,6 +15044,47 @@
         }
       }
     },
+    "cool_windflower_crown": {
+      "name": "Cool windflower crown",
+      "id": "cool_windflower_crown",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "blue windflowers",
+          "id": "blue_windflowers",
+          "uri": "/wiki/Flower#windflowers",
+          "quantity": 3
+        },
+        {
+          "name": "pink windflowers",
+          "id": "pink_windflowers",
+          "uri": "/wiki/Flower#windflowers",
+          "quantity": 3
+        }
+      ],
+      "source": "Island resident",
+      "sell_price": 960,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "cool_windflower_crown"
+      ],
+      "raw_materials": {
+        "blue_windflowers": {
+          "name": "blue windflowers",
+          "id": "blue_windflowers",
+          "uri": "/wiki/Flower#windflowers",
+          "quantity": 3
+        },
+        "pink_windflowers": {
+          "name": "pink windflowers",
+          "id": "pink_windflowers",
+          "uri": "/wiki/Flower#windflowers",
+          "quantity": 3
+        }
+      }
+    },
     "cosmos_crown": {
       "name": "Cosmos crown",
       "id": "cosmos_crown",
@@ -14717,12 +15287,12 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Digging up earth eggs",
+      "sell_price": 1200,
       "total_crafting_steps": 1,
       "depends_on": [
         "earth_egg_outfit"
@@ -14731,7 +15301,7 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       }
@@ -14746,12 +15316,12 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Digging up earth eggs",
+      "sell_price": 800,
       "total_crafting_steps": 1,
       "depends_on": [
         "earth_egg_shell"
@@ -14760,7 +15330,7 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -14775,12 +15345,12 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Digging up earth eggs",
+      "sell_price": 800,
       "total_crafting_steps": 1,
       "depends_on": [
         "earth_egg_shoes"
@@ -14789,7 +15359,185 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        }
+      }
+    },
+    "egg_party_dress": {
+      "name": "Egg party dress",
+      "id": "egg_party_dress",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "earth egg",
+          "id": "earth_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        {
+          "name": "stone egg",
+          "id": "stone_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        {
+          "name": "leaf egg",
+          "id": "leaf_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        {
+          "name": "wood egg",
+          "id": "wood_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        {
+          "name": "sky egg",
+          "id": "sky_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        {
+          "name": "water egg",
+          "id": "water_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        }
+      ],
+      "source": "Unlock recipes for all six Bunny Day egg outfits",
+      "sell_price": 7200,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "egg_party_dress"
+      ],
+      "raw_materials": {
+        "earth_egg": {
+          "name": "earth egg",
+          "id": "earth_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        "stone_egg": {
+          "name": "stone egg",
+          "id": "stone_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        "leaf_egg": {
+          "name": "leaf egg",
+          "id": "leaf_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        "wood_egg": {
+          "name": "wood egg",
+          "id": "wood_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        "sky_egg": {
+          "name": "sky egg",
+          "id": "sky_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        },
+        "water_egg": {
+          "name": "water egg",
+          "id": "water_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 3
+        }
+      }
+    },
+    "egg_party_hat": {
+      "name": "Egg party hat",
+      "id": "egg_party_hat",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "earth egg",
+          "id": "earth_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "stone egg",
+          "id": "stone_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "leaf egg",
+          "id": "leaf_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "wood egg",
+          "id": "wood_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "sky egg",
+          "id": "sky_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        {
+          "name": "water egg",
+          "id": "water_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        }
+      ],
+      "source": "Unlock recipes for all six Bunny Day egg outfits",
+      "sell_price": 4800,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "egg_party_hat"
+      ],
+      "raw_materials": {
+        "earth_egg": {
+          "name": "earth egg",
+          "id": "earth_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "stone_egg": {
+          "name": "stone egg",
+          "id": "stone_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "leaf_egg": {
+          "name": "leaf egg",
+          "id": "leaf_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "wood_egg": {
+          "name": "wood egg",
+          "id": "wood_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "sky_egg": {
+          "name": "sky egg",
+          "id": "sky_egg",
+          "uri": "/wiki/Egg",
+          "quantity": 2
+        },
+        "water_egg": {
+          "name": "water egg",
+          "id": "water_egg",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -14905,7 +15653,7 @@
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/NH-Green_grass_skirt.png/revision/latest?cb=20200329223208",
       "materials": [],
       "source": "",
-      "sell_price": null,
+      "sell_price": 140,
       "total_crafting_steps": 1,
       "depends_on": [
         "green_grass_skirt"
@@ -14954,7 +15702,7 @@
         "yellow_hyacinths": {
           "name": "yellow hyacinths",
           "id": "yellow_hyacinths",
-          "uri": "/wiki/Flowers#hyacinth",
+          "uri": "/wiki/Flower#Hyacinths",
           "quantity": 2
         },
         "white_hyacinths": {
@@ -14977,21 +15725,6 @@
       "total_crafting_steps": 1,
       "depends_on": [
         "iron_armor"
-      ],
-      "raw_materials": {}
-    },
-    "iron_boots": {
-      "name": "Iron boots",
-      "id": "iron_boots",
-      "uri": null,
-      "has_page": false,
-      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Iron_boots.png/revision/latest?cb=20200329223231",
-      "materials": [],
-      "source": "",
-      "sell_price": null,
-      "total_crafting_steps": 1,
-      "depends_on": [
-        "iron_boots"
       ],
       "raw_materials": {}
     },
@@ -15150,7 +15883,7 @@
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       ],
@@ -15164,7 +15897,7 @@
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       }
@@ -15179,7 +15912,7 @@
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
@@ -15193,7 +15926,7 @@
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -15208,7 +15941,7 @@
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
@@ -15222,7 +15955,7 @@
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -15602,8 +16335,8 @@
           "quantity": 5
         }
       ],
-      "source": "",
-      "sell_price": null,
+      "source": "Message in a bottle",
+      "sell_price": 1000,
       "total_crafting_steps": 1,
       "depends_on": [
         "peach_hat"
@@ -15632,7 +16365,7 @@
         }
       ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 1400,
       "total_crafting_steps": 1,
       "depends_on": [
         "peach_umbrella"
@@ -15840,7 +16573,7 @@
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       ],
@@ -15854,7 +16587,7 @@
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       }
@@ -15869,7 +16602,7 @@
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
@@ -15883,7 +16616,7 @@
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -15898,12 +16631,12 @@
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
       "source": "Shooting down sky eggs",
-      "sell_price": null,
+      "sell_price": 800,
       "total_crafting_steps": 1,
       "depends_on": [
         "sky_egg_shoes"
@@ -15912,7 +16645,7 @@
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -15991,7 +16724,7 @@
           "quantity": 10
         }
       ],
-      "source": "Message in a bottle",
+      "source": "Island resident\nMessage in a bottle",
       "sell_price": 200,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -16016,7 +16749,7 @@
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       ],
@@ -16030,7 +16763,7 @@
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       }
@@ -16045,7 +16778,7 @@
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
@@ -16059,7 +16792,7 @@
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -16074,7 +16807,7 @@
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
@@ -16088,7 +16821,7 @@
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -16185,12 +16918,12 @@
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       ],
-      "source": "Fishing up Water Eggs",
-      "sell_price": null,
+      "source": "Fishing up water Eggs",
+      "sell_price": 1200,
       "total_crafting_steps": 1,
       "depends_on": [
         "water_egg_outfit"
@@ -16199,7 +16932,7 @@
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       }
@@ -16214,12 +16947,12 @@
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
-      "source": "Fishing up Water Eggs",
-      "sell_price": null,
+      "source": "Fishing up water Eggs",
+      "sell_price": 800,
       "total_crafting_steps": 1,
       "depends_on": [
         "water_egg_shell"
@@ -16228,7 +16961,7 @@
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -16243,12 +16976,12 @@
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
-      "source": "Fishing up Water Eggs",
-      "sell_price": null,
+      "source": "Fishing up water Eggs",
+      "sell_price": 800,
       "total_crafting_steps": 1,
       "depends_on": [
         "water_egg_shoes"
@@ -16257,7 +16990,7 @@
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -16325,12 +17058,12 @@
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       ],
       "source": "Gather wood eggs by hitting trees with an axe",
-      "sell_price": null,
+      "sell_price": 1200,
       "total_crafting_steps": 1,
       "depends_on": [
         "wood_egg_outfit"
@@ -16339,7 +17072,7 @@
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 3
         }
       }
@@ -16354,12 +17087,12 @@
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
       "source": "Gather wood eggs by hitting trees with an axe",
-      "sell_price": null,
+      "sell_price": 800,
       "total_crafting_steps": 1,
       "depends_on": [
         "wood_egg_shell"
@@ -16368,7 +17101,7 @@
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -16383,12 +17116,12 @@
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       ],
       "source": "Gather wood eggs by hitting trees with an axe",
-      "sell_price": null,
+      "sell_price": 800,
       "total_crafting_steps": 1,
       "depends_on": [
         "wood_egg_shoes"
@@ -16397,7 +17130,7 @@
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 2
         }
       }
@@ -16774,37 +17507,37 @@
         {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       ],
@@ -16818,37 +17551,37 @@
         "earth_egg": {
           "name": "earth egg",
           "id": "earth_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "stone_egg": {
           "name": "stone egg",
           "id": "stone_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "leaf_egg": {
           "name": "leaf egg",
           "id": "leaf_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "wood_egg": {
           "name": "wood egg",
           "id": "wood_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "sky_egg": {
           "name": "sky egg",
           "id": "sky_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         },
         "water_egg": {
           "name": "water egg",
           "id": "water_egg",
-          "uri": "/wiki/Bunny_Day#In_New_Horizons",
+          "uri": "/wiki/Egg",
           "quantity": 1
         }
       }
@@ -17354,10 +18087,12 @@
         "ironwood_cart",
         "ironwood_chair",
         "ironwood_clock",
+        "ironwood_cupboard",
         "ironwood_diy_workbench",
         "ironwood_dresser",
         "ironwood_kitchenette",
         "ironwood_low_table",
+        "ironwood_table",
         "jungle_wall",
         "kettle_bathtub",
         "key_holder",
@@ -17381,6 +18116,7 @@
         "ringtoss",
         "rocking_chair",
         "rose_bed",
+        "sakura_wood_flooring",
         "sakura_wood_wall",
         "sauna_heater",
         "sleigh",
@@ -17419,10 +18155,13 @@
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9f/NH-Hardwood.png/revision/latest?cb=20200326192143",
       "used_in": [
         "barbed_wire_fence_x10",
+        "blossom_viewing_lantern",
         "bonsai_shelf",
         "boomerang",
         "brick_well",
+        "cabin_wall",
         "cherry_blossom_bonsai",
+        "cherry_blossom_trees_wall",
         "clackercart",
         "country_fence_x10",
         "cutting_board",
@@ -17598,6 +18337,7 @@
         "plain_sink",
         "pot",
         "potted_ivy",
+        "racoon_figurine",
         "shell_bed",
         "shell_lamp",
         "shell_table",
@@ -17617,6 +18357,7 @@
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH_Ironnugget.png/revision/latest?cb=20200326192456",
       "used_in": [
         "acoustic_guitar",
+        "armor_shoes",
         "axe",
         "bamboo_speaker",
         "barbed_wire_fence_x10",
@@ -17651,6 +18392,7 @@
         "iron_garden_bench",
         "iron_garden_chair",
         "iron_garden_table",
+        "iron_hanger_stand",
         "iron_shelf",
         "iron_wall_lamp",
         "iron_worktable",
@@ -17658,10 +18400,12 @@
         "ironwood_cart",
         "ironwood_chair",
         "ironwood_clock",
+        "ironwood_cupboard",
         "ironwood_diy_workbench",
         "ironwood_dresser",
         "ironwood_kitchenette",
         "ironwood_low_table",
+        "ironwood_table",
         "jail_bars",
         "juicy_apple_tv",
         "kettle_bathtub",
@@ -17688,6 +18432,7 @@
         "simple_diy_workbench",
         "standard_umbrella_stand",
         "steel_flooring",
+        "steel_frame_wall",
         "terrarium",
         "water_pump",
         "watering_can",
@@ -17807,8 +18552,8 @@
     "bamboo_shoot": {
       "name": "Bamboo shoot",
       "id": "bamboo_shoot",
-      "uri": "/wiki/Crafting_materials_(New_Horizons)",
-      "image_url": "/wiki/Special:Upload?wpDestFile=NH-Bamboo_shoot.png",
+      "uri": "/wiki/Bamboo",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bd/Bamboo_on_the_ground.jpg/revision/latest?cb=20150814213508",
       "used_in": [
         "bamboo_grove_wall",
         "bamboo_shoot_lamp"
@@ -17826,6 +18571,7 @@
         "bonsai_shelf",
         "cherry_blossom_bonsai",
         "cherry_blossom_flooring",
+        "coconut_wall_planter",
         "deer_scare",
         "floral_swag",
         "grass_skirt",
@@ -17861,6 +18607,7 @@
       "uri": "/wiki/Cherry-blossom_petal",
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cf/NH-Cherry-blossom_petal.png/revision/latest?cb=20200326195619",
       "used_in": [
+        "blossom_viewing_lantern",
         "bonsai_shelf",
         "cherry_blossom_bonsai",
         "cherry_blossom_branches",
@@ -17868,8 +18615,11 @@
         "cherry_blossom_flooring",
         "cherry_blossom_petal_pile",
         "cherry_blossom_pochette",
+        "cherry_blossom_trees_wall",
+        "cherry_blossom_umbrella",
         "cherry_blossom_wand",
         "outdoor_picnic_set",
+        "sakura_wood_flooring",
         "sakura_wood_wall"
       ],
       "sell_price": 200
@@ -17878,7 +18628,7 @@
       "name": "Flowers",
       "id": "flowers",
       "uri": "/wiki/Flowers",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/All_Flowers.JPG/revision/latest?cb=20130616171155",
       "used_in": [],
       "sell_price": null
     },
@@ -17889,6 +18639,18 @@
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Fruit-cherry.png/revision/latest?cb=20200327062700",
       "used_in": [],
       "sell_price": 100
+    },
+    "coconut": {
+      "name": "Coconut",
+      "id": "coconut",
+      "uri": "/wiki/Fruit#Tropical_Fruit_Types",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Fruit-coconut.png/revision/latest?cb=20200327062743",
+      "used_in": [
+        "coconut_juice",
+        "coconut_wall_planter",
+        "palm_tree_lamp"
+      ],
+      "sell_price": 250
     },
     "foreign_fruit": {
       "name": "Foreign Fruit",
@@ -17966,7 +18728,7 @@
       "name": "Misc. Clothing",
       "id": "misc_clothing",
       "uri": "/wiki/Clothes",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/60/Shirt_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140916214253",
       "used_in": [],
       "sell_price": null
     },
@@ -17982,7 +18744,7 @@
       "name": "Misc. Tools",
       "id": "misc_tools",
       "uri": "/wiki/Tools_(New_Horizons)",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f8/NH-Axe.png/revision/latest?cb=20200325181451",
       "used_in": [],
       "sell_price": null
     },
@@ -17994,7 +18756,7 @@
       "used_in": [
         "fossil_doorplate"
       ],
-      "sell_price": null
+      "sell_price": 100
     },
     "star_fragment": {
       "name": "Star fragment",
@@ -18009,7 +18771,9 @@
         "pisces_lamp",
         "sci_fi_wall",
         "star_wand",
+        "starry_garland",
         "taurus_bathtub",
+        "tulip_wand",
         "windflower_wand"
       ],
       "sell_price": 250
@@ -18131,9 +18895,10 @@
     "earth_egg": {
       "name": "Earth Egg",
       "id": "earth_egg",
-      "uri": "/wiki/Bunny_Day#In_New_Horizons",
+      "uri": "/wiki/Egg",
       "image_url": null,
       "used_in": [
+        "bunny_day_arch",
         "bunny_day_bag",
         "bunny_day_bed",
         "bunny_day_crown",
@@ -18147,16 +18912,19 @@
         "bunny_day_wreath",
         "earth_egg_outfit",
         "earth_egg_shell",
-        "earth_egg_shoes"
+        "earth_egg_shoes",
+        "egg_party_dress",
+        "egg_party_hat"
       ],
       "sell_price": 200
     },
     "stone_egg": {
       "name": "Stone Egg",
       "id": "stone_egg",
-      "uri": "/wiki/Bunny_Day#In_New_Horizons",
+      "uri": "/wiki/Egg",
       "image_url": null,
       "used_in": [
+        "bunny_day_arch",
         "bunny_day_bag",
         "bunny_day_bed",
         "bunny_day_crown",
@@ -18168,6 +18936,8 @@
         "bunny_day_wall",
         "bunny_day_wardrobe",
         "bunny_day_wreath",
+        "egg_party_dress",
+        "egg_party_hat",
         "stone_egg_outfit",
         "stone_egg_shell",
         "stone_egg_shoes"
@@ -18177,9 +18947,10 @@
     "leaf_egg": {
       "name": "Leaf Egg",
       "id": "leaf_egg",
-      "uri": "/wiki/Bunny_Day#In_New_Horizons",
+      "uri": "/wiki/Egg",
       "image_url": null,
       "used_in": [
+        "bunny_day_arch",
         "bunny_day_bag",
         "bunny_day_bed",
         "bunny_day_crown",
@@ -18191,6 +18962,8 @@
         "bunny_day_vanity",
         "bunny_day_wall",
         "bunny_day_wreath",
+        "egg_party_dress",
+        "egg_party_hat",
         "leaf_egg_outfit",
         "leaf_egg_shell",
         "leaf_egg_shoes"
@@ -18200,9 +18973,10 @@
     "wood_egg": {
       "name": "Wood Egg",
       "id": "wood_egg",
-      "uri": "/wiki/Bunny_Day#In_New_Horizons",
+      "uri": "/wiki/Egg",
       "image_url": null,
       "used_in": [
+        "bunny_day_arch",
         "bunny_day_bag",
         "bunny_day_bed",
         "bunny_day_crown",
@@ -18214,6 +18988,8 @@
         "bunny_day_rug",
         "bunny_day_wall",
         "bunny_day_wreath",
+        "egg_party_dress",
+        "egg_party_hat",
         "wood_egg_outfit",
         "wood_egg_shell",
         "wood_egg_shoes"
@@ -18223,9 +18999,10 @@
     "sky_egg": {
       "name": "Sky Egg",
       "id": "sky_egg",
-      "uri": "/wiki/Bunny_Day#In_New_Horizons",
+      "uri": "/wiki/Egg",
       "image_url": null,
       "used_in": [
+        "bunny_day_arch",
         "bunny_day_bag",
         "bunny_day_bed",
         "bunny_day_crown",
@@ -18237,6 +19014,8 @@
         "bunny_day_wall",
         "bunny_day_wall_clock",
         "bunny_day_wreath",
+        "egg_party_dress",
+        "egg_party_hat",
         "sky_egg_outfit",
         "sky_egg_shell",
         "sky_egg_shoes"
@@ -18246,9 +19025,10 @@
     "water_egg": {
       "name": "Water Egg",
       "id": "water_egg",
-      "uri": "/wiki/Bunny_Day#In_New_Horizons",
+      "uri": "/wiki/Egg",
       "image_url": null,
       "used_in": [
+        "bunny_day_arch",
         "bunny_day_bag",
         "bunny_day_bed",
         "bunny_day_crown",
@@ -18260,6 +19040,8 @@
         "bunny_day_stool",
         "bunny_day_wall",
         "bunny_day_wreath",
+        "egg_party_dress",
+        "egg_party_hat",
         "water_egg_outfit",
         "water_egg_shell",
         "water_egg_shoes"
@@ -18270,7 +19052,7 @@
       "name": "Conch",
       "id": "conch",
       "uri": "/wiki/Conch_shell",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/38/Conch.jpg/revision/latest?cb=20100629003733",
       "used_in": [
         "shell_partition",
         "shell_speaker"
@@ -18281,7 +19063,7 @@
       "name": "Coral",
       "id": "coral",
       "uri": "/wiki/Coral",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/Coral_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140916213050",
       "used_in": [
         "sandy_beach_flooring",
         "shell_arch"
@@ -18304,7 +19086,7 @@
       "name": "Giant clam",
       "id": "giant_clam",
       "uri": "/wiki/Giant_clam",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/Clam_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140917183455",
       "used_in": [
         "sandy_beach_flooring",
         "shell_arch",
@@ -18319,7 +19101,7 @@
       "name": "Sand dollar",
       "id": "sand_dollar",
       "uri": "/wiki/Shell",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8a/Sand_Dollar_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140916214252",
       "used_in": [
         "sandy_beach_flooring",
         "shell_arch",
@@ -18342,7 +19124,7 @@
       "name": "Venus comb",
       "id": "venus_comb",
       "uri": "/wiki/Shell",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Venus_Comb_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140916213053",
       "used_in": [
         "sandy_beach_flooring",
         "shell_arch",
@@ -18354,9 +19136,78 @@
       "name": "Manila Clam",
       "id": "manila_clam",
       "uri": "/wiki/Manila_Clam",
-      "image_url": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Material_Manila_Clam.png/revision/latest?cb=20200404200723",
       "used_in": [
         "fish_bait"
+      ],
+      "sell_price": 60
+    },
+    "mums": {
+      "name": "Mums",
+      "id": "mums",
+      "uri": "/wiki/Flower#Mums",
+      "image_url": null,
+      "used_in": [],
+      "sell_price": 40
+    },
+    "tulips": {
+      "name": "Tulips",
+      "id": "tulips",
+      "uri": "/wiki/Flower#Tulips",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/Icon_red_tulips.png/revision/latest?cb=20160709215948",
+      "used_in": [],
+      "sell_price": 40
+    },
+    "roses": {
+      "name": "Roses",
+      "id": "roses",
+      "uri": "/wiki/Flower#Roses",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/87/Icon_red_roses.png/revision/latest?cb=20160709215939",
+      "used_in": [],
+      "sell_price": 40
+    },
+    "hyacinths": {
+      "name": "Hyacinths",
+      "id": "hyacinths",
+      "uri": "/wiki/Flower#Hyacinths",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-yellow_hyacinths-icon.png/revision/latest?cb=20200404025446",
+      "used_in": [],
+      "sell_price": 40
+    },
+    "lilies": {
+      "name": "Lilies",
+      "id": "lilies",
+      "uri": "/wiki/Flower#Lilies",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/Red_Lily_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140917185054",
+      "used_in": [],
+      "sell_price": 40
+    },
+    "cosmos": {
+      "name": "Cosmos",
+      "id": "cosmos",
+      "uri": "/wiki/Flower#Cosmos",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2d/Icon_red_cosmos.png/revision/latest?cb=20160709215539",
+      "used_in": [],
+      "sell_price": 40
+    },
+    "pansies": {
+      "name": "Pansies",
+      "id": "pansies",
+      "uri": "/wiki/Flower#Pansies",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/13/Icon_red_pansies.png/revision/latest?cb=20160709215611",
+      "used_in": [],
+      "sell_price": 40
+    },
+    "red_tulips": {
+      "name": "red tulips",
+      "id": "red_tulips",
+      "uri": "/wiki/Flower#Tulips",
+      "image_url": null,
+      "used_in": [
+        "tulip_crown",
+        "tulip_surprise_box",
+        "tulip_wand",
+        "tulip_wreath"
       ],
       "sell_price": null
     },
@@ -18529,17 +19380,6 @@
       ],
       "sell_price": null
     },
-    "coconut": {
-      "name": "coconut",
-      "id": "coconut",
-      "uri": "/wiki/Fruit",
-      "image_url": null,
-      "used_in": [
-        "coconut_juice",
-        "palm_tree_lamp"
-      ],
-      "sell_price": null
-    },
     "yellow_pansies": {
       "name": "yellow pansies",
       "id": "yellow_pansies",
@@ -18596,27 +19436,36 @@
       ],
       "sell_price": null
     },
+    "upright_piano": {
+      "name": "upright piano",
+      "id": "upright_piano",
+      "uri": null,
+      "image_url": null,
+      "used_in": [
+        "street_piano"
+      ],
+      "sell_price": null
+    },
+    "painting_set": {
+      "name": "painting set",
+      "id": "painting_set",
+      "uri": null,
+      "image_url": null,
+      "used_in": [
+        "street_piano"
+      ],
+      "sell_price": null
+    },
     "book": {
       "name": "book",
       "id": "book",
       "uri": null,
       "image_url": null,
       "used_in": [
+        "classic_library_wall",
         "library_wall",
         "stack_of_books",
         "tiny_library"
-      ],
-      "sell_price": null
-    },
-    "red_tulips": {
-      "name": "red tulips",
-      "id": "red_tulips",
-      "uri": "/wiki/Flower#Tulips",
-      "image_url": null,
-      "used_in": [
-        "tulip_crown",
-        "tulip_surprise_box",
-        "tulip_wreath"
       ],
       "sell_price": null
     },
@@ -18710,7 +19559,7 @@
     "yellow_hyacinths": {
       "name": "yellow hyacinths",
       "id": "yellow_hyacinths",
-      "uri": "/wiki/Flowers#hyacinth",
+      "uri": "/wiki/Flower#Hyacinths",
       "image_url": null,
       "used_in": [
         "hyacinth_crown",
@@ -18937,6 +19786,26 @@
       "image_url": null,
       "used_in": [
         "cool_hyacinth_crown"
+      ],
+      "sell_price": null
+    },
+    "blue_windflowers": {
+      "name": "blue windflowers",
+      "id": "blue_windflowers",
+      "uri": "/wiki/Flower#windflowers",
+      "image_url": null,
+      "used_in": [
+        "cool_windflower_crown"
+      ],
+      "sell_price": null
+    },
+    "pink_windflowers": {
+      "name": "pink windflowers",
+      "id": "pink_windflowers",
+      "uri": "/wiki/Flower#windflowers",
+      "image_url": null,
+      "used_in": [
+        "cool_windflower_crown"
       ],
       "sell_price": null
     },
