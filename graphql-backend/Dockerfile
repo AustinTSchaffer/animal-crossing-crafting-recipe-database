@@ -9,6 +9,7 @@ RUN pip install pipenv
 COPY Pipfile* ./
 RUN pipenv install --deploy --system
 
+COPY backend backend
 COPY app.py app.py
 COPY data data
 

@@ -1,9 +1,12 @@
 import os
 import json
+from typing import List
 
 import flask
 import graphene
 import flask_graphql
+
+import backend.models as models
 
 __dir__ = os.path.dirname(__file__)
 
@@ -18,109 +21,128 @@ RAW_MATERIALS = RECIPE_DATA['raw_materials']
 WIKI_BASE_URL = RECIPE_DATA['wiki_base_url']
 
 
-class RawMaterial(graphene.ObjectType):
-    id = graphene.ID()
-    name = graphene.String()
-    uri = graphene.String()
-    image_url = graphene.String()
-    used_in = graphene.List(graphene.String)
-    sell_price = graphene.Int()
-
-
-class Recipe(graphene.ObjectType):
-    id = graphene.String()
-    name = graphene.String()
-    has_page = graphene.Boolean()
-    uri = graphene.String()
-    image_url = graphene.String()
-    source = graphene.String()
-    sell_price = graphene.Int()
-    total_crafting_steps = graphene.Int()
-    depends_on = graphene.List(graphene.String)
-
-    class MaterialRef(graphene.ObjectType):
-        id = graphene.ID()
-        name = graphene.String()
-        quantity = graphene.Int()
-        uri = graphene.String()
-
-    class RawMaterialRef(RawMaterial):
-        quantity = graphene.Int()
-
-    materials = graphene.List(MaterialRef)
-    raw_materials = graphene.List(RawMaterialRef)
-
-    estimated_sell_price = graphene.Int()
-    def resolve_estimated_sell_price(self, info):
-        _sum = 0
-        for raw_material in self.raw_materials:
-            if raw_material.quantity and raw_material.sell_price:
-                _sum += raw_material.quantity * raw_material.sell_price
-            else:
-                return None
-        return _sum
-
-
-def get_raw_material(raw_material_id: str) -> RawMaterial:
-    raw_material = RAW_MATERIALS[raw_material_id]
-    return convert_raw_material(raw_material)
-
-
-def convert_raw_material(raw_material: dict) -> RawMaterial:
-    return RawMaterial(**raw_material)
-
-
-def get_recipe(recipe_id: str) -> Recipe:
-    recipe = RECIPES[recipe_id]
-    return convert_recipe(recipe)
-
-
-def convert_recipe(recipe: dict) -> Recipe:
-    materials = [
-        Recipe.MaterialRef(**material)
-        for material in recipe['materials']
-    ]
-
-    raw_materials = [
-        Recipe.RawMaterialRef(
-            **RAW_MATERIALS[raw_material_id],
-            quantity=raw_material_ref['quantity'],
-        )
-        for raw_material_id, raw_material_ref in
-        recipe['raw_materials'].items()
-    ]
-
-    return Recipe(**{
-        k: (
-            materials if k == 'materials' else
-            raw_materials if k == 'raw_materials' else
-            v
-        )
-        for k,v in recipe.items()
-    })
-
-
 class Query(graphene.ObjectType):
-    wiki_base_url = graphene.Field(graphene.String)
-    raw_material = graphene.Field(RawMaterial, id=graphene.String())
-    raw_materials = graphene.Field(graphene.List(RawMaterial))
-    recipe = graphene.Field(Recipe, id=graphene.String())
-    recipes = graphene.Field(graphene.List(Recipe))
+    wiki_base_url = graphene.Field(
+        graphene.String,
+        resolver=lambda self,info: WIKI_BASE_URL,
+        description="Returns the base URL for the Animal Crossing Fandom Wiki.",
+    )
 
-    def resolve_wiki_base_url(self, info):
-        return WIKI_BASE_URL
+    raw_material = graphene.Field(
+        models.RawMaterial,
+        id=graphene.String(),
+        description="Returns a single raw material, using the raw material's ID.",
+    )
 
     def resolve_raw_material(self, info, id):
-        return get_raw_material(id)
+        return models.get_raw_material(RAW_MATERIALS, id)
+
+    raw_materials = graphene.Field(
+        graphene.List(models.RawMaterial),
+        description="Returns a list of all raw materials.",
+    )
 
     def resolve_raw_materials(self, info):
-        return list(map(convert_raw_material, RAW_MATERIALS.values()))
+        return [
+            models.convert_raw_material(rm)
+            for rm in
+            RAW_MATERIALS.values()
+        ]
+
+    recipe = graphene.Field(
+        models.Recipe,
+        id=graphene.String(),
+        description="Returns a single recipe using the recipe's ID.",
+    )
 
     def resolve_recipe(self, info, id):
-        return get_recipe(id)
+        return models.get_recipe(RECIPES, RAW_MATERIALS, id)
 
-    def resolve_recipes(self, info):
-        return list(map(convert_recipe, RECIPES.values()))
+    recipes = graphene.Field(
+        graphene.List(models.Recipe),
+        raw_material_id=graphene.String(description="A raw material ID, used to filter the results list to only include recipes that use the specified raw material."),
+        recipe_ids=graphene.List(graphene.String, description="A list of recipe IDs, used to filter the list of results."),
+        description="Returns a list of recipes. Has a few filter options.",
+    )
+
+    def resolve_recipes(self, info, recipe_ids: list=None, raw_material_id: str=None):
+        if isinstance(recipe_ids, list):
+            recipe_subset_generator = (RECIPES[_id] for _id in recipe_ids)
+        else:
+            recipe_subset_generator = (recipe for recipe in RECIPES.values())
+
+        if raw_material_id:
+            recipe_subset_generator = (
+                recipe for recipe in recipe_subset_generator
+                if raw_material_id in recipe['raw_materials']
+            )
+
+        return [
+            models.convert_recipe(RAW_MATERIALS, recipe)
+            for recipe in
+            recipe_subset_generator
+        ]
+
+    class CraftableRecipeRawMaterialArg(graphene.InputObjectType):
+        raw_material_id = graphene.String()
+        quantity = graphene.Int()
+
+    class CraftableRecipeResponse(graphene.ObjectType):
+        recipe = graphene.Field(models.Recipe)
+        quantity = graphene.Int()
+
+        total_sell_price = graphene.Int()
+        def resolve_total_sell_price(self, info):
+            if self.quantity is None or self.recipe.sell_price is None:
+                return None
+
+            return self.quantity * self.recipe.sell_price
+
+        total_crafting_steps = graphene.Int()
+        def resolve_total_crafting_steps(self, info):
+            if self.quantity is None or self.recipe.total_crafting_steps is None:
+                return None
+
+            return self.quantity * self.recipe.total_crafting_steps
+
+
+    craftable_recipes = graphene.Field(
+        graphene.List(CraftableRecipeResponse),
+        raw_materials=graphene.List(CraftableRecipeRawMaterialArg),
+        description="Returns a list of recipes that can be crafted based on a list of raw materials.",
+    )
+
+    def resolve_craftable_recipes(self, info, raw_materials: List[CraftableRecipeRawMaterialArg]):
+        raw_material_quantities = {
+            rm.raw_material_id: rm.quantity
+            for rm in
+            raw_materials
+        }
+
+        craftable_recipes = {}
+        for recipe_id, recipe in RECIPES.items():
+            min_craftable_quantity = None
+            for raw_material_id, raw_material in recipe['raw_materials'].items():
+                quantity_required = raw_material['quantity']
+                quantity_on_hand = raw_material_quantities.get(raw_material_id, 0)
+                craftable_quantity = int(quantity_on_hand / quantity_required)
+                min_craftable_quantity = (
+                    craftable_quantity if min_craftable_quantity is None else
+                    min(min_craftable_quantity, craftable_quantity)
+                )
+
+            if min_craftable_quantity:
+                craftable_recipes[recipe_id] = min_craftable_quantity
+
+        return [
+            Query.CraftableRecipeResponse(
+                quantity=craftable_quantity,
+                recipe=models.get_recipe(RECIPES, RAW_MATERIALS, recipe_id),
+            )
+            for recipe_id, craftable_quantity in
+            craftable_recipes.items()
+        ]
+
 
 schema = graphene.Schema(query=Query)
 
