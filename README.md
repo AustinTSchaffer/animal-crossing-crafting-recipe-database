@@ -49,5 +49,4 @@ in working on the web interface component by opening an issue on this repository
 Part of the reason why work on the web interface was never started was because catching Tarantulas and
 playing the Stalk Market are vastly more profitable, relative to the work required. I still believe that
 the crafting system in the game is interesting and exploitable, and this application may still be useful
-to those who are looking to maximize their profit on the materials that they've acquired from stripping
-islands bare.
+to those who are looking to maximize their profit on the materials that they've acquired over time.
