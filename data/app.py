@@ -59,6 +59,7 @@ def load_html_page(page: str) -> str:
     browser.get(page)
 
     page_contents = browser.page_source
+    browser.quit()
     print('Page:', page, 'Source Length:', len(page_contents))
     return page_contents
 
