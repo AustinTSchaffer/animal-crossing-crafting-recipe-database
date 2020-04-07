@@ -402,6 +402,26 @@ def generate_raw_materials_table(recipes: dict, raw_materials: list) -> dict:
     return raw_materials
 
 
+def calculate_value_of_raw_materials(recipes: dict, raw_materials: dict):
+    """
+    Calculates the value of the raw materials that comprise each recipe if the
+    player were to sell the raw materials instead of crafting the recipe and
+    selling the result.
+    """
+
+    def _calculate_value_of_raw_materials(recipe: dict) -> int:
+        value_of_raw = 0
+        for rm_id, rm_ref in recipe['raw_materials'].items():
+            raw_material = raw_materials[rm_id]
+            if raw_material['sell_price'] is None:
+                return None
+            value_of_raw += (rm_ref['quantity'] * raw_material['sell_price'])
+        return value_of_raw
+
+    for recipe in recipes.values():
+        recipe['value_of_raw_materials'] = _calculate_value_of_raw_materials(recipe)
+
+
 if __name__ == '__main__':
     recipes = []
 
@@ -416,6 +436,8 @@ if __name__ == '__main__':
     crafting_materials_html_contents = load_html_page(WIKI_PAGE_CRAFTING_MATERIALS)
     raw_materials = scrape_raw_materials_from_html_doc(crafting_materials_html_contents)
     raw_materials = generate_raw_materials_table(recipes, raw_materials)
+
+    calculate_value_of_raw_materials(recipes, raw_materials)
 
     data = {
         'wiki_base_url': WIKI_BASE_URL,
