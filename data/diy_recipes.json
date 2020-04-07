@@ -1,5 +1,6 @@
 {
   "wiki_base_url": "https://animalcrossing.fandom.com",
+  "utc_datetime": "2020-04-07 01:41:02.696104+00:00",
   "recipes": {
     "flimsy_axe": {
       "name": "Flimsy axe",
@@ -40,7 +41,8 @@
           "uri": "/wiki/Stone",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 100
     },
     "stone_axe": {
       "name": "Stone axe",
@@ -88,7 +90,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 280
     },
     "axe": {
       "name": "Axe",
@@ -148,7 +151,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 655
     },
     "golden_axe": {
       "name": "Golden axe",
@@ -209,7 +213,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 10655
     },
     "flimsy_shovel": {
       "name": "Flimsy shovel",
@@ -238,7 +243,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "shovel": {
       "name": "Shovel",
@@ -280,7 +286,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 675
     },
     "golden_shovel": {
       "name": "Golden shovel",
@@ -329,7 +336,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 10675
     },
     "flimsy_fishing_rod": {
       "name": "Flimsy fishing rod",
@@ -358,7 +366,8 @@
           "uri": "/wiki/Tree_branch",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 25
     },
     "fishing_rod": {
       "name": "Fishing rod",
@@ -400,7 +409,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "golden_rod": {
       "name": "Golden rod",
@@ -449,7 +459,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 10400
     },
     "flimsy_net": {
       "name": "Flimsy net",
@@ -478,7 +489,8 @@
           "uri": "/wiki/Tree_branch",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 25
     },
     "net": {
       "name": "Net",
@@ -520,7 +532,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "golden_net": {
       "name": "Golden net",
@@ -569,7 +582,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 10400
     },
     "flimsy_watering_can": {
       "name": "Flimsy watering can",
@@ -598,7 +612,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "watering_can": {
       "name": "Watering can",
@@ -640,7 +655,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 675
     },
     "golden_watering_can": {
       "name": "Golden watering can",
@@ -689,7 +705,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 10675
     },
     "slingshot": {
       "name": "Slingshot",
@@ -718,7 +735,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "golden_slingshot": {
       "name": "Golden slingshot",
@@ -760,7 +778,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 10300
     },
     "vaulting_pole": {
       "name": "Vaulting pole",
@@ -789,7 +808,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "ladder": {
       "name": "Ladder",
@@ -842,7 +862,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 720
     },
     "star_wand": {
       "name": "Star wand",
@@ -883,7 +904,8 @@
           "uri": "/wiki/Star_fragment",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 3250
     },
     "bamboo_wand": {
       "name": "Bamboo wand",
@@ -924,7 +946,8 @@
           "uri": "/wiki/Star_fragment",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1950
     },
     "mushroom_wand": {
       "name": "Mushroom wand",
@@ -939,7 +962,8 @@
       "depends_on": [
         "mushroom_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "cherry_blossom_wand": {
       "name": "Cherry-blossom wand",
@@ -980,7 +1004,50 @@
           "uri": "/wiki/Star_fragment",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 850
+    },
+    "bunny_day_wand": {
+      "name": "Bunny Day wand",
+      "id": "bunny_day_wand",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "wobbling Zipper toy",
+          "id": "wobbling_zipper_toy",
+          "uri": null,
+          "quantity": 1
+        },
+        {
+          "name": "star fragment",
+          "id": "star_fragment",
+          "uri": "/wiki/Star_fragment",
+          "quantity": 3
+        }
+      ],
+      "source": "Zipper (Bunny Day)",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "bunny_day_wand"
+      ],
+      "raw_materials": {
+        "wobbling_zipper_toy": {
+          "name": "wobbling Zipper toy",
+          "id": "wobbling_zipper_toy",
+          "uri": null,
+          "quantity": 1
+        },
+        "star_fragment": {
+          "name": "star fragment",
+          "id": "star_fragment",
+          "uri": "/wiki/Star_fragment",
+          "quantity": 3
+        }
+      },
+      "value_of_raw_materials": null
     },
     "cosmos_wand": {
       "name": "Cosmos wand",
@@ -995,7 +1062,8 @@
       "depends_on": [
         "cosmos_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "hyacinth_wand": {
       "name": "Hyacinth wand",
@@ -1010,7 +1078,8 @@
       "depends_on": [
         "hyacinth_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "lily_wand": {
       "name": "Lily wand",
@@ -1025,7 +1094,8 @@
       "depends_on": [
         "lily_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "mums_wand": {
       "name": "Mums wand",
@@ -1040,7 +1110,8 @@
       "depends_on": [
         "mums_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "rose_wand": {
       "name": "Rose wand",
@@ -1055,7 +1126,8 @@
       "depends_on": [
         "rose_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "tulip_wand": {
       "name": "Tulip wand",
@@ -1096,7 +1168,8 @@
           "uri": "/wiki/Star_fragment",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "windflower_wand": {
       "name": "Windflower wand",
@@ -1137,7 +1210,8 @@
           "uri": "/wiki/Star_fragment",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "shell_wand": {
       "name": "Shell wand",
@@ -1152,7 +1226,8 @@
       "depends_on": [
         "shell_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "ice_wand": {
       "name": "Ice wand",
@@ -1167,7 +1242,8 @@
       "depends_on": [
         "ice_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "golden_wand": {
       "name": "Golden wand",
@@ -1182,7 +1258,8 @@
       "depends_on": [
         "golden_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "wand": {
       "name": "Wand",
@@ -1197,7 +1274,8 @@
       "depends_on": [
         "wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "tree_branch_wand": {
       "name": "Tree-branch wand",
@@ -1212,7 +1290,8 @@
       "depends_on": [
         "tree_branch_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "iron_wand": {
       "name": "Iron wand",
@@ -1221,13 +1300,14 @@
       "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2b/NH-Pipe_wand.png/revision/latest?cb=20200330011318",
       "materials": [],
-      "source": "",
+      "source": "Celeste wandering island",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "iron_wand"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "acoustic_guitar": {
       "name": "Acoustic guitar",
@@ -1268,7 +1348,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1605
     },
     "angled_signpost": {
       "name": "Angled signpost",
@@ -1283,7 +1364,8 @@
       "depends_on": [
         "angled_signpost"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "apple_chair": {
       "name": "Apple chair",
@@ -1324,7 +1406,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "aquarius_urn": {
       "name": "Aquarius urn",
@@ -1339,7 +1422,8 @@
       "depends_on": [
         "aquarius_urn"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "aries_rocking_chair": {
       "name": "Aries rocking chair",
@@ -1404,7 +1488,8 @@
           "uri": "/wiki/Stone",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 12125
     },
     "asteroid": {
       "name": "Asteroid",
@@ -1419,7 +1504,8 @@
       "depends_on": [
         "asteroid"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "astronaut_suit": {
       "name": "Astronaut suit",
@@ -1434,7 +1520,8 @@
       "depends_on": [
         "astronaut_suit"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "bamboo_basket": {
       "name": "Bamboo basket",
@@ -1463,7 +1550,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": 560
     },
     "bamboo_bench": {
       "name": "Bamboo bench",
@@ -1492,7 +1580,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 640
     },
     "bamboo_doll": {
       "name": "Bamboo doll",
@@ -1521,7 +1610,8 @@
           "uri": "/wiki/Young_spring_bamboo",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bamboo_floor_lamp": {
       "name": "Bamboo floor lamp",
@@ -1550,7 +1640,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 640
     },
     "bamboo_noodle_slide": {
       "name": "Bamboo noodle slide",
@@ -1591,7 +1682,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1580
     },
     "bamboo_partition": {
       "name": "Bamboo partition",
@@ -1632,7 +1724,8 @@
           "uri": "/wiki/Stone",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1010
     },
     "bamboo_shelf": {
       "name": "Bamboo shelf",
@@ -1661,7 +1754,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bamboo_speaker": {
       "name": "Bamboo speaker",
@@ -1702,7 +1796,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 615
     },
     "bamboo_stool": {
       "name": "Bamboo stool",
@@ -1731,7 +1826,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "bamboo_stopblock": {
       "name": "Bamboo stopblock",
@@ -1760,7 +1856,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 240
     },
     "barbell": {
       "name": "Barbell",
@@ -1789,7 +1886,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 3750
     },
     "barrel": {
       "name": "Barrel",
@@ -1830,7 +1928,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 1050
     },
     "beekeeper_s_hive": {
       "name": "Beekeeper\u2019s hive",
@@ -1871,7 +1970,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "big_festive_tree": {
       "name": "Big festive tree",
@@ -1886,7 +1986,8 @@
       "depends_on": [
         "big_festive_tree"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "birdbath": {
       "name": "Birdbath",
@@ -1915,7 +2016,8 @@
           "uri": "/wiki/Stone",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 450
     },
     "birdcage": {
       "name": "Birdcage",
@@ -1944,7 +2046,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "birdhouse": {
       "name": "Birdhouse",
@@ -1985,7 +2088,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 420
     },
     "blossom_viewing_lantern": {
       "name": "Blossom-viewing lantern",
@@ -2026,7 +2130,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1440
     },
     "bonfire": {
       "name": "Bonfire",
@@ -2068,7 +2173,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 615
     },
     "bonsai_shelf": {
       "name": "Bonsai shelf",
@@ -2141,7 +2247,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "brick_oven": {
       "name": "Brick oven",
@@ -2194,7 +2301,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1910
     },
     "brick_well": {
       "name": "Brick well",
@@ -2248,7 +2356,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1400
     },
     "bunny_day_arch": {
       "name": "Bunny Day arch",
@@ -2337,7 +2446,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 2400
     },
     "bunny_day_bed": {
       "name": "Bunny Day bed",
@@ -2426,7 +2536,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bunny_day_festive_balloons": {
       "name": "Bunny Day festive balloons",
@@ -2479,7 +2590,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "bunny_day_merry_balloons": {
       "name": "Bunny Day merry balloons",
@@ -2532,7 +2644,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "bunny_day_stool": {
       "name": "Bunny Day stool",
@@ -2561,7 +2674,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "bunny_day_table": {
       "name": "Bunny Day table",
@@ -2590,7 +2704,8 @@
           "uri": "/wiki/Egg",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 800
     },
     "bunny_day_vanity": {
       "name": "Bunny Day vanity",
@@ -2619,7 +2734,8 @@
           "uri": "/wiki/Egg",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 800
     },
     "bunny_day_wardrobe": {
       "name": "Bunny Day wardrobe",
@@ -2648,7 +2764,8 @@
           "uri": "/wiki/Egg",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 800
     },
     "butter_churn": {
       "name": "Butter churn",
@@ -2689,7 +2806,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 990
     },
     "campfire": {
       "name": "Campfire",
@@ -2718,7 +2836,8 @@
           "uri": "/wiki/Tree_branch",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 15
     },
     "cancer_table": {
       "name": "Cancer table",
@@ -2733,7 +2852,8 @@
       "depends_on": [
         "cancer_table"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "capricorn_ornament": {
       "name": "Capricorn ornament",
@@ -2748,7 +2868,8 @@
       "depends_on": [
         "capricorn_ornament"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "cardboard_bed": {
       "name": "Cardboard bed",
@@ -2777,7 +2898,8 @@
           "uri": null,
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cardboard_chair": {
       "name": "Cardboard chair",
@@ -2806,7 +2928,8 @@
           "uri": null,
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cardboard_sofa": {
       "name": "Cardboard sofa",
@@ -2835,7 +2958,8 @@
           "uri": null,
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cardboard_table": {
       "name": "Cardboard table",
@@ -2864,7 +2988,8 @@
           "uri": null,
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cherry_speakers": {
       "name": "Cherry speakers",
@@ -2905,22 +3030,62 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
-    "cherry_blossom_pond_stone": {
-      "name": "Cherry-blossom pond stone",
-      "id": "cherry_blossom_pond_stone",
+    "cherry_blossom_branches": {
+      "name": "Cherry-blossom branches",
+      "id": "cherry_blossom_branches",
       "uri": null,
       "has_page": false,
-      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/NH-Cherry-blossom_pond_stone.png/revision/latest?cb=20200329082235",
-      "materials": [],
-      "source": "",
-      "sell_price": null,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/NH-Cherry-blossom_branches.png/revision/latest?cb=20200329082855",
+      "materials": [
+        {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 8
+        },
+        {
+          "name": "tree branch",
+          "id": "tree_branch",
+          "uri": "/wiki/Tree_branch",
+          "quantity": 4
+        },
+        {
+          "name": "clay",
+          "id": "clay",
+          "uri": "/wiki/Clay",
+          "quantity": 5
+        }
+      ],
+      "source": "Balloon\nBalloon",
+      "sell_price": 4240,
       "total_crafting_steps": 1,
       "depends_on": [
-        "cherry_blossom_pond_stone"
+        "cherry_blossom_branches"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "cherry_blossom_petal": {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 8
+        },
+        "tree_branch": {
+          "name": "tree branch",
+          "id": "tree_branch",
+          "uri": "/wiki/Tree_branch",
+          "quantity": 4
+        },
+        "clay": {
+          "name": "clay",
+          "id": "clay",
+          "uri": "/wiki/Clay_(crafting_material)",
+          "quantity": 5
+        }
+      },
+      "value_of_raw_materials": 2120
     },
     "cherry_blossom_petal_pile": {
       "name": "Cherry-blossom-petal pile",
@@ -2949,13 +3114,56 @@
           "uri": "/wiki/Cherry-blossom_petal",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1000
+    },
+    "cherry_blossom_pond_stone": {
+      "name": "Cherry-blossom pond stone",
+      "id": "cherry_blossom_pond_stone",
+      "uri": null,
+      "has_page": false,
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/NH-Cherry-blossom_pond_stone.png/revision/latest?cb=20200329082235",
+      "materials": [
+        {
+          "name": "stone",
+          "id": "stone",
+          "uri": "/wiki/Stone",
+          "quantity": 10
+        },
+        {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 3
+        }
+      ],
+      "source": "Balloon",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "cherry_blossom_pond_stone"
+      ],
+      "raw_materials": {
+        "stone": {
+          "name": "stone",
+          "id": "stone",
+          "uri": "/wiki/Stone",
+          "quantity": 10
+        },
+        "cherry_blossom_petal": {
+          "name": "cherry-blossom petal",
+          "id": "cherry_blossom_petal",
+          "uri": "/wiki/Cherry-blossom_petal",
+          "quantity": 3
+        }
+      },
+      "value_of_raw_materials": 1350
     },
     "clackercart": {
       "name": "Clackercart",
       "id": "clackercart",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Clackercart",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/92/NH-Clackercart.png/revision/latest?cb=20200325181614",
       "materials": [
         {
@@ -2990,13 +3198,14 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "clothesline": {
       "name": "Clothesline",
       "id": "clothesline",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Clothesline",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a1/NH-Clothesline.png/revision/latest?cb=20200325181625",
       "materials": [
         {
@@ -3019,7 +3228,8 @@
           "uri": "/wiki/Tree_branch",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 50
     },
     "cosmos_shower": {
       "name": "Cosmos shower",
@@ -3034,7 +3244,8 @@
       "depends_on": [
         "cosmos_shower"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "crescent_moon_chair": {
       "name": "Crescent-moon chair",
@@ -3049,7 +3260,8 @@
       "depends_on": [
         "crescent_moon_chair"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "crewed_spaceship": {
       "name": "Crewed spaceship",
@@ -3064,7 +3276,8 @@
       "depends_on": [
         "crewed_spaceship"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "deer_scare": {
       "name": "Deer scare",
@@ -3117,7 +3330,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 870
     },
     "destinations_signpost": {
       "name": "Destinations signpost",
@@ -3158,7 +3372,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 720
     },
     "diy_workbench": {
       "name": "DIY workbench",
@@ -3173,7 +3388,8 @@
       "depends_on": [
         "diy_workbench"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "doghouse": {
       "name": "Doghouse",
@@ -3214,7 +3430,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": 1020
     },
     "drinking_fountain": {
       "name": "Drinking fountain",
@@ -3255,7 +3472,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 1350
     },
     "festive_tree": {
       "name": "Festive tree",
@@ -3270,7 +3488,8 @@
       "depends_on": [
         "festive_tree"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "flat_garden_rock": {
       "name": "Flat garden rock",
@@ -3285,7 +3504,8 @@
       "depends_on": [
         "flat_garden_rock"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "flying_saucer": {
       "name": "Flying saucer",
@@ -3300,7 +3520,8 @@
       "depends_on": [
         "flying_saucer"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "fountain": {
       "name": "Fountain",
@@ -3348,7 +3569,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 5850
     },
     "frozen_arch": {
       "name": "Frozen arch",
@@ -3363,7 +3585,8 @@
       "depends_on": [
         "frozen_arch"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frozen_bed": {
       "name": "Frozen bed",
@@ -3378,7 +3601,8 @@
       "depends_on": [
         "frozen_bed"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frozen_chair": {
       "name": "Frozen chair",
@@ -3393,7 +3617,8 @@
       "depends_on": [
         "frozen_chair"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frozen_counter": {
       "name": "Frozen counter",
@@ -3408,7 +3633,8 @@
       "depends_on": [
         "frozen_counter"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frozen_partition": {
       "name": "Frozen partition",
@@ -3423,7 +3649,8 @@
       "depends_on": [
         "frozen_partition"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frozen_pillar": {
       "name": "Frozen pillar",
@@ -3438,7 +3665,8 @@
       "depends_on": [
         "frozen_pillar"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frozen_sculpture": {
       "name": "Frozen sculpture",
@@ -3453,7 +3681,8 @@
       "depends_on": [
         "frozen_sculpture"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frozen_table": {
       "name": "Frozen table",
@@ -3468,7 +3697,8 @@
       "depends_on": [
         "frozen_table"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frozen_tree": {
       "name": "Frozen tree",
@@ -3483,7 +3713,8 @@
       "depends_on": [
         "frozen_tree"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "garden_bench": {
       "name": "Garden bench",
@@ -3524,7 +3755,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 2220
     },
     "garden_rock": {
       "name": "Garden rock",
@@ -3553,7 +3785,8 @@
           "uri": "/wiki/Stone",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 1125
     },
     "garden_wagon": {
       "name": "Garden wagon",
@@ -3630,7 +3863,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "gemini_closet": {
       "name": "Gemini closet",
@@ -3645,7 +3879,8 @@
       "depends_on": [
         "gemini_closet"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "giant_teddy_bear": {
       "name": "Giant teddy bear",
@@ -3698,7 +3933,8 @@
           "uri": null,
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "golden_casket": {
       "name": "Golden casket",
@@ -3713,7 +3949,8 @@
       "depends_on": [
         "golden_casket"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "golden_seat": {
       "name": "Golden seat",
@@ -3728,7 +3965,8 @@
       "depends_on": [
         "golden_seat"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "golden_toilet": {
       "name": "Golden toilet",
@@ -3743,7 +3981,8 @@
       "depends_on": [
         "golden_toilet"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "gong": {
       "name": "Gong",
@@ -3784,7 +4023,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 2550
     },
     "grass_standee": {
       "name": "Grass standee",
@@ -3825,7 +4065,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 240
     },
     "green_leaf_pile": {
       "name": "Green-leaf pile",
@@ -3866,7 +4107,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "hay_bed": {
       "name": "Hay bed",
@@ -3895,7 +4137,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": 200
     },
     "hearth": {
       "name": "Hearth",
@@ -3960,7 +4203,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 2735
     },
     "hedge_standee": {
       "name": "Hedge standee",
@@ -4001,7 +4245,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "illuminated_present": {
       "name": "Illuminated present",
@@ -4016,7 +4261,8 @@
       "depends_on": [
         "illuminated_present"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "illuminated_reindeer": {
       "name": "Illuminated reindeer",
@@ -4031,7 +4277,8 @@
       "depends_on": [
         "illuminated_reindeer"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "illuminated_snowflakes": {
       "name": "Illuminated snowflakes",
@@ -4046,7 +4293,8 @@
       "depends_on": [
         "illuminated_snowflakes"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "illuminated_tree": {
       "name": "Illuminated tree",
@@ -4061,7 +4309,8 @@
       "depends_on": [
         "illuminated_tree"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "iron_closet": {
       "name": "Iron closet",
@@ -4090,7 +4339,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 12
         }
-      }
+      },
+      "value_of_raw_materials": 4500
     },
     "iron_frame": {
       "name": "Iron frame",
@@ -4119,7 +4369,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": 7500
     },
     "iron_garden_bench": {
       "name": "Iron garden bench",
@@ -4148,7 +4399,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 3000
     },
     "iron_garden_chair": {
       "name": "Iron garden chair",
@@ -4177,7 +4429,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1125
     },
     "iron_garden_table": {
       "name": "Iron garden table",
@@ -4206,7 +4459,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1875
     },
     "iron_hanger_stand": {
       "name": "Iron hanger stand",
@@ -4235,7 +4489,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1125
     },
     "iron_worktable": {
       "name": "Iron worktable",
@@ -4252,7 +4507,7 @@
         }
       ],
       "source": "Island resident\nMessage in a bottle",
-      "sell_price": null,
+      "sell_price": 7500,
       "total_crafting_steps": 1,
       "depends_on": [
         "iron_worktable"
@@ -4264,7 +4519,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 3750
     },
     "iron_shelf": {
       "name": "Iron shelf",
@@ -4293,7 +4549,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 14
         }
-      }
+      },
+      "value_of_raw_materials": 5250
     },
     "ironwood_bed": {
       "name": "Ironwood bed",
@@ -4334,7 +4591,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 4950
     },
     "ironwood_cart": {
       "name": "Ironwood cart",
@@ -4375,7 +4633,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1860
     },
     "ironwood_chair": {
       "name": "Ironwood chair",
@@ -4416,7 +4675,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 930
     },
     "ironwood_cupboard": {
       "name": "Ironwood cupboard",
@@ -4457,7 +4717,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 2970
     },
     "ironwood_diy_workbench": {
       "name": "Ironwood DIY workbench",
@@ -4517,7 +4778,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 4260
     },
     "ironwood_dresser": {
       "name": "Ironwood dresser",
@@ -4558,7 +4820,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1920
     },
     "ironwood_kitchenette": {
       "name": "Ironwood kitchenette",
@@ -4619,7 +4882,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 3780
     },
     "ironwood_low_table": {
       "name": "Ironwood low table",
@@ -4660,7 +4924,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1860
     },
     "ironwood_table": {
       "name": "Ironwood table",
@@ -4701,7 +4966,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 2970
     },
     "jail_bars": {
       "name": "Jail bars",
@@ -4730,7 +4996,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1875
     },
     "juicy_apple_tv": {
       "name": "Juicy-apple TV",
@@ -4752,7 +5019,7 @@
           "quantity": 2
         }
       ],
-      "source": "Tom Nook after receiving first three housing kits, if the native fruit is apples",
+      "source": "Tom Nook after receiving first three housing kits, if the native fruit is apples\nMessage in a bottle",
       "sell_price": 3500,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -4771,7 +5038,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "kettle_bathtub": {
       "name": "Kettle bathtub",
@@ -4825,7 +5093,8 @@
           "uri": "/wiki/Tree_branch",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 3135
     },
     "large_cardboard_boxes": {
       "name": "Large cardboard boxes",
@@ -4854,7 +5123,8 @@
           "uri": null,
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "leaf_campfire": {
       "name": "Leaf campfire",
@@ -4882,7 +5152,7 @@
           "quantity": 3
         }
       ],
-      "source": "",
+      "source": "Message in a bottle",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -4907,7 +5177,8 @@
           "uri": "/wiki/Tree_branch",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "leaf_stool": {
       "name": "Leaf stool",
@@ -4922,7 +5193,8 @@
       "depends_on": [
         "leaf_stool"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "lily_record_player": {
       "name": "Lily record player",
@@ -4950,7 +5222,7 @@
           "quantity": 3
         }
       ],
-      "source": "",
+      "source": "Message in a bottle",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -4975,7 +5247,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "log_bed": {
       "name": "Log bed",
@@ -5004,7 +5277,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 30
         }
-      }
+      },
+      "value_of_raw_materials": 1800
     },
     "log_bench": {
       "name": "Log bench",
@@ -5033,7 +5307,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "log_decorative_shelves": {
       "name": "Log decorative shelves",
@@ -5069,7 +5344,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 13
         }
-      }
+      },
+      "value_of_raw_materials": 780
     },
     "log_dining_table": {
       "name": "Log dining table",
@@ -5098,7 +5374,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "log_extra_long_sofa": {
       "name": "Log extra-long sofa",
@@ -5113,7 +5390,8 @@
       "depends_on": [
         "log_extra_long_sofa"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "log_garden_lounge": {
       "name": "Log garden lounge",
@@ -5142,7 +5420,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 12
         }
-      }
+      },
+      "value_of_raw_materials": 720
     },
     "log_round_table": {
       "name": "Log round table",
@@ -5171,7 +5450,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "log_sofa": {
       "name": "Log sofa",
@@ -5200,7 +5480,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "log_stakes": {
       "name": "Log stakes",
@@ -5229,7 +5510,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 180
     },
     "log_stool": {
       "name": "Log stool",
@@ -5258,7 +5540,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 240
     },
     "lunar_lander": {
       "name": "Lunar lander",
@@ -5273,7 +5556,8 @@
       "depends_on": [
         "lunar_lander"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "lunar_rover": {
       "name": "Lunar rover",
@@ -5288,7 +5572,8 @@
       "depends_on": [
         "lunar_rover"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "manhole_cover": {
       "name": "Manhole cover",
@@ -5317,7 +5602,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1125
     },
     "maple_leaf_pond_stone": {
       "name": "Maple-leaf pond stone",
@@ -5332,7 +5618,8 @@
       "depends_on": [
         "maple_leaf_pond_stone"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "medium_cardboard_boxes": {
       "name": "Medium cardboard boxes",
@@ -5361,7 +5648,8 @@
           "uri": null,
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "mini_diy_workbench": {
       "name": "Mini DIY workbench",
@@ -5426,7 +5714,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 1290
     },
     "moon": {
       "name": "Moon",
@@ -5467,7 +5756,8 @@
           "uri": "/wiki/Large_star_fragment",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 6250
     },
     "mossy_garden_rock": {
       "name": "Mossy garden rock",
@@ -5508,7 +5798,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 1275
     },
     "mountain_standee": {
       "name": "Mountain standee",
@@ -5549,7 +5840,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 540
     },
     "mum_cushion": {
       "name": "Mum cushion",
@@ -5590,7 +5882,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "mush_lamp": {
       "name": "Mush lamp",
@@ -5605,7 +5898,8 @@
       "depends_on": [
         "mush_lamp"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "mush_log": {
       "name": "Mush log",
@@ -5620,7 +5914,8 @@
       "depends_on": [
         "mush_log"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "mush_low_stool": {
       "name": "Mush low stool",
@@ -5635,7 +5930,8 @@
       "depends_on": [
         "mush_low_stool"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "mush_parasol": {
       "name": "Mush parasol",
@@ -5650,7 +5946,8 @@
       "depends_on": [
         "mush_parasol"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "mush_partition": {
       "name": "Mush partition",
@@ -5665,7 +5962,8 @@
       "depends_on": [
         "mush_partition"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "mush_table": {
       "name": "Mush table",
@@ -5680,7 +5978,8 @@
       "depends_on": [
         "mush_table"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "music_stand": {
       "name": "Music stand",
@@ -5709,7 +6008,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "natural_garden_chair": {
       "name": "Natural garden chair",
@@ -5750,7 +6050,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 1110
     },
     "natural_garden_table": {
       "name": "Natural garden table",
@@ -5791,7 +6092,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1665
     },
     "natural_square_table": {
       "name": "Natural square table",
@@ -5832,7 +6134,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 990
     },
     "orange_end_table": {
       "name": "Orange end table",
@@ -5873,7 +6176,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "outdoor_bath": {
       "name": "Outdoor bath",
@@ -5922,7 +6226,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 2175
     },
     "outdoor_picnic_set": {
       "name": "Outdoor picnic set",
@@ -5951,7 +6256,8 @@
           "uri": "/wiki/Cherry-blossom_petal",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 2000
     },
     "palm_tree_lamp": {
       "name": "Palm-tree lamp",
@@ -6004,7 +6310,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1640
     },
     "pansy_table": {
       "name": "Pansy table",
@@ -6045,7 +6352,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "peach_chair": {
       "name": "Peach chair",
@@ -6086,7 +6394,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pear_bed": {
       "name": "Pear bed",
@@ -6127,7 +6436,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pear_wardrobe": {
       "name": "Pear wardrobe",
@@ -6168,7 +6478,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pile_of_leaves": {
       "name": "Pile of leaves",
@@ -6209,7 +6520,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pisces_lamp": {
       "name": "Pisces lamp",
@@ -6274,7 +6586,8 @@
           "uri": "/wiki/Stone",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "plain_sink": {
       "name": "Plain sink",
@@ -6327,7 +6640,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1135
     },
     "plain_wooden_shop_sign": {
       "name": "Plain wooden shop sign",
@@ -6356,7 +6670,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "pond_stone": {
       "name": "Pond stone",
@@ -6385,7 +6700,8 @@
           "uri": "/wiki/Stone",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 750
     },
     "racoon_figurine": {
       "name": "Racoon figurine",
@@ -6414,7 +6730,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "red_leaf_pile": {
       "name": "Red-leaf pile",
@@ -6429,7 +6746,8 @@
       "depends_on": [
         "red_leaf_pile"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "robot_hero": {
       "name": "Robot hero",
@@ -6496,7 +6814,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 90
         }
-      }
+      },
+      "value_of_raw_materials": 214050
     },
     "rocket": {
       "name": "Rocket",
@@ -6511,7 +6830,8 @@
       "depends_on": [
         "rocket"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "rocking_chair": {
       "name": "Rocking chair",
@@ -6552,7 +6872,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "rocking_horse": {
       "name": "Rocking horse",
@@ -6581,7 +6902,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "rose_bed": {
       "name": "Rose bed",
@@ -6622,7 +6944,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "satellite": {
       "name": "Satellite",
@@ -6637,7 +6960,8 @@
       "depends_on": [
         "satellite"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "sauna_heater": {
       "name": "Sauna heater",
@@ -6690,7 +7014,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1755
     },
     "scarecrow": {
       "name": "Scarecrow",
@@ -6731,7 +7056,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 75
     },
     "scattered_papers": {
       "name": "Scattered papers",
@@ -6754,7 +7080,8 @@
         "document_stack",
         "scattered_papers"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "shell_arch": {
       "name": "Shell arch",
@@ -6843,7 +7170,8 @@
           "uri": "/wiki/Shell",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 6180
     },
     "shell_bed": {
       "name": "Shell bed",
@@ -6872,7 +7200,7 @@
         }
       ],
       "source": "Island resident",
-      "sell_price": null,
+      "sell_price": 10200,
       "total_crafting_steps": 1,
       "depends_on": [
         "shell_bed"
@@ -6896,7 +7224,8 @@
           "uri": "/wiki/Stone",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 5100
     },
     "shell_fountain": {
       "name": "Shell fountain",
@@ -6937,7 +7266,8 @@
           "uri": "/wiki/Stone",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 4725
     },
     "shell_partition": {
       "name": "Shell partition",
@@ -6978,7 +7308,8 @@
           "uri": "/wiki/Conch_shell",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 4000
     },
     "shell_stool": {
       "name": "Shell stool",
@@ -7007,7 +7338,8 @@
           "uri": "/wiki/Shell",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "shell_table": {
       "name": "Shell table",
@@ -7048,7 +7380,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1140
     },
     "signpost": {
       "name": "Signpost",
@@ -7089,7 +7422,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "silo": {
       "name": "Silo",
@@ -7154,7 +7488,8 @@
           "uri": "/wiki/Stone",
           "quantity": 12
         }
-      }
+      },
+      "value_of_raw_materials": 6960
     },
     "simple_diy_workbench": {
       "name": "Simple DIY workbench",
@@ -7195,7 +7530,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 675
     },
     "simple_well": {
       "name": "Simple well",
@@ -7237,7 +7573,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1425
     },
     "sleigh": {
       "name": "Sleigh",
@@ -7266,7 +7603,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "small_cardboard_boxes": {
       "name": "Small cardboard boxes",
@@ -7282,7 +7620,7 @@
           "quantity": 2
         }
       ],
-      "source": "",
+      "source": "Message in a bottle\nVillager",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -7295,7 +7633,8 @@
           "uri": null,
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "space_shuttle": {
       "name": "Space shuttle",
@@ -7310,7 +7649,8 @@
       "depends_on": [
         "space_shuttle"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "stall": {
       "name": "Stall",
@@ -7339,7 +7679,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 12
         }
-      }
+      },
+      "value_of_raw_materials": 720
     },
     "standard_umbrella_stand": {
       "name": "Standard umbrella stand",
@@ -7368,7 +7709,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1125
     },
     "street_piano": {
       "name": "Street piano",
@@ -7409,7 +7751,8 @@
           "uri": null,
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "stone_arch": {
       "name": "Stone arch",
@@ -7438,7 +7781,38 @@
           "uri": "/wiki/Stone",
           "quantity": 90
         }
-      }
+      },
+      "value_of_raw_materials": 6750
+    },
+    "stone_lion_dog": {
+      "name": "Stone lion-dog",
+      "id": "stone_lion_dog",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "stone",
+          "id": "stone",
+          "uri": "/wiki/Stone",
+          "quantity": 24
+        }
+      ],
+      "source": "",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "stone_lion_dog"
+      ],
+      "raw_materials": {
+        "stone": {
+          "name": "stone",
+          "id": "stone",
+          "uri": "/wiki/Stone",
+          "quantity": 24
+        }
+      },
+      "value_of_raw_materials": 1800
     },
     "stone_stool": {
       "name": "Stone stool",
@@ -7467,7 +7841,8 @@
           "uri": "/wiki/Stone",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 225
     },
     "stone_table": {
       "name": "Stone table",
@@ -7496,7 +7871,8 @@
           "uri": "/wiki/Stone",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "stone_tablet": {
       "name": "Stone tablet",
@@ -7525,7 +7901,8 @@
           "uri": "/wiki/Stone",
           "quantity": 12
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "swinging_bench": {
       "name": "Swinging bench",
@@ -7566,7 +7943,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": 720
     },
     "tall_garden_rock": {
       "name": "Tall garden rock",
@@ -7595,7 +7973,8 @@
           "uri": "/wiki/Stone",
           "quantity": 60
         }
-      }
+      },
+      "value_of_raw_materials": 4500
     },
     "tall_lantern": {
       "name": "Tall lantern",
@@ -7624,7 +8003,8 @@
           "uri": "/wiki/Stone",
           "quantity": 18
         }
-      }
+      },
+      "value_of_raw_materials": 1350
     },
     "taurus_bathtub": {
       "name": "Taurus bathtub",
@@ -7689,7 +8069,8 @@
           "uri": "/wiki/Stone",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "tea_table": {
       "name": "Tea table",
@@ -7718,7 +8099,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 12
         }
-      }
+      },
+      "value_of_raw_materials": 720
     },
     "terrarium": {
       "name": "Terrarium",
@@ -7759,7 +8141,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 870
     },
     "three_tiered_snowperson": {
       "name": "Three-tiered snowperson",
@@ -7774,7 +8157,8 @@
       "depends_on": [
         "three_tiered_snowperson"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "tiki_torch": {
       "name": "Tiki torch",
@@ -7815,7 +8199,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 325
     },
     "tiny_library": {
       "name": "Tiny library",
@@ -7856,7 +8241,8 @@
           "uri": null,
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "tire_stack": {
       "name": "Tire stack",
@@ -7885,7 +8271,8 @@
           "uri": "/wiki/Trash",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 30
     },
     "tire_toy": {
       "name": "Tire toy",
@@ -7914,7 +8301,8 @@
           "uri": "/wiki/Trash",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 10
     },
     "tree_standee": {
       "name": "Tree standee",
@@ -7955,7 +8343,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 780
     },
     "tree_s_bounty_arch": {
       "name": "Tree's bounty arch",
@@ -7970,7 +8359,8 @@
       "depends_on": [
         "tree_s_bounty_arch"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "tree_s_bounty_big_tree": {
       "name": "Tree's bounty big tree",
@@ -7985,7 +8375,8 @@
       "depends_on": [
         "tree_s_bounty_big_tree"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "tree_s_bounty_lamp": {
       "name": "Tree's bounty lamp",
@@ -8026,7 +8417,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1600
     },
     "tree_s_bounty_little_tree": {
       "name": "Tree's bounty little tree",
@@ -8054,7 +8446,7 @@
           "quantity": 1
         }
       ],
-      "source": "",
+      "source": "Isabelle",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -8079,7 +8471,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "trophy_case": {
       "name": "Trophy case",
@@ -8094,7 +8487,8 @@
       "depends_on": [
         "trophy_case"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "tulip_surprise_box": {
       "name": "Tulip surprise box",
@@ -8135,7 +8529,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "utility_pole": {
       "name": "Utility Pole",
@@ -8150,7 +8545,8 @@
       "depends_on": [
         "utility_pole"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "virgo_harp": {
       "name": "Virgo harp",
@@ -8165,7 +8561,8 @@
       "depends_on": [
         "virgo_harp"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "water_pump": {
       "name": "Water pump",
@@ -8206,7 +8603,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1350
     },
     "wave_breaker": {
       "name": "Wave breaker",
@@ -8247,7 +8645,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 1750
     },
     "wild_log_bench": {
       "name": "Wild log bench",
@@ -8263,7 +8662,7 @@
           "quantity": 8
         }
       ],
-      "source": "Wildest Dreams DIY from Nook's Cranny",
+      "source": "Wildest Dreams DIY from Nook's Cranny\nMessage in a bottle",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -8276,7 +8675,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "windflower_fan": {
       "name": "Windflower fan",
@@ -8284,14 +8684,41 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Windflower_fan.png/revision/latest?cb=20200329100322",
-      "materials": [],
-      "source": "",
+      "materials": [
+        {
+          "name": "red windflowers",
+          "id": "red_windflowers",
+          "uri": null,
+          "quantity": 3
+        },
+        {
+          "name": "iron nuggets",
+          "id": "iron_nuggets",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 2
+        }
+      ],
+      "source": "Message in a bottle",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "windflower_fan"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "red_windflowers": {
+          "name": "red windflowers",
+          "id": "red_windflowers",
+          "uri": null,
+          "quantity": 3
+        },
+        "iron_nuggets": {
+          "name": "iron nuggets",
+          "id": "iron_nuggets",
+          "uri": "/wiki/Iron_nugget",
+          "quantity": 2
+        }
+      },
+      "value_of_raw_materials": null
     },
     "wooden_block_bookshelf": {
       "name": "Wooden-block bookshelf",
@@ -8327,7 +8754,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "wooden_block_bed": {
       "name": "Wooden-block bed",
@@ -8363,7 +8791,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "wooden_block_bench": {
       "name": "Wooden-block bench",
@@ -8399,7 +8828,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": 420
     },
     "wooden_block_chair": {
       "name": "Wooden-block chair",
@@ -8435,7 +8865,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "wooden_block_chest": {
       "name": "Wooden-block chest",
@@ -8471,7 +8902,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "wooden_block_stereo": {
       "name": "Wooden-block stereo",
@@ -8519,7 +8951,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 1230
     },
     "wooden_block_stool": {
       "name": "Wooden-block stool",
@@ -8555,7 +8988,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "wooden_block_table": {
       "name": "Wooden-block table",
@@ -8591,7 +9025,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 11
         }
-      }
+      },
+      "value_of_raw_materials": 660
     },
     "wooden_bookshelf": {
       "name": "Wooden bookshelf",
@@ -8606,7 +9041,8 @@
       "depends_on": [
         "wooden_bookshelf"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "wooden_bucket": {
       "name": "Wooden bucket",
@@ -8647,7 +9083,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 555
     },
     "wooden_chair": {
       "name": "Wooden chair",
@@ -8676,7 +9113,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "wooden_chest": {
       "name": "Wooden chest",
@@ -8705,7 +9143,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 16
         }
-      }
+      },
+      "value_of_raw_materials": 960
     },
     "wooden_double_bed": {
       "name": "Wooden double bed",
@@ -8734,7 +9173,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 30
         }
-      }
+      },
+      "value_of_raw_materials": 1800
     },
     "wooden_end_table": {
       "name": "Wooden end table",
@@ -8763,7 +9203,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "wooden_full_length_mirror": {
       "name": "Wooden full-length mirror",
@@ -8804,7 +9245,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 675
     },
     "wooden_low_table": {
       "name": "Wooden low table",
@@ -8833,7 +9275,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "wooden_mini_table": {
       "name": "Wooden mini table",
@@ -8862,7 +9305,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "wooden_simple_bed": {
       "name": "Wooden simple bed",
@@ -8891,7 +9335,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 18
         }
-      }
+      },
+      "value_of_raw_materials": 1080
     },
     "wooden_stool": {
       "name": "Wooden stool",
@@ -8920,7 +9365,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 240
     },
     "wooden_table": {
       "name": "Wooden table",
@@ -8949,7 +9395,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "wooden_wardrobe": {
       "name": "Wooden wardrobe",
@@ -8978,7 +9425,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 12
         }
-      }
+      },
+      "value_of_raw_materials": 720
     },
     "wooden_waste_bin": {
       "name": "Wooden waste bin",
@@ -9007,7 +9455,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 240
     },
     "yellow_leaf_pile": {
       "name": "Yellow-leaf pile",
@@ -9048,7 +9497,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 650
     },
     "aroma_holder": {
       "name": "Aroma holder",
@@ -9077,7 +9527,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "bamboo_drum": {
       "name": "Bamboo drum",
@@ -9118,14 +9569,15 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "bamboo_candleholder": {
       "name": "Bamboo candleholder",
       "id": "bamboo_candleholder",
       "uri": null,
       "has_page": false,
-      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/01/NH-Bamboo_candle_holder.png/revision/latest?cb=20200326035419",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/47/NH-Bamboo_candleholder.png/revision/latest?cb=20200406054705",
       "materials": [
         {
           "name": "bamboo piece",
@@ -9159,7 +9611,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 440
     },
     "bamboo_lunch_box": {
       "name": "Bamboo lunch box",
@@ -9188,7 +9641,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 320
     },
     "bamboo_sphere": {
       "name": "Bamboo sphere",
@@ -9217,14 +9671,15 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 240
     },
     "bamboo_shoot_lamp": {
       "name": "Bamboo-shoot lamp",
       "id": "bamboo_shoot_lamp",
       "uri": null,
       "has_page": false,
-      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Bamboo_shoot_lamp.png/revision/latest?cb=20200326035243",
+      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bamboo-shoot_lamp.png/revision/latest?cb=20200406054818",
       "materials": [
         {
           "name": "young spring bamboo",
@@ -9270,7 +9725,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 2450
     },
     "bunny_day_lamp": {
       "name": "Bunny Day lamp",
@@ -9299,7 +9755,8 @@
           "uri": "/wiki/Egg",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 800
     },
     "cherry_blossom_bonsai": {
       "name": "Cherry-blossom bonsai",
@@ -9364,66 +9821,14 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 3
         }
-      }
-    },
-    "cherry_blossom_branches": {
-      "name": "Cherry-blossom branches",
-      "id": "cherry_blossom_branches",
-      "uri": null,
-      "has_page": false,
-      "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/NH-Cherry-blossom_branches.png/revision/latest?cb=20200329082855",
-      "materials": [
-        {
-          "name": "cherry-blossom petal",
-          "id": "cherry_blossom_petal",
-          "uri": "/wiki/Cherry-blossom_petal",
-          "quantity": 8
-        },
-        {
-          "name": "tree branch",
-          "id": "tree_branch",
-          "uri": "/wiki/Tree_branch",
-          "quantity": 4
-        },
-        {
-          "name": "clay",
-          "id": "clay",
-          "uri": "/wiki/Clay",
-          "quantity": 5
-        }
-      ],
-      "source": "Balloon",
-      "sell_price": 4240,
-      "total_crafting_steps": 1,
-      "depends_on": [
-        "cherry_blossom_branches"
-      ],
-      "raw_materials": {
-        "cherry_blossom_petal": {
-          "name": "cherry-blossom petal",
-          "id": "cherry_blossom_petal",
-          "uri": "/wiki/Cherry-blossom_petal",
-          "quantity": 8
-        },
-        "tree_branch": {
-          "name": "tree branch",
-          "id": "tree_branch",
-          "uri": "/wiki/Tree_branch",
-          "quantity": 4
-        },
-        "clay": {
-          "name": "clay",
-          "id": "clay",
-          "uri": "/wiki/Clay_(crafting_material)",
-          "quantity": 5
-        }
-      }
+      },
+      "value_of_raw_materials": 1650
     },
     "classic_pitcher": {
       "name": "Classic pitcher",
       "id": "classic_pitcher",
-      "uri": null,
-      "has_page": false,
+      "uri": "/wiki/Classic_pitcher",
+      "has_page": true,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/38/NH-Classic_pitcher.png/revision/latest?cb=20200325181619",
       "materials": [
         {
@@ -9446,7 +9851,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "coconut_juice": {
       "name": "Coconut juice",
@@ -9475,7 +9881,8 @@
           "uri": "/wiki/Fruit#Tropical_Fruit_Types",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 250
     },
     "cutting_board": {
       "name": "Cutting board",
@@ -9516,7 +9923,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 495
     },
     "decoy_duck": {
       "name": "Decoy duck",
@@ -9545,7 +9953,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 240
     },
     "document_stack": {
       "name": "Document stack",
@@ -9568,7 +9977,8 @@
         "document_stack",
         "scattered_papers"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "firewood": {
       "name": "Firewood",
@@ -9597,7 +10007,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "frozen_treat_set": {
       "name": "Frozen-treat set",
@@ -9612,7 +10023,8 @@
       "depends_on": [
         "frozen_treat_set"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "fruit_basket": {
       "name": "Fruit basket",
@@ -9627,7 +10039,8 @@
       "depends_on": [
         "fruit_basket"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "frying_pan": {
       "name": "Frying pan",
@@ -9656,7 +10069,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 750
     },
     "golden_arowana_model": {
       "name": "Golden arowana model",
@@ -9685,7 +10099,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 30000
     },
     "gold_bars": {
       "name": "Gold bars",
@@ -9714,7 +10129,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 30000
     },
     "golden_candlestick": {
       "name": "Golden candlestick",
@@ -9743,7 +10159,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 20000
     },
     "golden_dishes": {
       "name": "Golden dishes",
@@ -9772,7 +10189,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 10000
     },
     "golden_dung_beetle": {
       "name": "Golden dung beetle",
@@ -9801,7 +10219,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 30000
     },
     "hyacinth_lamp": {
       "name": "Hyacinth lamp",
@@ -9842,7 +10261,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "infused_water_dispenser": {
       "name": "Infused-water dispenser",
@@ -9857,7 +10277,8 @@
       "depends_on": [
         "infused_water_dispenser"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "kettlebell": {
       "name": "Kettlebell",
@@ -9886,7 +10307,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1875
     },
     "libra_scale": {
       "name": "Libra scale",
@@ -9901,7 +10323,8 @@
       "depends_on": [
         "libra_scale"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "lucky_gold_cat": {
       "name": "Lucky gold cat",
@@ -9942,7 +10365,8 @@
           "uri": null,
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "magazine_rack": {
       "name": "Magazine rack",
@@ -9983,7 +10407,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "matryoshka": {
       "name": "Matryoshka",
@@ -10012,7 +10437,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "modeling_clay": {
       "name": "Modeling clay",
@@ -10041,7 +10467,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 200
     },
     "old_fashioned_washtub": {
       "name": "Old-fashioned washtub",
@@ -10070,7 +10497,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 180
     },
     "peach_surprise_box": {
       "name": "Peach surprise box",
@@ -10111,7 +10539,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pine_bonsai_tree": {
       "name": "Pine bonsai tree",
@@ -10152,7 +10581,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pot": {
       "name": "Pot",
@@ -10181,7 +10611,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 500
     },
     "recycled_can_thumb_piano": {
       "name": "Recycled-can thumb piano",
@@ -10234,7 +10665,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 445
     },
     "ringtoss": {
       "name": "Ringtoss",
@@ -10275,7 +10707,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 240
     },
     "scorpio_lamp": {
       "name": "Scorpio lamp",
@@ -10290,7 +10723,8 @@
       "depends_on": [
         "scorpio_lamp"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "shell_lamp": {
       "name": "Shell lamp",
@@ -10331,7 +10765,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 2100
     },
     "shell_speaker": {
       "name": "Shell speaker",
@@ -10372,7 +10807,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 2850
     },
     "stack_of_books": {
       "name": "Stack of books",
@@ -10401,7 +10837,8 @@
           "uri": null,
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "stacked_magazines": {
       "name": "Stacked magazines",
@@ -10416,7 +10853,8 @@
       "depends_on": [
         "stacked_magazines"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "steamer_basket_set": {
       "name": "Steamer-basket set",
@@ -10445,7 +10883,8 @@
           "uri": "/wiki/Young_spring_bamboo",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "succulent_plant": {
       "name": "Succulent plant",
@@ -10486,7 +10925,8 @@
           "uri": "/wiki/Trash",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 110
     },
     "tabletop_festive_tree": {
       "name": "Tabletop festive tree",
@@ -10501,7 +10941,8 @@
       "depends_on": [
         "tabletop_festive_tree"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "traditional_balancing_toy": {
       "name": "Traditional balancing toy",
@@ -10542,7 +10983,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 920
     },
     "trash_bags": {
       "name": "Trash bags",
@@ -10595,7 +11037,8 @@
           "uri": "/wiki/Trash",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 30
     },
     "unglazed_dish_set": {
       "name": "Unglazed dish set",
@@ -10624,7 +11067,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "wooden_block_toy": {
       "name": "Wooden-block toy",
@@ -10653,7 +11097,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 180
     },
     "wooden_fish": {
       "name": "Wooden fish",
@@ -10682,7 +11127,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 180
     },
     "wooden_table_mirror": {
       "name": "Wooden table mirror",
@@ -10723,7 +11169,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 555
     },
     "wooden_toolbox": {
       "name": "Wooden toolbox",
@@ -10764,7 +11211,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 990
     },
     "bamboo_wall_decoration": {
       "name": "Bamboo wall decoration",
@@ -10793,7 +11241,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 80
     },
     "bone_doorplate": {
       "name": "Bone doorplate",
@@ -10822,7 +11271,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 180
     },
     "boomerang": {
       "name": "Boomerang",
@@ -10851,7 +11301,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 180
     },
     "bunny_day_glowy_garland": {
       "name": "Bunny Day glowy garland",
@@ -10940,7 +11391,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bunny_day_wall_clock": {
       "name": "Bunny Day wall clock",
@@ -10969,7 +11421,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "bunny_day_wreath": {
       "name": "Bunny Day wreath",
@@ -11058,7 +11511,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "cherry_lamp": {
       "name": "Cherry lamp",
@@ -11099,7 +11553,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cherry_blossom_clock": {
       "name": "Cherry-blossom clock",
@@ -11140,7 +11595,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1375
     },
     "coconut_wall_planter": {
       "name": "Coconut wall planter",
@@ -11181,7 +11637,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "cosmos_wreath": {
       "name": "Cosmos wreath",
@@ -11234,7 +11691,8 @@
           "uri": "/wiki/Flower#Cosmos",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "crest_doorplate": {
       "name": "Crest doorplate",
@@ -11263,7 +11721,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1500
     },
     "deer_decoration": {
       "name": "Deer decoration",
@@ -11292,7 +11751,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "fancy_rose_wreath": {
       "name": "Fancy rose wreath",
@@ -11345,7 +11805,8 @@
           "uri": "/wiki/Flower#rose",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "floral_swag": {
       "name": "Floral swag",
@@ -11374,7 +11835,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 100
     },
     "fossil_doorplate": {
       "name": "Fossil doorplate",
@@ -11415,7 +11877,8 @@
           "uri": "/wiki/Stone",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 250
     },
     "golden_gears": {
       "name": "Golden gears",
@@ -11456,7 +11919,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 11125
     },
     "hanging_terrarium": {
       "name": "Hanging terrarium",
@@ -11497,7 +11961,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1620
     },
     "hyacinth_wreath": {
       "name": "Hyacinth wreath",
@@ -11526,7 +11991,7 @@
         }
       ],
       "source": "Message in a bottle",
-      "sell_price": null,
+      "sell_price": 720,
       "total_crafting_steps": 1,
       "depends_on": [
         "hyacinth_wreath"
@@ -11550,7 +12015,8 @@
           "uri": "/wiki/Flower#Hyacinths",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "iron_doorplate": {
       "name": "Iron doorplate",
@@ -11579,7 +12045,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 750
     },
     "iron_wall_lamp": {
       "name": "Iron wall lamp",
@@ -11620,7 +12087,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 1700
     },
     "iron_wall_rack": {
       "name": "Iron wall rack",
@@ -11635,7 +12103,8 @@
       "depends_on": [
         "iron_wall_rack"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "ironwood_clock": {
       "name": "Ironwood clock",
@@ -11676,7 +12145,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 870
     },
     "key_holder": {
       "name": "Key holder",
@@ -11717,7 +12187,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 555
     },
     "leo_sculpture": {
       "name": "Leo sculpture",
@@ -11732,7 +12203,8 @@
       "depends_on": [
         "leo_sculpture"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "lily_wreath": {
       "name": "Lily wreath",
@@ -11785,7 +12257,8 @@
           "uri": "/wiki/Flower#lily",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "log_wall_mounted_clock": {
       "name": "Log wall-mounted clock",
@@ -11826,7 +12299,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 495
     },
     "mum_wreath": {
       "name": "Mum wreath",
@@ -11879,7 +12353,8 @@
           "uri": "/wiki/Flower#mums",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "orange_wall_mounted_clock": {
       "name": "Orange wall-mounted clock",
@@ -11920,7 +12395,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "ornament_mobile": {
       "name": "Ornament mobile",
@@ -11935,7 +12411,8 @@
       "depends_on": [
         "ornament_mobile"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "pansy_wreath": {
       "name": "Pansy wreath",
@@ -11988,7 +12465,8 @@
           "uri": "/wiki/Flower#pansies",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "paw_print_doorplate": {
       "name": "Paw-print doorplate",
@@ -12017,7 +12495,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 180
     },
     "potted_ivy": {
       "name": "Potted ivy",
@@ -12058,7 +12537,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 550
     },
     "pretty_cosmos_wreath": {
       "name": "Pretty cosmos wreath",
@@ -12111,7 +12591,8 @@
           "uri": "/wiki/Flower#Cosmos",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "rose_wreath": {
       "name": "Rose wreath",
@@ -12164,7 +12645,8 @@
           "uri": "/wiki/Flower#rose",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "sagittarius_arrow": {
       "name": "Sagittarius arrow",
@@ -12179,7 +12661,8 @@
       "depends_on": [
         "sagittarius_arrow"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "star_clock": {
       "name": "Star clock",
@@ -12194,7 +12677,8 @@
       "depends_on": [
         "star_clock"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "starry_garland": {
       "name": "Starry garland",
@@ -12223,7 +12707,8 @@
           "uri": "/wiki/Star_fragment",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 2500
     },
     "timber_doorplate": {
       "name": "Timber doorplate",
@@ -12264,7 +12749,8 @@
           "uri": "/wiki/Flower#rose",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "tree_s_bounty_mobile": {
       "name": "Tree's bounty mobile",
@@ -12317,7 +12803,8 @@
           "uri": "/wiki/Tree_branch",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "tree_branch_wreath": {
       "name": "Tree branch wreath",
@@ -12346,7 +12833,8 @@
           "uri": "/wiki/Tree_branch",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 50
     },
     "tulip_wreath": {
       "name": "Tulip wreath",
@@ -12399,7 +12887,8 @@
           "uri": "/wiki/Flower#Tulips",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "ukulele": {
       "name": "Ukulele",
@@ -12414,7 +12903,8 @@
       "depends_on": [
         "ukulele"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "windflower_wreath": {
       "name": "Windflower wreath",
@@ -12467,7 +12957,8 @@
           "uri": "/wiki/Flower#Windflowers",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "wooden_block_wall_clock": {
       "name": "Wooden-block wall clock",
@@ -12515,7 +13006,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 675
     },
     "wooden_plank_sign": {
       "name": "Wooden-plank sign",
@@ -12544,7 +13036,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "apple_rug": {
       "name": "Apple rug",
@@ -12573,7 +13066,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "apple_wall": {
       "name": "Apple wall",
@@ -12602,7 +13096,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "backyard_lawn": {
       "name": "Backyard lawn",
@@ -12631,7 +13126,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 30
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "bamboo_flooring": {
       "name": "Bamboo flooring",
@@ -12660,7 +13156,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bamboo_wall": {
       "name": "Bamboo wall",
@@ -12677,7 +13174,7 @@
         }
       ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 2400,
       "total_crafting_steps": 1,
       "depends_on": [
         "bamboo_wall"
@@ -12689,7 +13186,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bamboo_grove_wall": {
       "name": "Bamboo-grove wall",
@@ -12730,7 +13228,8 @@
           "uri": "/wiki/Bamboo",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 2150
     },
     "basement_flooring": {
       "name": "Basement flooring",
@@ -12759,7 +13258,8 @@
           "uri": "/wiki/Stone",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 750
     },
     "brown_herringbone_wall": {
       "name": "Brown herringbone wall",
@@ -12788,7 +13288,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "bunny_day_flooring": {
       "name": "Bunny Day flooring",
@@ -12877,7 +13378,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 2400
     },
     "bunny_day_rug": {
       "name": "Bunny Day rug",
@@ -12966,7 +13468,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bunny_day_wall": {
       "name": "Bunny Day wall",
@@ -13055,7 +13558,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 2400
     },
     "cabin_wall": {
       "name": "Cabin wall",
@@ -13084,7 +13588,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "cherry_rug": {
       "name": "Cherry rug",
@@ -13113,7 +13618,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cherry_wall": {
       "name": "Cherry wall",
@@ -13142,7 +13648,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cherry_blossom_flooring": {
       "name": "Cherry-blossom flooring",
@@ -13183,7 +13690,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": 2200
     },
     "cherry_blossom_trees_wall": {
       "name": "Cherry-blossom-trees wall",
@@ -13224,7 +13732,38 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 2300
+    },
+    "chocolate_herringbone_wall": {
+      "name": "Chocolate herringbone wall",
+      "id": "chocolate_herringbone_wall",
+      "uri": null,
+      "has_page": false,
+      "image_url": "/wiki/File:NH-Dark_herringbone_flooring.jpg",
+      "materials": [
+        {
+          "name": "softwood",
+          "id": "softwood",
+          "uri": "/wiki/Softwood",
+          "quantity": 15
+        }
+      ],
+      "source": "",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "chocolate_herringbone_wall"
+      ],
+      "raw_materials": {
+        "softwood": {
+          "name": "softwood",
+          "id": "softwood",
+          "uri": "/wiki/Wood_(New_Horizons)",
+          "quantity": 15
+        }
+      },
+      "value_of_raw_materials": 900
     },
     "classic_library_wall": {
       "name": "Classic-library wall",
@@ -13253,7 +13792,8 @@
           "uri": null,
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "dark_bamboo_rug": {
       "name": "Dark bamboo rug",
@@ -13261,14 +13801,29 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Dark_bamboo_rug.png/revision/latest?cb=20200329071218",
-      "materials": [],
+      "materials": [
+        {
+          "name": "bamboo piece",
+          "id": "bamboo_piece",
+          "uri": "/wiki/Bamboo_piece",
+          "quantity": 6
+        }
+      ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 960,
       "total_crafting_steps": 1,
       "depends_on": [
         "dark_bamboo_rug"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "bamboo_piece": {
+          "name": "bamboo piece",
+          "id": "bamboo_piece",
+          "uri": "/wiki/Bamboo_piece",
+          "quantity": 6
+        }
+      },
+      "value_of_raw_materials": 480
     },
     "dark_wooden_mosaic_wall": {
       "name": "Dark wooden-mosaic wall",
@@ -13297,7 +13852,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "garbage_heap_flooring": {
       "name": "Garbage-heap flooring",
@@ -13350,7 +13906,8 @@
           "uri": "/wiki/Trash",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 60
     },
     "garbage_heap_wall": {
       "name": "Garbage-heap wall",
@@ -13403,7 +13960,38 @@
           "uri": "/wiki/Trash",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 60
+    },
+    "golden_flooring": {
+      "name": "Golden flooring",
+      "id": "golden_flooring",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "gold nugget",
+          "id": "gold_nugget",
+          "uri": "/wiki/Gold_nugget",
+          "quantity": 4
+        }
+      ],
+      "source": "Balloon",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "golden_flooring"
+      ],
+      "raw_materials": {
+        "gold_nugget": {
+          "name": "gold nugget",
+          "id": "gold_nugget",
+          "uri": "/wiki/Gold_nugget",
+          "quantity": 4
+        }
+      },
+      "value_of_raw_materials": 40000
     },
     "honeycomb_flooring": {
       "name": "Honeycomb flooring",
@@ -13416,7 +14004,7 @@
           "name": "wasp nest",
           "id": "wasp_nest",
           "uri": "/wiki/Wasp",
-          "quantity": 6
+          "quantity": 5
         }
       ],
       "source": "Island resident",
@@ -13430,9 +14018,10 @@
           "name": "wasp nest",
           "id": "wasp_nest",
           "uri": "/wiki/Wasp",
-          "quantity": 6
+          "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1500
     },
     "honeycomb_wall": {
       "name": "Honeycomb wall",
@@ -13461,7 +14050,8 @@
           "uri": "/wiki/Wasp",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1800
     },
     "jungle_flooring": {
       "name": "Jungle flooring",
@@ -13483,7 +14073,7 @@
           "quantity": 10
         }
       ],
-      "source": "",
+      "source": "Balloon",
       "sell_price": 2200,
       "total_crafting_steps": 1,
       "depends_on": [
@@ -13502,7 +14092,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 1100
     },
     "jungle_wall": {
       "name": "Jungle wall",
@@ -13567,7 +14158,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 690
     },
     "library_wall": {
       "name": "Library wall",
@@ -13596,7 +14188,8 @@
           "uri": null,
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "light_bamboo_rug": {
       "name": "Light bamboo rug",
@@ -13625,7 +14218,8 @@
           "uri": "/wiki/Young_spring_bamboo",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "manga_library_wall": {
       "name": "Manga-library wall",
@@ -13654,7 +14248,8 @@
           "uri": "/wiki/Magazine",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "modern_wood_wall": {
       "name": "Modern wood wall",
@@ -13707,7 +14302,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "money_flooring": {
       "name": "Money flooring",
@@ -13736,7 +14332,8 @@
           "uri": "/wiki/Bells",
           "quantity": 50000
         }
-      }
+      },
+      "value_of_raw_materials": 50000
     },
     "orange_rug": {
       "name": "Orange rug",
@@ -13765,7 +14362,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "orange_wall": {
       "name": "Orange wall",
@@ -13794,7 +14392,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "peach_rug": {
       "name": "Peach rug",
@@ -13823,7 +14422,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "peach_wall": {
       "name": "Peach wall",
@@ -13852,7 +14452,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pear_rug": {
       "name": "Pear rug",
@@ -13881,7 +14482,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pear_wall": {
       "name": "Pear wall",
@@ -13910,7 +14512,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "rustic_stone_wall": {
       "name": "Rustic stone wall",
@@ -13925,7 +14528,8 @@
       "depends_on": [
         "rustic_stone_wall"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "sakura_wood_flooring": {
       "name": "Sakura-wood flooring",
@@ -13966,7 +14570,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 1600
     },
     "sakura_wood_wall": {
       "name": "Sakura-wood wall",
@@ -14007,7 +14612,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 1600
     },
     "sandy_beach_flooring": {
       "name": "Sandy-beach flooring",
@@ -14096,7 +14702,8 @@
           "uri": "/wiki/Shell",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 2060
     },
     "sci_fi_wall": {
       "name": "Sci-fi wall",
@@ -14137,7 +14744,8 @@
           "uri": "/wiki/Large_star_fragment",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 3750
     },
     "shell_rug": {
       "name": "Shell rug",
@@ -14166,7 +14774,8 @@
           "uri": "/wiki/Giant_clam",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 2700
     },
     "stacked_wood_wall": {
       "name": "Stacked-wood wall",
@@ -14195,7 +14804,81 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
+    },
+    "starry_sands_flooring": {
+      "name": "Starry-sands flooring",
+      "id": "starry_sands_flooring",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "summer shell",
+          "id": "summer_shell",
+          "uri": "/wiki/Shell",
+          "quantity": 3
+        },
+        {
+          "name": "sandy-beach flooring",
+          "id": "sandy_beach_flooring",
+          "uri": null,
+          "quantity": 1
+        }
+      ],
+      "source": "Message in a bottle",
+      "sell_price": null,
+      "total_crafting_steps": 2,
+      "depends_on": [
+        "sandy_beach_flooring",
+        "starry_sands_flooring"
+      ],
+      "raw_materials": {
+        "summer_shell": {
+          "name": "summer shell",
+          "id": "summer_shell",
+          "uri": "/wiki/Shell",
+          "quantity": 3
+        },
+        "sea_snail": {
+          "name": "sea snail",
+          "id": "sea_snail",
+          "uri": "/wiki/Shell",
+          "quantity": 1
+        },
+        "venus_comb": {
+          "name": "venus comb",
+          "id": "venus_comb",
+          "uri": "/wiki/Shell",
+          "quantity": 1
+        },
+        "sand_dollar": {
+          "name": "sand dollar",
+          "id": "sand_dollar",
+          "uri": "/wiki/Shell",
+          "quantity": 1
+        },
+        "coral": {
+          "name": "coral",
+          "id": "coral",
+          "uri": "/wiki/Coral",
+          "quantity": 1
+        },
+        "giant_clam": {
+          "name": "giant clam",
+          "id": "giant_clam",
+          "uri": "/wiki/Giant_clam",
+          "quantity": 1
+        },
+        "cowrie": {
+          "name": "cowrie",
+          "id": "cowrie",
+          "uri": "/wiki/Shell",
+          "quantity": 1
+        }
+      },
+      "value_of_raw_materials": null
     },
     "steel_flooring": {
       "name": "Steel flooring",
@@ -14224,7 +14907,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": 2625
     },
     "steel_frame_wall": {
       "name": "Steel-frame wall",
@@ -14253,7 +14937,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 3000
     },
     "stone_wall": {
       "name": "Stone wall",
@@ -14282,7 +14967,152 @@
           "uri": "/wiki/Stone",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 750
+    },
+    "tropical_vista": {
+      "name": "Tropical Vista",
+      "id": "tropical_vista",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "summer shell",
+          "id": "summer_shell",
+          "uri": "/wiki/Shell",
+          "quantity": 5
+        }
+      ],
+      "source": "Message in a bottle",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "tropical_vista"
+      ],
+      "raw_materials": {
+        "summer_shell": {
+          "name": "summer shell",
+          "id": "summer_shell",
+          "uri": "/wiki/Shell",
+          "quantity": 5
+        }
+      },
+      "value_of_raw_materials": null
+    },
+    "underwater_flooring": {
+      "name": "Underwater flooring",
+      "id": "underwater_flooring",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "summer shells",
+          "id": "summer_shells",
+          "uri": "/wiki/Shell",
+          "quantity": 3
+        },
+        {
+          "name": "coral",
+          "id": "coral",
+          "uri": "/wiki/Coral",
+          "quantity": 3
+        }
+      ],
+      "source": "Message in a bottle",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "underwater_flooring"
+      ],
+      "raw_materials": {
+        "summer_shells": {
+          "name": "summer shells",
+          "id": "summer_shells",
+          "uri": "/wiki/Shell",
+          "quantity": 3
+        },
+        "coral": {
+          "name": "coral",
+          "id": "coral",
+          "uri": "/wiki/Coral",
+          "quantity": 3
+        }
+      },
+      "value_of_raw_materials": null
+    },
+    "underwater_wall": {
+      "name": "Underwater wall",
+      "id": "underwater_wall",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "summer shells",
+          "id": "summer_shells",
+          "uri": "/wiki/Shell",
+          "quantity": 3
+        },
+        {
+          "name": "coral",
+          "id": "coral",
+          "uri": "/wiki/Coral",
+          "quantity": 5
+        }
+      ],
+      "source": "Message in a bottle",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "underwater_wall"
+      ],
+      "raw_materials": {
+        "summer_shells": {
+          "name": "summer shells",
+          "id": "summer_shells",
+          "uri": "/wiki/Shell",
+          "quantity": 3
+        },
+        "coral": {
+          "name": "coral",
+          "id": "coral",
+          "uri": "/wiki/Coral",
+          "quantity": 5
+        }
+      },
+      "value_of_raw_materials": null
+    },
+    "water_flooring": {
+      "name": "Water flooring",
+      "id": "water_flooring",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "summer shell",
+          "id": "summer_shell",
+          "uri": "/wiki/Shell",
+          "quantity": 6
+        }
+      ],
+      "source": "Balloon",
+      "sell_price": null,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "water_flooring"
+      ],
+      "raw_materials": {
+        "summer_shell": {
+          "name": "summer shell",
+          "id": "summer_shell",
+          "uri": "/wiki/Shell",
+          "quantity": 6
+        }
+      },
+      "value_of_raw_materials": null
     },
     "wooden_knot_wall": {
       "name": "Wooden-knot wall",
@@ -14311,7 +15141,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "wooden_mosiac_wall": {
       "name": "Wooden-mosiac wall",
@@ -14340,7 +15171,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 900
     },
     "woodland_wall": {
       "name": "Woodland wall",
@@ -14381,7 +15213,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 9
         }
-      }
+      },
+      "value_of_raw_materials": 690
     },
     "acorn_pochette": {
       "name": "Acorn pochette",
@@ -14410,7 +15243,8 @@
           "uri": "/wiki/Acorn",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "apple_dress": {
       "name": "Apple dress",
@@ -14427,7 +15261,7 @@
         }
       ],
       "source": "",
-      "sell_price": null,
+      "sell_price": 1600,
       "total_crafting_steps": 1,
       "depends_on": [
         "apple_dress"
@@ -14439,7 +15273,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "apple_hat": {
       "name": "Apple hat",
@@ -14468,7 +15303,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "apple_umbrella": {
       "name": "Apple umbrella",
@@ -14497,7 +15333,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "armor_shoes": {
       "name": "Armor shoes",
@@ -14526,7 +15363,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1875
     },
     "bamboo_hat": {
       "name": "Bamboo hat",
@@ -14555,7 +15393,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 100
     },
     "basket_pack": {
       "name": "Basket pack",
@@ -14584,7 +15423,8 @@
           "uri": "/wiki/Young_spring_bamboo",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bunny_day_bag": {
       "name": "Bunny Day bag",
@@ -14673,7 +15513,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "bunny_day_crown": {
       "name": "Bunny Day crown",
@@ -14762,7 +15603,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "cherry_blossom_pochette": {
       "name": "Cherry-blossom pochette",
@@ -14791,7 +15633,8 @@
           "uri": "/wiki/Cherry-blossom_petal",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "cherry_blossom_umbrella": {
       "name": "Cherry-blossom umbrella",
@@ -14820,7 +15663,8 @@
           "uri": "/wiki/Cherry-blossom_petal",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": 1400
     },
     "cherry_dress": {
       "name": "Cherry dress",
@@ -14849,7 +15693,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cherry_hat": {
       "name": "Cherry hat",
@@ -14878,7 +15723,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cherry_umbrella": {
       "name": "Cherry umbrella",
@@ -14907,7 +15753,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "chic_mum_crown": {
       "name": "Chic mum crown",
@@ -14948,7 +15795,8 @@
           "uri": "/wiki/Flower#mums",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cool_pansy_crown": {
       "name": "Cool pansy crown",
@@ -14989,7 +15837,8 @@
           "uri": "/wiki/Flower#pansies",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cool_hyacinth_crown": {
       "name": "Cool hyacinth crown",
@@ -15042,7 +15891,8 @@
           "uri": "/wiki/Flowers#hyacinth",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cool_windflower_crown": {
       "name": "Cool windflower crown",
@@ -15083,7 +15933,8 @@
           "uri": "/wiki/Flower#windflowers",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cosmos_crown": {
       "name": "Cosmos crown",
@@ -15136,7 +15987,8 @@
           "uri": "/wiki/Flower#Cosmos",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cute_cosmos_crown": {
       "name": "Cute cosmos crown",
@@ -15151,7 +16003,8 @@
       "depends_on": [
         "cute_cosmos_crown"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "cute_lily_crown": {
       "name": "Cute lily crown",
@@ -15204,7 +16057,8 @@
           "uri": "/wiki/Flower#lily",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cute_rose_crown": {
       "name": "Cute rose crown",
@@ -15245,7 +16099,8 @@
           "uri": "/wiki/Flower#rose",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "cute_tulip_crown": {
       "name": "Cute tulip crown",
@@ -15260,7 +16115,8 @@
       "depends_on": [
         "cute_tulip_crown"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "cute_windflower_crown": {
       "name": "Cute windflower crown",
@@ -15275,7 +16131,8 @@
       "depends_on": [
         "cute_windflower_crown"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "earth_egg_outfit": {
       "name": "Earth-egg outfit",
@@ -15304,7 +16161,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "earth_egg_shell": {
       "name": "Earth-egg shell",
@@ -15333,7 +16191,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "earth_egg_shoes": {
       "name": "Earth-egg shoes",
@@ -15362,7 +16221,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "egg_party_dress": {
       "name": "Egg party dress",
@@ -15451,7 +16311,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 3600
     },
     "egg_party_hat": {
       "name": "Egg party hat",
@@ -15540,7 +16401,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 2400
     },
     "gold_armor": {
       "name": "Gold armor",
@@ -15569,7 +16431,8 @@
           "uri": "/wiki/Gold_nugget",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 80000
     },
     "gold_boots": {
       "name": "Gold boots",
@@ -15584,7 +16447,8 @@
       "depends_on": [
         "gold_boots"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "gold_helmet": {
       "name": "Gold helmet",
@@ -15599,7 +16463,8 @@
       "depends_on": [
         "gold_helmet"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "gold_rose_crown": {
       "name": "Gold rose crown",
@@ -15614,7 +16479,8 @@
       "depends_on": [
         "gold_rose_crown"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "grass_skirt": {
       "name": "Grass skirt",
@@ -15643,7 +16509,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": 70
     },
     "green_grass_skirt": {
       "name": "Green grass skirt",
@@ -15652,13 +16519,14 @@
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/NH-Green_grass_skirt.png/revision/latest?cb=20200329223208",
       "materials": [],
-      "source": "",
+      "source": "Island Resident",
       "sell_price": 140,
       "total_crafting_steps": 1,
       "depends_on": [
         "green_grass_skirt"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "hyacinth_crown": {
       "name": "Hyacinth crown",
@@ -15711,7 +16579,8 @@
           "uri": "/wiki/Flowers#hyacinth",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "iron_armor": {
       "name": "Iron armor",
@@ -15726,7 +16595,8 @@
       "depends_on": [
         "iron_armor"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "knight_s_helmet": {
       "name": "Knight's helmet",
@@ -15755,7 +16625,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 1875
     },
     "knitted_grass_backpack": {
       "name": "Knitted-grass backpack",
@@ -15784,7 +16655,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 20
         }
-      }
+      },
+      "value_of_raw_materials": 200
     },
     "leaf": {
       "name": "Leaf",
@@ -15813,7 +16685,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 50
     },
     "leaf_mask": {
       "name": "Leaf mask",
@@ -15842,7 +16715,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 100
     },
     "leaf_umbrella": {
       "name": "Leaf umbrella",
@@ -15871,7 +16745,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 15
         }
-      }
+      },
+      "value_of_raw_materials": 150
     },
     "leaf_egg_outfit": {
       "name": "Leaf-egg outfit",
@@ -15900,7 +16775,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "leaf_egg_shell": {
       "name": "Leaf-egg shell",
@@ -15929,7 +16805,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "leaf_egg_shoes": {
       "name": "Leaf-egg shoes",
@@ -15958,7 +16835,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "lily_crown": {
       "name": "Lily crown",
@@ -16011,7 +16889,8 @@
           "uri": "/wiki/Flower#lily",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "log_pack": {
       "name": "Log pack",
@@ -16052,7 +16931,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "maple_leaf_pochette": {
       "name": "Maple-leaf pochette",
@@ -16067,7 +16947,8 @@
       "depends_on": [
         "maple_leaf_pochette"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "maple_leaf_umbrella": {
       "name": "Maple-leaf umbrella",
@@ -16082,7 +16963,8 @@
       "depends_on": [
         "maple_leaf_umbrella"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "mum_crown": {
       "name": "Mum crown",
@@ -16135,7 +17017,8 @@
           "uri": "/wiki/Flower#mums",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "mushroom_umbrella": {
       "name": "Mushroom umbrella",
@@ -16150,7 +17033,8 @@
       "depends_on": [
         "mushroom_umbrella"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "orange_dress": {
       "name": "Orange dress",
@@ -16179,7 +17063,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "orange_hat": {
       "name": "Orange hat",
@@ -16208,7 +17093,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "orange_umbrella": {
       "name": "Orange umbrella",
@@ -16237,7 +17123,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pansy_crown": {
       "name": "Pansy crown",
@@ -16290,7 +17177,8 @@
           "uri": "/wiki/Flower#pansies",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "peach_dress": {
       "name": "Peach dress",
@@ -16319,7 +17207,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "peach_hat": {
       "name": "Peach hat",
@@ -16348,7 +17237,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "peach_umbrella": {
       "name": "Peach umbrella",
@@ -16377,7 +17267,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pear_dress": {
       "name": "Pear dress",
@@ -16406,7 +17297,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pear_hat": {
       "name": "Pear hat",
@@ -16435,7 +17327,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "pear_umbrella": {
       "name": "Pear umbrella",
@@ -16464,7 +17357,8 @@
           "uri": "/wiki/Fruit",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "recycled_boots": {
       "name": "Recycled boots",
@@ -16493,7 +17387,8 @@
           "uri": "/wiki/Trash",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 20
     },
     "rose_crown": {
       "name": "Rose crown",
@@ -16546,7 +17441,8 @@
           "uri": "/wiki/Flower#rose",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "shell_pochette": {
       "name": "Shell pochette",
@@ -16554,14 +17450,41 @@
       "uri": null,
       "has_page": false,
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/86/NH-Shell_pochette.png/revision/latest?cb=20200329223317",
-      "materials": [],
-      "source": "",
+      "materials": [
+        {
+          "name": "giant clam",
+          "id": "giant_clam",
+          "uri": "/wiki/Shell",
+          "quantity": 2
+        },
+        {
+          "name": "summer shell",
+          "id": "summer_shell",
+          "uri": "/wiki/Shell",
+          "quantity": 6
+        }
+      ],
+      "source": "Message in a bottle",
       "sell_price": null,
       "total_crafting_steps": 1,
       "depends_on": [
         "shell_pochette"
       ],
-      "raw_materials": {}
+      "raw_materials": {
+        "giant_clam": {
+          "name": "giant clam",
+          "id": "giant_clam",
+          "uri": "/wiki/Giant_clam",
+          "quantity": 2
+        },
+        "summer_shell": {
+          "name": "summer shell",
+          "id": "summer_shell",
+          "uri": "/wiki/Shell",
+          "quantity": 6
+        }
+      },
+      "value_of_raw_materials": null
     },
     "sky_egg_outfit": {
       "name": "Sky-egg outfit",
@@ -16590,7 +17513,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "sky_egg_shell": {
       "name": "Sky-egg shell",
@@ -16619,7 +17543,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "sky_egg_shoes": {
       "name": "Sky-egg shoes",
@@ -16648,7 +17573,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "snowflake_pochette": {
       "name": "Snowflake pochette",
@@ -16663,7 +17589,8 @@
       "depends_on": [
         "snowflake_pochette"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "snowman_hat": {
       "name": "Snowman hat",
@@ -16678,7 +17605,8 @@
       "depends_on": [
         "snowman_hat"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "star_hat": {
       "name": "Star hat",
@@ -16693,7 +17621,8 @@
       "depends_on": [
         "star_hat"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "star_pochette": {
       "name": "Star pochette",
@@ -16708,7 +17637,8 @@
       "depends_on": [
         "star_pochette"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "straw_umbrella_hat": {
       "name": "Straw umbrella hat",
@@ -16737,7 +17667,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 10
         }
-      }
+      },
+      "value_of_raw_materials": 100
     },
     "stone_egg_outfit": {
       "name": "Stone-egg outfit",
@@ -16766,7 +17697,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "stone_egg_shell": {
       "name": "Stone-egg shell",
@@ -16795,7 +17727,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "stone_egg_shoes": {
       "name": "Stone-egg shoes",
@@ -16824,7 +17757,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "traditional_straw_coat": {
       "name": "Traditional straw coat",
@@ -16853,7 +17787,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 80
     },
     "tulip_crown": {
       "name": "Tulip crown",
@@ -16906,7 +17841,8 @@
           "uri": "/wiki/Flower#Tulips",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "water_egg_outfit": {
       "name": "Water-egg outfit",
@@ -16935,7 +17871,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "water_egg_shell": {
       "name": "Water-egg shell",
@@ -16964,7 +17901,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "water_egg_shoes": {
       "name": "Water-egg shoes",
@@ -16993,7 +17931,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "windflower_crown": {
       "name": "Windflower crown",
@@ -17046,7 +17985,8 @@
           "uri": "/wiki/Flower#Windflowers",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": null
     },
     "wood_egg_outfit": {
       "name": "Wood-egg outfit",
@@ -17075,7 +18015,8 @@
           "uri": "/wiki/Egg",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "wood_egg_shell": {
       "name": "Wood-egg shell",
@@ -17104,7 +18045,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "wood_egg_shoes": {
       "name": "Wood-egg shoes",
@@ -17133,7 +18075,8 @@
           "uri": "/wiki/Egg",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 400
     },
     "cosmos_crown_3": {
       "name": "Cosmos crown 3",
@@ -17148,7 +18091,8 @@
       "depends_on": [
         "cosmos_crown_3"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "tulip_crown_3": {
       "name": "Tulip crown 3",
@@ -17163,7 +18107,8 @@
       "depends_on": [
         "tulip_crown_3"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "lily_crown_3": {
       "name": "Lily crown 3",
@@ -17178,7 +18123,8 @@
       "depends_on": [
         "lily_crown_3"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "hyacinth_crown_3": {
       "name": "Hyacinth crown 3",
@@ -17193,7 +18139,8 @@
       "depends_on": [
         "hyacinth_crown_3"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "mum_crown_3": {
       "name": "Mum crown 3",
@@ -17208,7 +18155,8 @@
       "depends_on": [
         "mum_crown_3"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "pansy_crown_3": {
       "name": "Pansy crown 3",
@@ -17223,7 +18171,8 @@
       "depends_on": [
         "pansy_crown_3"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "rose_crown_3": {
       "name": "Rose crown 3",
@@ -17238,7 +18187,8 @@
       "depends_on": [
         "rose_crown_3"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "rose_crown_4": {
       "name": "Rose crown 4",
@@ -17253,7 +18203,8 @@
       "depends_on": [
         "rose_crown_4"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "windflower_crown_3": {
       "name": "Windflower crown 3",
@@ -17268,7 +18219,8 @@
       "depends_on": [
         "windflower_crown_3"
       ],
-      "raw_materials": {}
+      "raw_materials": {},
+      "value_of_raw_materials": 0
     },
     "medicine": {
       "name": "Medicine",
@@ -17309,7 +18261,8 @@
           "uri": "/wiki/Clump_of_weeds",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 330
     },
     "fish_bait": {
       "name": "Fish bait",
@@ -17338,7 +18291,8 @@
           "uri": "/wiki/Manila_Clam",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 60
     },
     "ocarina": {
       "name": "Ocarina",
@@ -17367,7 +18321,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 5
         }
-      }
+      },
+      "value_of_raw_materials": 500
     },
     "pan_flute": {
       "name": "Pan flute",
@@ -17396,7 +18351,8 @@
           "uri": "/wiki/Young_spring_bamboo",
           "quantity": 7
         }
-      }
+      },
+      "value_of_raw_materials": 1400
     },
     "bamboo_lattice_fence_x10": {
       "name": "Bamboo lattice fence x10",
@@ -17425,7 +18381,8 @@
           "uri": "/wiki/Bamboo_piece",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "barbed_wire_fence_x10": {
       "name": "Barbed-wire fence x10",
@@ -17466,7 +18423,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 2
         }
-      }
+      },
+      "value_of_raw_materials": 990
     },
     "brick_fence_x10": {
       "name": "Brick Fence x10",
@@ -17495,7 +18453,8 @@
           "uri": "/wiki/Clay_(crafting_material)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "bunny_day_fence_x10": {
       "name": "Bunny Day fence x10",
@@ -17584,7 +18543,8 @@
           "uri": "/wiki/Egg",
           "quantity": 1
         }
-      }
+      },
+      "value_of_raw_materials": 1200
     },
     "corral_fence_x10": {
       "name": "Corral fence x10",
@@ -17613,7 +18573,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "country_fence_x10": {
       "name": "Country fence x10",
@@ -17642,7 +18603,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "imperial_fence_x10": {
       "name": "Imperial fence x10",
@@ -17683,7 +18645,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 600
     },
     "iron_and_stone_fence_x10": {
       "name": "Iron-and-stone fence x10",
@@ -17724,7 +18687,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1575
     },
     "iron_fence_x10": {
       "name": "Iron fence x10",
@@ -17753,7 +18717,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 2250
     },
     "lattice_fence_x10": {
       "name": "Lattice fence x10",
@@ -17782,7 +18747,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "rope_fence_x10": {
       "name": "Rope Fence x10",
@@ -17811,7 +18777,8 @@
           "uri": "/wiki/Iron_nugget",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 1500
     },
     "simple_wooden_fence_x10": {
       "name": "Simple wooden fence x10",
@@ -17840,7 +18807,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 6
         }
-      }
+      },
+      "value_of_raw_materials": 360
     },
     "spiky_fence_x10": {
       "name": "Spiky fence x10",
@@ -17869,7 +18837,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "stone_fence_x10": {
       "name": "Stone fence x10",
@@ -17898,7 +18867,8 @@
           "uri": "/wiki/Stone",
           "quantity": 4
         }
-      }
+      },
+      "value_of_raw_materials": 300
     },
     "straw_fence_x10": {
       "name": "Straw fence x10",
@@ -17939,7 +18909,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 280
     },
     "vertical_board_fence_x10": {
       "name": "Vertical-board fence x10",
@@ -17968,7 +18939,8 @@
           "uri": "/wiki/Wood_(New_Horizons)",
           "quantity": 8
         }
-      }
+      },
+      "value_of_raw_materials": 480
     },
     "zen_fence_x10": {
       "name": "Zen fence x10",
@@ -18021,7 +18993,38 @@
           "uri": "/wiki/Stone",
           "quantity": 3
         }
-      }
+      },
+      "value_of_raw_materials": 1650
+    },
+    "pitfall_seed": {
+      "name": "Pitfall seed",
+      "id": "pitfall_seed",
+      "uri": null,
+      "has_page": false,
+      "image_url": null,
+      "materials": [
+        {
+          "name": "clump of weeds",
+          "id": "clump_of_weeds",
+          "uri": "/wiki/Clump_of_weeds",
+          "quantity": 4
+        }
+      ],
+      "source": "",
+      "sell_price": 140,
+      "total_crafting_steps": 1,
+      "depends_on": [
+        "pitfall_seed"
+      ],
+      "raw_materials": {
+        "clump_of_weeds": {
+          "name": "clump of weeds",
+          "id": "clump_of_weeds",
+          "uri": "/wiki/Clump_of_weeds",
+          "quantity": 4
+        }
+      },
+      "value_of_raw_materials": 40
     }
   },
   "raw_materials": {
@@ -18221,6 +19224,7 @@
         "birdhouse",
         "bone_doorplate",
         "brown_herringbone_wall",
+        "chocolate_herringbone_wall",
         "clackercart",
         "decoy_duck",
         "deer_decoration",
@@ -18277,6 +19281,7 @@
         "bamboo_partition",
         "basement_flooring",
         "birdbath",
+        "cherry_blossom_pond_stone",
         "deer_scare",
         "drinking_fountain",
         "flimsy_axe",
@@ -18297,6 +19302,7 @@
         "stone_arch",
         "stone_axe",
         "stone_fence_x10",
+        "stone_lion_dog",
         "stone_stool",
         "stone_table",
         "stone_tablet",
@@ -18460,6 +19466,7 @@
         "golden_candlestick",
         "golden_dishes",
         "golden_dung_beetle",
+        "golden_flooring",
         "golden_gears",
         "golden_net",
         "golden_rod",
@@ -18525,6 +19532,7 @@
         "bamboo_stopblock",
         "bamboo_wall",
         "bamboo_wall_decoration",
+        "dark_bamboo_rug",
         "deer_scare",
         "hearth"
       ],
@@ -18589,6 +19597,7 @@
         "mossy_garden_rock",
         "mum_cushion",
         "pile_of_leaves",
+        "pitfall_seed",
         "potted_ivy",
         "scarecrow",
         "straw_fence_x10",
@@ -18615,6 +19624,7 @@
         "cherry_blossom_flooring",
         "cherry_blossom_petal_pile",
         "cherry_blossom_pochette",
+        "cherry_blossom_pond_stone",
         "cherry_blossom_trees_wall",
         "cherry_blossom_umbrella",
         "cherry_blossom_wand",
@@ -18766,6 +19776,7 @@
       "used_in": [
         "aries_rocking_chair",
         "bamboo_wand",
+        "bunny_day_wand",
         "cherry_blossom_wand",
         "moon",
         "pisces_lamp",
@@ -19066,7 +20077,10 @@
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/Coral_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140916213050",
       "used_in": [
         "sandy_beach_flooring",
-        "shell_arch"
+        "shell_arch",
+        "starry_sands_flooring",
+        "underwater_flooring",
+        "underwater_wall"
       ],
       "sell_price": 500
     },
@@ -19078,7 +20092,8 @@
       "used_in": [
         "sandy_beach_flooring",
         "shell_arch",
-        "shell_stool"
+        "shell_stool",
+        "starry_sands_flooring"
       ],
       "sell_price": 60
     },
@@ -19093,7 +20108,9 @@
         "shell_bed",
         "shell_fountain",
         "shell_lamp",
-        "shell_rug"
+        "shell_pochette",
+        "shell_rug",
+        "starry_sands_flooring"
       ],
       "sell_price": 900
     },
@@ -19105,7 +20122,8 @@
       "used_in": [
         "sandy_beach_flooring",
         "shell_arch",
-        "shell_table"
+        "shell_table",
+        "starry_sands_flooring"
       ],
       "sell_price": 120
     },
@@ -19116,7 +20134,8 @@
       "image_url": null,
       "used_in": [
         "sandy_beach_flooring",
-        "shell_arch"
+        "shell_arch",
+        "starry_sands_flooring"
       ],
       "sell_price": 180
     },
@@ -19128,7 +20147,8 @@
       "used_in": [
         "sandy_beach_flooring",
         "shell_arch",
-        "shell_partition"
+        "shell_partition",
+        "starry_sands_flooring"
       ],
       "sell_price": 300
     },
@@ -19197,6 +20217,16 @@
       "image_url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/13/Icon_red_pansies.png/revision/latest?cb=20160709215611",
       "used_in": [],
       "sell_price": 40
+    },
+    "wobbling_zipper_toy": {
+      "name": "wobbling Zipper toy",
+      "id": "wobbling_zipper_toy",
+      "uri": null,
+      "image_url": null,
+      "used_in": [
+        "bunny_day_wand"
+      ],
+      "sell_price": null
     },
     "red_tulips": {
       "name": "red tulips",
@@ -19469,6 +20499,28 @@
       ],
       "sell_price": null
     },
+    "red_windflowers": {
+      "name": "red windflowers",
+      "id": "red_windflowers",
+      "uri": "/wiki/Flower#Windflowers",
+      "image_url": null,
+      "used_in": [
+        "windflower_crown",
+        "windflower_fan",
+        "windflower_wreath"
+      ],
+      "sell_price": null
+    },
+    "iron_nuggets": {
+      "name": "iron nuggets",
+      "id": "iron_nuggets",
+      "uri": "/wiki/Iron_nugget",
+      "image_url": null,
+      "used_in": [
+        "windflower_fan"
+      ],
+      "sell_price": null
+    },
     "purple_hyacinths": {
       "name": "purple hyacinths",
       "id": "purple_hyacinths",
@@ -19687,17 +20739,6 @@
       ],
       "sell_price": null
     },
-    "red_windflowers": {
-      "name": "red windflowers",
-      "id": "red_windflowers",
-      "uri": "/wiki/Flower#Windflowers",
-      "image_url": null,
-      "used_in": [
-        "windflower_crown",
-        "windflower_wreath"
-      ],
-      "sell_price": null
-    },
     "white_windflowers": {
       "name": "white windflowers",
       "id": "white_windflowers",
@@ -19718,6 +20759,30 @@
         "money_flooring"
       ],
       "sell_price": 1
+    },
+    "summer_shell": {
+      "name": "summer shell",
+      "id": "summer_shell",
+      "uri": "/wiki/Shell",
+      "image_url": null,
+      "used_in": [
+        "shell_pochette",
+        "starry_sands_flooring",
+        "tropical_vista",
+        "water_flooring"
+      ],
+      "sell_price": null
+    },
+    "summer_shells": {
+      "name": "summer shells",
+      "id": "summer_shells",
+      "uri": "/wiki/Shell",
+      "image_url": null,
+      "used_in": [
+        "underwater_flooring",
+        "underwater_wall"
+      ],
+      "sell_price": null
     },
     "purple_mums": {
       "name": "purple mums",
