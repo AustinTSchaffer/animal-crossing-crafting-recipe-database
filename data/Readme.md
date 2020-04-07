@@ -26,5 +26,3 @@ docker container run \
     --shm-size="2gb" \
     austintschaffer/acno-recipes-webscraper
 ```
-
-
