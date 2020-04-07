@@ -164,7 +164,7 @@ a little extra cash.
 
 ## Recommendations
 
-FDon't just sell all of your resources, craft them into stuff in order to double
+Don't just sell all of your resources, craft them into stuff in order to double
 their value. ...except gold nugs, those are always worth 10k. Also, just sell
 your extra sticks. The crafting recipes that use them really aren't worth the
 trouble.
