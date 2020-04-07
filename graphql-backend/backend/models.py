@@ -20,6 +20,7 @@ class Recipe(graphene.ObjectType):
     sell_price = graphene.Int()
     total_crafting_steps = graphene.Int()
     depends_on = graphene.List(graphene.String)
+    value_of_raw_materials = graphene.Int()
 
     class MaterialRef(graphene.ObjectType):
         id = graphene.ID()
@@ -33,15 +34,13 @@ class Recipe(graphene.ObjectType):
     materials = graphene.List(MaterialRef)
     raw_materials = graphene.List(RawMaterialRef)
 
-    estimated_sell_price = graphene.Int()
+    estimated_sell_price = graphene.Field(
+        graphene.Int,
+        deprecation_reason="Superceded by valueOfRawMaterials property."
+    )
+
     def resolve_estimated_sell_price(self, info):
-        _sum = 0
-        for raw_material in iter(self.raw_materials):
-            if raw_material.quantity and raw_material.sell_price:
-                _sum += raw_material.quantity * raw_material.sell_price
-            else:
-                return None
-        return _sum
+        return self.value_of_raw_materials
 
 
 def get_raw_material(raw_materials: dict, raw_material_id: str) -> RawMaterial:
