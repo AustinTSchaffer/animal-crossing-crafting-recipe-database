@@ -156,8 +156,21 @@ sell price.
 From this table, you can see that only stacks of bunny day eggs, coconuts, young
 spring bamboo, and iron nuggets are worth more than a single tarantula or
 scorpion. I personally would argue that the effort required to get a stack of
-any one of those is much than the effort required to set up a viable tarantula
-island and then catch one. Regardless, this table may still useful when choosing
-between a partial stack of wood and the fish that you just caught, or motivating
-yourself to turn all of the unused materials in your possession into a little
-extra cash.
+any one of those is higher than the effort required to set up a viable tarantula
+island and then catch a few. Regardless, this table may still useful when
+choosing between a partial stack of wood and the fish that you just caught, or
+motivating yourself to turn all of the unused materials in your possession into
+a little extra cash.
+
+## Recommendations
+
+FDon't just sell all of your resources, craft them into stuff in order to double
+their value. ...except gold nugs, those are always worth 10k. Also, just sell
+your extra sticks. The crafting recipes that use them really aren't worth the
+trouble.
+
+If you REALLY want to make loads o' money, save a little cash and play the Stalk
+Market. Just like in America, you don't get rich in Animal Crossing by working.
+
+Most importantly, don't be like me and try to optimize every detail. Just play
+the game and have fun.
