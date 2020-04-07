@@ -1,3 +1,4 @@
+import datetime
 import collections
 import os
 import json
@@ -418,6 +419,7 @@ if __name__ == '__main__':
 
     data = {
         'wiki_base_url': WIKI_BASE_URL,
+        'utc_datetime': str(datetime.datetime.now(tz=datetime.timezone.utc)),
         'recipes': recipes,
         'raw_materials': raw_materials,
     }
