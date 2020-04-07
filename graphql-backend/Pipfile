@@ -11,7 +11,7 @@ autopep8 = "*"
 [packages]
 graphene = "<3,>=2.0"
 Flask-GraphQL = "<3,>=2"
-Flask = ">=0.7,<1"
+Flask = ">=0.7,<2"
 
 [requires]
 python_version = "3.7"
