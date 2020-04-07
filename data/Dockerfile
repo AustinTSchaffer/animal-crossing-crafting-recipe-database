@@ -14,9 +14,9 @@ RUN \
     && chmod 777 geckodriver \
     && mv geckodriver /bin/
 
-COPY requirements.txt requirements.txt
-
-RUN pip install -r requirements.txt
+RUN pip install pipenv
+COPY Pipfile* ./
+RUN pipenv install --deploy --system
 
 COPY app.py app.py
 
