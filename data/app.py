@@ -10,7 +10,7 @@ import selenium.webdriver.support.expected_conditions
 
 WIKI_BASE_URL = 'https://animalcrossing.fandom.com'
 WIKI_PAGES_DIY_RECIPES = [
-    'https://animalcrossing.fandom.com/wiki/DIY_recipes',
+    # 'https://animalcrossing.fandom.com/wiki/DIY_recipes',
     'https://animalcrossing.fandom.com/wiki/DIY_recipes/Tools',
     'https://animalcrossing.fandom.com/wiki/DIY_recipes/Housewares',
     'https://animalcrossing.fandom.com/wiki/DIY_recipes/Miscellaneous',
@@ -177,9 +177,12 @@ def scrape_raw_materials_from_html_doc(page_contents: str) -> list:
     """
     raw_materials = []
     soup = bs4.BeautifulSoup(page_contents, 'html.parser')
-    table_tr_collection = soup.select('.article-table tbody tr')
+    table_tr_collection = soup.select('table.roundy.mw-collapsible.mw-made-collapsible tbody tr')
     for raw_material_tr in table_tr_collection:
         if raw_material_tr.select('th'):
+            continue
+
+        if not raw_material_tr.text.strip():
             continue
 
         raw_material = {}
@@ -189,8 +192,18 @@ def scrape_raw_materials_from_html_doc(page_contents: str) -> list:
 
         name_cell = cells[0]
         image_cell = cells[1]
-        source_cell = cells[2]
-        sell_price_cell = cells[3]
+
+        source_cell = (
+            cells[2]
+            if len(cells) > 2 else
+            None
+        )
+
+        sell_price_cell = (
+            cells[3]
+            if len(cells) > 3 else
+            None
+        )
 
         material_name = name_cell.text.strip()
         raw_material['name'] = material_name
@@ -222,12 +235,21 @@ def scrape_raw_materials_from_html_doc(page_contents: str) -> list:
             None
         )
 
-        raw_material['source'] = source_cell.text.strip()
+        raw_material['source'] = (
+            source_cell.text.strip()
+            if source_cell else
+            None
+        )
 
-        sell_price = sell_price_cell.text.strip()
-        try:
-            raw_material['sell_price'] = int(re.sub(r'[^\d]', '', sell_price))
-        except:
+        if sell_price_cell:
+            sell_price = sell_price_cell.text.strip()
+
+            try:
+                raw_material['sell_price'] = int(re.sub(r'[^\d]', '', sell_price))
+            except:
+                raw_material['sell_price'] = None
+
+        else:
             raw_material['sell_price'] = None
 
     return raw_materials
